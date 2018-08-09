@@ -1,0 +1,142 @@
+
+/**
+ * benefit background
+ */
+@mixin benefits ( $width, $height, $bg-left, $bg-top, $left: 0px, $top: 0px, $right: false, $bottom: false,$hover: false ) {
+  $where: "after";
+  @include background-prepare( $benefit_bg_file, $benefit_bg_file_hpd, $benefit_bg_file_width, $benefit_bg_file_height, $where );
+  @include background-image( $width, $height, $bg-left, $bg-top, $left, $top, $right, $bottom, $where );
+  @if $hover    != false {
+    &:hover:after{
+      background-position:($bg-left - $hover) $bg-top;
+    }
+  }
+}
+
+/**
+ * benefit background2
+ */
+@mixin benefits2 ( $width, $height, $bg-left, $bg-top, $left: 0px, $top: 0px, $right: false, $bottom: false,$hover: false ) {
+  $where: "before";
+  @include background-prepare( $benefit_bg_file, $benefit_bg_file_hpd, $benefit_bg_file_width, $benefit_bg_file_height, $where );
+  @include background-image( $width, $height, $bg-left, $bg-top, $left, $top, $right, $bottom, $where );
+  @if $hover    != false {
+    &:hover:before{
+      background-position:($bg-left - $hover) $bg-top;
+    }
+  }
+}
+
+/**
+ * vip icon background
+ */
+@mixin vip_icon ( $width, $height, $bg-left, $bg-top, $left: 0px, $top: 0px, $right: false, $bottom: false ) {
+  $where: "after";
+  @include background-prepare( $vip_icon_bg_file, $vip_icon_bg_file_hpd, $vip_icon_bg_file_width, $vip_icon_bg_file_height, $where );
+  @include background-image( $width, $height, $bg-left, $bg-top, $left, $top, $right, $bottom, $where );
+}
+
+/**
+ * vip icon background2
+ */
+@mixin vip_icon2 ( $width, $height, $bg-left, $bg-top, $left: 0px, $top: 0px, $right: false, $bottom: false ) {
+  $where: "before";
+  @include background-prepare( $vip_icon_bg_file, $vip_icon_bg_file_hpd, $vip_icon_bg_file_width, $vip_icon_bg_file_height, $where );
+  @include background-image( $width, $height, $bg-left, $bg-top, $left, $top, $right, $bottom, $where );
+}
+
+/**
+ * benefit channel background
+ */
+@mixin benefit_channel ( $width, $height, $bg-left, $bg-top, $left: 0px, $top: 0px, $right: false, $bottom: false ) {
+  $where: "after";
+  @include background-prepare( $benefit_channel_bg_file, $benefit_channel_bg_file_hpd, $benefit_channel_bg_file_width, $benefit_channel_bg_file_height, $where );
+  @include background-image( $width, $height, $bg-left, $bg-top, $left, $top, $right, $bottom, $where );
+}
+
+/**
+ * benefit channel background2
+ */
+@mixin benefit_channel2 ( $width, $height, $bg-left, $bg-top, $left: 0px, $top: 0px, $right: false, $bottom: false ) {
+  $where: "before";
+  @include background-prepare( $benefit_channel_bg_file, $benefit_channel_bg_file_hpd, $benefit_channel_bg_file_width, $benefit_channel_bg_file_height, $where );
+  @include background-image( $width, $height, $bg-left, $bg-top, $left, $top, $right, $bottom, $where );
+}
+
+/**
+ * background
+ */
+@mixin background ( $width, $height, $bg-left, $bg-top, $left: 0px, $top: 0px, $right: false, $bottom: false ) {
+  $where: "after";
+  @include background-prepare( $bg_file, $bg_file_hpd, $bg_file_width, $bg_file_height, $where );
+  @include background-image( $width, $height, $bg-left, $bg-top, $left, $top, $right, $bottom, $where );
+}
+
+/**
+ * background2
+ */
+@mixin background2 ( $width, $height, $bg-left, $bg-top, $left: 0px, $top: 0px, $right: false, $bottom: false ) {
+  $where: "before";
+  @include background-prepare( $bg_file, $bg_file_hpd, $bg_file_width, $bg_file_height, $where );
+  @include background-image( $width, $height, $bg-left, $bg-top, $left, $top, $right, $bottom, $where );
+}
+
+/**
+ * background-image
+ */
+@mixin background-image ( $width, $height, $bg-left, $bg-top, $left: 0px, $top: 0px, $right: false, $bottom: false, $where: "after" ) {
+  &:#{$where} {
+    width: $width;
+    padding-top: $height;
+    background-position: $bg-left $bg-top;
+    @if $top    != false { top:    $top   ; }
+    @if $left   != false { left:   $left  ; }
+    @if $right  != false { right:  $right ; }
+    @if $bottom != false { bottom: $bottom; }
+  }
+}
+
+
+@mixin background-prepare ( $file: $bg_file, $file2: $bg_file_hpd, $bg_width: $bg_file_width, $bg_height: $bg_file_height, $where:"after" ) {
+  @if $file2 == false {
+    $file2: $file;
+  }
+  & {
+    position: relative;
+  }
+  &:#{$where} {
+    content: ".";
+    height: 0;
+    @include box-sizing ( content-box );
+    background-image: url(#{$file});
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+  }
+  @include high-pixel-density( $file2, $bg_width, $bg_height, $where );
+}
+
+@mixin high-pixel-density ( $filename, $width, $height, $where ) {
+  @media  only screen and (-moz-min-device-pixel-ratio: 2),
+          only screen and (max--moz-device-pixel-ratio: 2),
+          only screen and (-o-min-device-pixel-ratio: 2/1),
+          only screen and (-webkit-min-device-pixel-ratio: 2),
+          only screen and (min-device-pixel-ratio: 2) {
+    &:#{$where} {
+      background-image: url(#{$filename});
+      background-size: $width $height;
+    }
+  }
+}
+@mixin high-pixel-density-self ( $filename, $width, $height) {
+  @media  only screen and (-moz-min-device-pixel-ratio: 2),
+          only screen and (max--moz-device-pixel-ratio: 2),
+          only screen and (-o-min-device-pixel-ratio: 2/1),
+          only screen and (-webkit-min-device-pixel-ratio: 2),
+          only screen and (min-device-pixel-ratio: 2) {
+    &{
+      background-image: url(#{$filename});
+      background-size: $width $height;
+    }
+  }
+}

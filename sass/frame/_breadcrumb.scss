@@ -1,0 +1,31 @@
+#breadcrumb {
+  & {
+    padding-top: 10px;
+  }
+  .layout-wrapper {
+    & > span {
+      margin: 0 5px;
+    }
+    & > div {
+      display: inline-block;
+    }
+    & > span {
+      font-family:'Courier New', Courier, monospace;
+    }
+    ul {
+      left: -16px;
+      width: 100px;
+      z-index: 99;
+      max-height: 278px;
+      overflow-y: auto;
+    }
+    ul a {
+      color: $anchor !important;
+      text-decoration: none !important;
+    }
+    ul a:hover {
+      color: white !important;
+      text-decoration: none !important;
+    }
+  }
+}

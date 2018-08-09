@@ -1,0 +1,31 @@
+.page-block {
+	text-align: center;
+	a, span {
+		@include inline-block;
+		background-color: #DDD;
+		height: 28px;
+		line-height: 28px;
+		color: $dark;
+		border-radius: 2px;
+		padding: 0 12px;
+		margin: 0 4px;
+		@include user-select;
+		&:hover {
+			text-decoration: none;
+			background: $link;
+			color: white;
+		}
+		&:active,
+		&.active {
+			background-color: $dark;
+			color: white;
+		}
+		&.disable {
+			color: #AAA;
+			background-color: $F4;
+		}
+	}
+	span {
+		cursor: default;
+	}
+}

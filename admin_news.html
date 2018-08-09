@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="bower_components/mdi/css/materialdesignicons.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="dist/js/jquery-3.2.1.min.js"></script>
+    <title></title>
+
+</head>
+
+<body>
+    <header>
+        <div class="header_box">
+            <div class="amdin_headerbg"><img src="images_admin/logo.svg"></div>
+            <div class="login_font">
+                <div class="login">登出</div>
+                <div class="name">Jenny Hu</div>
+                <div class="name_icon"><i class="mdi mdi-account"></i></div>
+            </div>
+        </div>
+    </header>
+    <aside>
+    <div class="side_wrapper">
+        <div class="sidebar sidcbg">
+            <div class="list_ietm"><a href="#">帳號管理</a></div>
+            <div class="list_ietm"><a href="#">首頁管理</a></div>
+            <div class="list_ietm"><a href="#">最新消息</a></div>
+            <div class="list_ietm">
+                <ul>
+                    <li><a href="#">-新聞管理</a></li>
+                    <li><a href="#">-公告管理</a></li>
+                </ul>
+            </div>
+            <div class="list_ietm"><a href="#">展覽&活動管理</a></div>
+            <div class="list_ietm"><a href="#">場地租借管理</a></div>
+            <div class="list_ietm"><a href="#">資訊頁管理</a></div>
+            <div class="list_ietm"><a href="#">聯絡資料管理</a></div>
+        </div>
+        <div class="sidebar">
+            <div class="right_continer">
+                <div class="adsright_title">最新消息-新聞管理</div>
+                <div class="news_manag">
+                    <div class="manag_box">
+                        發布時間
+                        <div class="man_bord"><input name="" type="text" /></div>  -
+                        <div class="man_bord"><input name="" type="text" /></div>
+                    </div>
+                    <div class="manag_box">關鍵字
+                    <div class="man_bord"><input name="" type="text" /></div>
+                    </div>
+                    <div class="manag_box">輸入標題
+                        <div class="man_bord"><input name="" type="text" /></div>
+                    </div>
+                    <div class="manag_box">選擇分類<div class="man_bord"><select name=""></select></div></div>
+                    <div class="btnwrap">
+                        <a href="#" class="delete_btn">搜尋</a>
+                    </div>
+                </div>
+
+                <div class="icon_dk">
+                    <ul>
+                        <li><a href="#"><i class="mdi mdi-view-headline"></i></a></li>
+                        <li><a href="#"><i class="mdi mdi-view-list"></i></a></li>
+                    </ul>
+                </div>
+                <div class="news_table">
+                    <table width="100%" border="0">
+                          <tr>
+                            <td class="tab_gray">編輯</td>
+                            <td class="tab_gray"><form id="form1" name="form1" method="post" action="">
+                              <input type="checkbox" name="checkbox" id="checkbox" />
+                              <label for="checkbox"></label>
+                            </form></td>
+                            <td class="tab_gray">標題</td>
+                            <td class="tab_gray">類別</td>
+                            <td class="tab_gray">顯示</td>
+                            <td class="tab_gray">建立日期</td>
+                            <td class="tab_gray">更新日期</td>
+                          </tr>
+                          <tr>
+                            <td><img src="images_admin/edit.svg"></td>
+                            <td><input type="checkbox" name="checkbox2" id="checkbox2" /></td>
+                            <td>配合台北市道路交通安全督導會報核可計畫，2018電腦展展覽期間(6/5~6/9)，當日計時收費每小時60元，沒有最高上限。</td>
+                            <td>新聞</td>
+                            <td>Y</td>
+                            <td>2018-15-09</td>
+                            <td>2018-15-22</td>
+                          </tr>
+                          <tr>
+                            <td><img src="images_admin/edit.svg"></td>
+                            <td><input type="checkbox" name="checkbox3" id="checkbox3" /></td>
+                            <td>配合台北市道路交通安全督導會報核可計畫，2018電腦展展覽期間(6/5~6/9)，當日計時收費每小時60元，沒有最高上限。</td>
+                            <td>新聞</td>
+                            <td>Y</td>
+                            <td>2018-15-09</td>
+                            <td>2018-15-22</td>
+                          </tr>
+                          <tr>
+                            <td><img src="images_admin/edit.svg"></td>
+                            <td><input type="checkbox" name="checkbox4" id="checkbox4" /></td>
+                            <td>配合台北市道路交通安全督導會報核可計畫，2018電腦展展覽期間(6/5~6/9)，當日計時收費每小時60元，沒有最高上限。</td>
+                            <td>新聞</td>
+                            <td>Y</td>
+                            <td>2018-15-09</td>
+                            <td>2018-15-22</td>
+                          </tr>
+                          <tr>
+                            <td><img src="images_admin/edit.svg"></td>
+                            <td><input type="checkbox" name="checkbox5" id="checkbox5" /></td>
+                            <td>配合台北市道路交通安全督導會報核可計畫，2018電腦展展覽期間(6/5~6/9)，當日計時收費每小時60元，沒有最高上限。</td>
+                            <td>新聞</td>
+                            <td>Y</td>
+                            <td>2018-15-09</td>
+                            <td>2018-15-22</td>
+                          </tr>
+                          <tr>
+                            <td><img src="images_admin/edit.svg"></td>
+                            <td><input type="checkbox" name="checkbox6" id="checkbox6" /></td>
+                            <td>配合台北市道路交通安全督導會報核可計畫，2018電腦展展覽期間(6/5~6/9)，當日計時收費每小時60元，沒有最高上限。</td>
+                            <td>新聞</td>
+                            <td>Y</td>
+                            <td>2018-15-09</td>
+                            <td>2018-15-22</td>
+                          </tr>
+                        </table>
+                </div>
+                <div class="btnwrap">
+                    <a href="#" class="delete_btn">刪除所選</a>
+                </div>
+                <div class="page_box">
+                        <div class="dkeb"><</div>
+                        <div class="dkeb">1</div>
+                        <div class="dkeb page_active">2</div>
+                        <div class="dkeb">3</div>
+                        <div class="dkeb">4</div>
+                        <div class="dkeb">></div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</aside>
+
+
+
+
+
+</body>
+
+</html>

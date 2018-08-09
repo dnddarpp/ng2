@@ -1,0 +1,141 @@
+
+body {
+  font-size: .8em;
+  font-family: "微軟正黑體", Helvetica, Arial, sans-serif;
+  line-height: 170%;
+  background: white;
+  color: #333;
+}
+
+/**
+ * Hyperlinks
+ */
+a {
+  color: $anchor;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a[target=_blank]:hover {
+  color: $anchor_external;
+}
+a.ad,
+a.important {
+  color: $anchor_external;
+}
+a img {
+  border: none;
+}
+
+/**
+ * Form Elements
+ */
+textarea,
+input[type=text],
+input[type=password],
+input[type=number],
+input[type=email],
+input[type=button],
+input[type=submit] {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  @include box-sizing( border-box );
+}
+textarea:focus,
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=number]:focus,
+input[type=email]:focus {
+  outline: none;
+}
+
+
+/**
+ * Common Class Names
+ */
+.hide {
+  display: none;
+}
+.invisible {
+  @include opacity( 0 );
+  position: absolute;
+  left: -99999px;
+  top: -99999px;
+}
+.clearfix {
+  @include clearfix;
+}
+.clearself {
+  @include clearself;
+}
+
+/**
+ * inner content style reset
+ */
+.content p {
+  margin: 1.2em 0;
+}
+.content * {
+  line-height: 170%;
+}
+.content ul,
+.content ol {
+  margin: 1.2em 0 1.2em 2em;
+}
+.content ul {
+  list-style: disc;
+}
+.content ol {
+  list-style: decimal;
+}
+
+/**
+ * Layouts
+ */
+.layout-wrapper {
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.ad {
+  background: $light_yellow;
+  @include border-radius( 2px );
+  .ysm {
+    padding: 10px;
+    dl {
+      margin-bottom: 10px;
+    }
+    dd {
+      font-size: 12px;
+      line-height: 150%;
+      color: #666;
+    }
+  }
+}
+
+/**
+ * background image prepare
+ */
+.i {
+  @include background-prepare;
+}
+
+
+/**
+ * message
+ */
+div[class^=message-] {
+  padding: 1em;
+  @include border-radius( 2px );
+}
+div.center[class^=message-] {
+  text-align: center;
+}
+.message-info {
+  background: $blue-msg;
+}

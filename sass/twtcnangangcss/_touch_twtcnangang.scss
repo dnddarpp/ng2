@@ -1,0 +1,38 @@
+@include respond-cozy {
+
+
+}
+@include respond-compact {
+
+
+}
+@include respond-pad {
+
+
+}
+@include respond-mobile {
+    .rightBox{
+        display: none;
+    }
+    .ento_wrapper{
+        width: 100%;
+    }
+    .footer_continer{
+        width: 100%;
+    }
+    .row_cop{
+        grid-template-columns: 1fr;
+        grid-row-gap:20px;
+        padding: 40px 30px;
+    }
+    .ento_item{
+        grid-template-columns: 1fr 1fr;
+    }
+    .copyright{
+        padding: 0 30px;
+    }
+
+}
+@include respond-small-mobile{
+
+}

@@ -1,0 +1,1782 @@
+2016-01-15 12:09:57    create css/main.css 
+2016-01-15 12:10:11 overwrite css/main.css 
+2016-05-23 10:58:31     error sass/main.scss (Line 2: File to import not found or unreadable: reputation/_index.scss.
+Load paths:
+  C:/xampp/htdocs/media_news/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 10:58:31 overwrite css/main.css 
+2016-05-23 10:58:33    create css/frame/frame.css 
+2016-05-23 11:01:12     error sass/main.scss (Line 2: File to import not found or unreadable: reputation/_media_news.scss.
+Load paths:
+  C:/xampp/htdocs/media_news/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:01:12 overwrite css/main.css 
+2016-05-23 11:01:29     error sass/main.scss (Line 2: File to import not found or unreadable: media_news/_media_news.scss.
+Load paths:
+  C:/xampp/htdocs/media_news/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:01:29 overwrite css/main.css 
+2016-05-23 11:02:06     error sass/main.scss (Line 2: File to import not found or unreadable: media/_media_news.scss.
+Load paths:
+  C:/xampp/htdocs/media_news/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:02:06 overwrite css/main.css 
+2016-05-23 11:03:24     error sass/main.scss (Line 2: File to import not found or unreadable: media/_media_news.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:03:24 overwrite css/main.css 
+2016-05-23 11:03:57     error sass/main.scss (Line 1: File to import not found or unreadable: media/__init.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:03:57 overwrite css/main.css 
+2016-05-23 11:04:00     error sass/main.scss (Line 2: File to import not found or unreadable: media/_media_news.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:04:00 overwrite css/main.css 
+2016-05-23 11:04:57     error sass/main.scss (Line 2: File to import not found or unreadable: ../sass/media/_media_news.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:04:57 overwrite css/main.css 
+2016-05-23 11:05:02 overwrite css/main.css 
+2016-05-23 11:05:33 overwrite css/main.css 
+2016-05-23 11:08:48     error sass/main.scss (Line 11 of sass/define/__init.scss: File to import not found or unreadable: ../frame/_common.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:08:48 overwrite css/main.css 
+2016-05-23 11:08:48     error sass/frame/frame.scss (Line 11 of sass/frame/../define/__init.scss: File to import not found or unreadable: ../frame/_common.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:08:48 overwrite css/frame/frame.css 
+2016-05-23 11:09:03 overwrite css/main.css 
+2016-05-23 11:09:04 overwrite css/frame/frame.css 
+2016-05-23 11:09:56 identical css/main.css 
+2016-05-23 11:09:56 identical css/frame/frame.css 
+2016-05-23 11:09:57 identical css/main.css 
+2016-05-23 11:09:58 identical css/frame/frame.css 
+2016-05-23 11:13:11     error sass/main.scss (Line 8 of sass/define/__init.scss: File to import not found or unreadable: frame.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:13:11 overwrite css/main.css 
+2016-05-23 11:13:11     error sass/frame/frame.scss (Line 8 of sass/frame/../define/__init.scss: File to import not found or unreadable: frame.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:13:11 overwrite css/frame/frame.css 
+2016-05-23 11:13:15 overwrite css/main.css 
+2016-05-23 11:13:16 overwrite css/frame/frame.css 
+2016-05-23 11:15:18 overwrite css/main.css 
+2016-05-23 11:17:29     error sass/main.scss (Line 3: File to import not found or unreadable: _frame.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:17:29 overwrite css/main.css 
+2016-05-23 11:17:32     error sass/main.scss (Line 3: File to import not found or unreadable: frame.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:17:32 overwrite css/main.css 
+2016-05-23 11:17:48     error sass/main.scss (Line 3: File to import not found or unreadable: frame.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:17:48 identical css/main.css 
+2016-05-23 11:17:49 overwrite css/frame/frame.css 
+2016-05-23 11:18:08     error sass/main.scss (Line 2: File to import not found or unreadable: frame.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:18:08 overwrite css/main.css 
+2016-05-23 11:18:20 overwrite css/main.css 
+2016-05-23 11:19:23     error sass/main.scss (Line 1: File to import not found or unreadable: _media_news.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:19:23 overwrite css/main.css 
+2016-05-23 11:19:23     error sass/main.scss (Line 1: File to import not found or unreadable: _media_news.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-23 11:19:23 overwrite css/main.css 
+2016-05-23 11:19:32 overwrite css/main.css 
+2016-05-23 11:21:41 identical css/main.css 
+2016-05-23 11:23:46 overwrite css/main.css 
+2016-05-23 11:23:52 overwrite css/main.css 
+2016-05-23 11:24:02 overwrite css/main.css 
+2016-05-23 11:24:14 overwrite css/main.css 
+2016-05-23 11:24:39 identical css/main.css 
+2016-05-23 11:25:30 overwrite css/main.css 
+2016-05-23 11:25:38 overwrite css/main.css 
+2016-05-23 11:25:48 overwrite css/main.css 
+2016-05-23 11:26:34 overwrite css/main.css 
+2016-05-23 11:27:40 overwrite css/main.css 
+2016-05-23 11:27:44 overwrite css/main.css 
+2016-05-23 11:28:04 overwrite css/main.css 
+2016-05-23 11:31:11 identical css/main.css 
+2016-05-23 11:31:23 overwrite css/main.css 
+2016-05-23 11:31:35 identical css/main.css 
+2016-05-23 11:31:50 identical css/main.css 
+2016-05-23 11:32:01 overwrite css/main.css 
+2016-05-23 11:32:03 identical css/main.css 
+2016-05-23 11:35:53 overwrite css/main.css 
+2016-05-23 11:36:14 overwrite css/main.css 
+2016-05-23 11:40:19 overwrite css/main.css 
+2016-05-23 11:44:52 overwrite css/main.css 
+2016-05-23 11:46:54 identical css/main.css 
+2016-05-23 11:48:06 identical css/main.css 
+2016-05-23 11:48:38 overwrite css/main.css 
+2016-05-23 11:49:00 overwrite css/main.css 
+2016-05-23 11:49:09 identical css/main.css 
+2016-05-23 11:49:20 identical css/main.css 
+2016-05-23 11:50:02 overwrite css/main.css 
+2016-05-23 11:50:14 identical css/main.css 
+2016-05-23 12:00:05 identical css/main.css 
+2016-05-23 12:00:35 overwrite css/main.css 
+2016-05-23 12:00:47 identical css/main.css 
+2016-05-23 12:01:10 overwrite css/main.css 
+2016-05-23 12:10:40 identical css/main.css 
+2016-05-23 12:12:19 identical css/main.css 
+2016-05-23 12:12:27 overwrite css/main.css 
+2016-05-23 12:12:50 overwrite css/main.css 
+2016-05-23 12:12:58 overwrite css/main.css 
+2016-05-23 12:13:04 overwrite css/main.css 
+2016-05-23 12:13:17 overwrite css/main.css 
+2016-05-23 12:13:31 overwrite css/main.css 
+2016-05-23 12:13:37 overwrite css/main.css 
+2016-05-23 12:13:46 overwrite css/main.css 
+2016-05-23 12:14:23 overwrite css/main.css 
+2016-05-23 12:16:35 overwrite css/main.css 
+2016-05-23 12:17:04 overwrite css/main.css 
+2016-05-23 12:18:05 overwrite css/main.css 
+2016-05-23 12:18:32 overwrite css/main.css 
+2016-05-23 12:19:17 overwrite css/main.css 
+2016-05-23 12:19:28 overwrite css/main.css 
+2016-05-23 12:19:35 overwrite css/main.css 
+2016-05-23 12:20:11 overwrite css/main.css 
+2016-05-23 12:20:32 overwrite css/main.css 
+2016-05-23 12:26:14 identical css/main.css 
+2016-05-23 12:26:34 overwrite css/main.css 
+2016-05-23 12:27:05 overwrite css/main.css 
+2016-05-23 12:27:52 overwrite css/main.css 
+2016-05-23 12:28:32 overwrite css/main.css 
+2016-05-23 12:28:46 overwrite css/main.css 
+2016-05-23 12:29:16 identical css/main.css 
+2016-05-23 12:29:50 overwrite css/main.css 
+2016-05-23 12:30:05 overwrite css/main.css 
+2016-05-23 12:31:22 overwrite css/main.css 
+2016-05-23 12:31:35 overwrite css/main.css 
+2016-05-23 13:34:56 overwrite css/main.css 
+2016-05-23 13:35:08 overwrite css/main.css 
+2016-05-23 13:35:32 overwrite css/main.css 
+2016-05-23 13:44:20 identical css/main.css 
+2016-05-23 13:46:14 overwrite css/main.css 
+2016-05-23 13:46:40 overwrite css/main.css 
+2016-05-23 13:46:47 overwrite css/main.css 
+2016-05-23 13:46:59 overwrite css/main.css 
+2016-05-23 13:47:54 overwrite css/main.css 
+2016-05-23 13:48:00 identical css/main.css 
+2016-05-23 13:49:29 overwrite css/main.css 
+2016-05-23 13:49:41 overwrite css/main.css 
+2016-05-23 13:53:27 overwrite css/main.css 
+2016-05-23 13:53:56 overwrite css/main.css 
+2016-05-23 13:54:31     error sass/main.scss (Line 63 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 13:54:31 overwrite css/main.css 
+2016-05-23 13:54:37     error sass/main.scss (Line 62 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 13:54:37 overwrite css/main.css 
+2016-05-23 13:55:03     error sass/main.scss (Line 59 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 13:55:03 overwrite css/main.css 
+2016-05-23 13:55:19     error sass/main.scss (Line 58 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 13:55:19 overwrite css/main.css 
+2016-05-23 13:55:25 overwrite css/main.css 
+2016-05-23 13:55:38 overwrite css/main.css 
+2016-05-23 13:56:57 overwrite css/main.css 
+2016-05-23 13:57:00 overwrite css/main.css 
+2016-05-23 13:57:08 overwrite css/main.css 
+2016-05-23 13:57:27     error sass/main.scss (Line 58 of sass/media/_media_news.scss: Invalid CSS after "    @": expected identifier, was "@include cleanfix;")
+2016-05-23 13:57:27 overwrite css/main.css 
+2016-05-23 13:57:33     error sass/main.scss (Line 58 of sass/media/_media_news.scss: Undefined mixin 'cleanfix'.)
+2016-05-23 13:57:33 overwrite css/main.css 
+2016-05-23 13:57:41 overwrite css/main.css 
+2016-05-23 13:59:25     error sass/main.scss (Line 58 of sass/media/_media_news.scss: Invalid CSS after " @": expected identifier, was "@include clearfix;")
+2016-05-23 13:59:25 overwrite css/main.css 
+2016-05-23 13:59:30     error sass/main.scss (Line 58 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 13:59:30 overwrite css/main.css 
+2016-05-23 14:01:10     error sass/main.scss (Line 58 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:01:10 identical css/main.css 
+2016-05-23 14:01:24     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:01:24 overwrite css/main.css 
+2016-05-23 14:01:59 overwrite css/main.css 
+2016-05-23 14:02:47 overwrite css/main.css 
+2016-05-23 14:03:30 overwrite css/main.css 
+2016-05-23 14:04:35 overwrite css/main.css 
+2016-05-23 14:04:53 overwrite css/main.css 
+2016-05-23 14:05:04 overwrite css/main.css 
+2016-05-23 14:05:15 overwrite css/main.css 
+2016-05-23 14:05:40 overwrite css/main.css 
+2016-05-23 14:15:38 overwrite css/main.css 
+2016-05-23 14:16:45     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:16:45 overwrite css/main.css 
+2016-05-23 14:17:12     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:17:12 identical css/main.css 
+2016-05-23 14:17:33     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:17:33 identical css/main.css 
+2016-05-23 14:20:42 overwrite css/main.css 
+2016-05-23 14:21:16     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:21:16 overwrite css/main.css 
+2016-05-23 14:21:18     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:21:18 identical css/main.css 
+2016-05-23 14:21:18 identical css/frame/frame.css 
+2016-05-23 14:21:24 overwrite css/main.css 
+2016-05-23 14:21:30 identical css/main.css 
+2016-05-23 14:21:31 identical css/frame/frame.css 
+2016-05-23 14:21:38 overwrite css/main.css 
+2016-05-23 14:21:38     error sass/frame/frame.scss (Line 14 of sass/frame/_general.scss: Undefined variable: "$anchor".)
+2016-05-23 14:21:38 overwrite css/frame/frame.css 
+2016-05-23 14:22:43     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:22:43 overwrite css/main.css 
+2016-05-23 14:22:48     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:22:48 identical css/main.css 
+2016-05-23 14:22:48 overwrite css/frame/frame.css 
+2016-05-23 14:23:16     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:23:16 overwrite css/main.css 
+2016-05-23 14:23:19     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:23:19 identical css/main.css 
+2016-05-23 14:23:20 identical css/frame/frame.css 
+2016-05-23 14:23:30     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:23:30 identical css/main.css 
+2016-05-23 14:23:30 identical css/frame/frame.css 
+2016-05-23 14:24:10     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:24:10 identical css/main.css 
+2016-05-23 14:24:10     error sass/frame/frame.scss (Line 14 of sass/frame/_general.scss: Undefined variable: "$anchor".)
+2016-05-23 14:24:10 overwrite css/frame/frame.css 
+2016-05-23 14:24:47 overwrite css/main.css 
+2016-05-23 14:25:20 overwrite css/main.css 
+2016-05-23 14:25:20 overwrite css/frame/frame.css 
+2016-05-23 14:25:38 identical css/main.css 
+2016-05-23 14:25:38 identical css/frame/frame.css 
+2016-05-23 14:26:02 overwrite css/main.css 
+2016-05-23 14:26:02     error sass/frame/frame.scss (Line 14 of sass/frame/_general.scss: Undefined variable: "$anchor".)
+2016-05-23 14:26:02 overwrite css/frame/frame.css 
+2016-05-23 14:26:28     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:26:28 overwrite css/main.css 
+2016-05-23 14:28:48     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:28:48 identical css/main.css 
+2016-05-23 14:28:48 overwrite css/frame/frame.css 
+2016-05-23 14:28:57     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:28:57 identical css/main.css 
+2016-05-23 14:28:57 identical css/frame/frame.css 
+2016-05-23 14:29:05 overwrite css/main.css 
+2016-05-23 14:30:45     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:30:45 overwrite css/main.css 
+2016-05-23 14:30:52     error sass/main.scss (Line 57 of sass/media/_media_news.scss: Undefined mixin 'clearfix'.)
+2016-05-23 14:30:52 identical css/main.css 
+2016-05-23 14:30:52     error sass/frame/frame.scss (Line 14 of sass/frame/_general.scss: Undefined variable: "$anchor".)
+2016-05-23 14:30:52 overwrite css/frame/frame.css 
+2016-05-23 14:30:54 overwrite css/main.css 
+2016-05-23 14:31:14 overwrite css/main.css 
+2016-05-23 14:31:14 overwrite css/frame/frame.css 
+2016-05-23 14:31:23 identical css/main.css 
+2016-05-23 14:31:24 identical css/frame/frame.css 
+2016-05-23 14:31:45 overwrite css/main.css 
+2016-05-23 14:31:45     error sass/frame/frame.scss (Line 14 of sass/frame/_general.scss: Undefined variable: "$anchor".)
+2016-05-23 14:31:45 overwrite css/frame/frame.css 
+2016-05-23 14:32:03 overwrite css/main.css 
+2016-05-23 14:32:04 overwrite css/frame/frame.css 
+2016-05-23 14:34:18 identical css/main.css 
+2016-05-23 14:47:30 identical css/main.css 
+2016-05-23 14:47:38 overwrite css/main.css 
+2016-05-23 14:50:32 overwrite css/main.css 
+2016-05-23 14:50:41 identical css/main.css 
+2016-05-23 14:50:48 overwrite css/main.css 
+2016-05-23 14:50:58 overwrite css/main.css 
+2016-05-23 14:51:45 identical css/main.css 
+2016-05-23 15:05:06 overwrite css/main.css 
+2016-05-23 15:05:17 overwrite css/main.css 
+2016-05-23 15:05:26 overwrite css/main.css 
+2016-05-23 15:05:37 overwrite css/main.css 
+2016-05-23 15:05:47 overwrite css/main.css 
+2016-05-23 15:05:53 overwrite css/main.css 
+2016-05-23 15:06:11 overwrite css/main.css 
+2016-05-23 15:06:24 overwrite css/main.css 
+2016-05-23 15:06:45 overwrite css/main.css 
+2016-05-23 15:06:50 overwrite css/main.css 
+2016-05-23 15:07:27 overwrite css/main.css 
+2016-05-23 15:07:44 overwrite css/main.css 
+2016-05-23 15:07:54 overwrite css/main.css 
+2016-05-23 15:08:09 overwrite css/main.css 
+2016-05-23 15:08:26 identical css/main.css 
+2016-05-23 15:08:37 identical css/main.css 
+2016-05-23 15:08:54 overwrite css/main.css 
+2016-05-23 15:09:24 overwrite css/main.css 
+2016-05-23 15:09:30 overwrite css/main.css 
+2016-05-23 15:09:41 overwrite css/main.css 
+2016-05-23 15:10:38 overwrite css/main.css 
+2016-05-23 15:10:47 overwrite css/main.css 
+2016-05-23 15:11:14 overwrite css/main.css 
+2016-05-23 15:11:22 overwrite css/main.css 
+2016-05-23 15:11:28 overwrite css/main.css 
+2016-05-23 15:12:30 overwrite css/main.css 
+2016-05-23 15:13:07 overwrite css/main.css 
+2016-05-23 15:13:31 overwrite css/main.css 
+2016-05-23 15:13:37 overwrite css/main.css 
+2016-05-23 15:15:29 overwrite css/main.css 
+2016-05-23 15:17:17 overwrite css/main.css 
+2016-05-23 15:18:48 overwrite css/main.css 
+2016-05-23 15:18:52 identical css/main.css 
+2016-05-23 15:19:05 overwrite css/main.css 
+2016-05-23 15:19:44 overwrite css/main.css 
+2016-05-23 15:21:38 overwrite css/main.css 
+2016-05-23 15:22:02 overwrite css/main.css 
+2016-05-23 15:22:50 overwrite css/main.css 
+2016-05-23 15:23:17 overwrite css/main.css 
+2016-05-23 15:23:59 identical css/main.css 
+2016-05-23 15:24:26 overwrite css/main.css 
+2016-05-23 15:25:03 overwrite css/main.css 
+2016-05-23 15:25:43 overwrite css/main.css 
+2016-05-23 15:25:44 overwrite css/main.css 
+2016-05-23 15:26:16 overwrite css/main.css 
+2016-05-23 15:27:44 overwrite css/main.css 
+2016-05-23 15:27:50 identical css/main.css 
+2016-05-23 15:28:10 overwrite css/main.css 
+2016-05-23 15:28:46 overwrite css/main.css 
+2016-05-23 15:29:01 overwrite css/main.css 
+2016-05-23 15:29:20 identical css/main.css 
+2016-05-23 15:30:09 overwrite css/main.css 
+2016-05-23 15:30:25 overwrite css/main.css 
+2016-05-23 15:30:30 overwrite css/main.css 
+2016-05-23 15:33:28 overwrite css/main.css 
+2016-05-23 15:39:53 overwrite css/main.css 
+2016-05-23 15:40:55 overwrite css/main.css 
+2016-05-23 15:42:15 overwrite css/main.css 
+2016-05-23 15:42:19 overwrite css/main.css 
+2016-05-23 15:42:28 overwrite css/main.css 
+2016-05-23 15:42:41 overwrite css/main.css 
+2016-05-23 15:43:10 overwrite css/main.css 
+2016-05-23 15:47:43 overwrite css/main.css 
+2016-05-23 15:49:37 overwrite css/main.css 
+2016-05-23 15:49:50 overwrite css/main.css 
+2016-05-23 15:50:21 overwrite css/main.css 
+2016-05-23 15:50:23 identical css/main.css 
+2016-05-23 15:50:34 overwrite css/main.css 
+2016-05-23 15:53:54 overwrite css/main.css 
+2016-05-23 15:54:49 identical css/main.css 
+2016-05-23 15:55:14 overwrite css/main.css 
+2016-05-23 15:56:23 overwrite css/main.css 
+2016-05-23 15:57:20 overwrite css/main.css 
+2016-05-23 15:57:38 overwrite css/main.css 
+2016-05-23 15:57:51 overwrite css/main.css 
+2016-05-23 15:58:13 overwrite css/main.css 
+2016-05-23 15:58:24 overwrite css/main.css 
+2016-05-23 15:58:31 overwrite css/main.css 
+2016-05-23 15:58:41 overwrite css/main.css 
+2016-05-23 15:58:52 overwrite css/main.css 
+2016-05-23 15:58:59 overwrite css/main.css 
+2016-05-23 15:59:05 overwrite css/main.css 
+2016-05-23 15:59:17 overwrite css/main.css 
+2016-05-23 15:59:25 overwrite css/main.css 
+2016-05-23 15:59:32 overwrite css/main.css 
+2016-05-23 15:59:44 overwrite css/main.css 
+2016-05-23 15:59:54 overwrite css/main.css 
+2016-05-23 15:59:59 overwrite css/main.css 
+2016-05-23 16:00:18 overwrite css/main.css 
+2016-05-23 16:01:04 overwrite css/main.css 
+2016-05-23 16:01:07 overwrite css/main.css 
+2016-05-23 16:01:20 overwrite css/main.css 
+2016-05-23 16:03:43 overwrite css/main.css 
+2016-05-23 16:03:53 overwrite css/main.css 
+2016-05-23 16:09:48 overwrite css/main.css 
+2016-05-23 16:10:27 overwrite css/main.css 
+2016-05-23 16:11:34     error sass/main.scss (Line 8 of sass/media/_media_news.scss: Alpha channel 5 must be between 0 and 1 for `rgba')
+2016-05-23 16:11:34 overwrite css/main.css 
+2016-05-23 16:11:37 overwrite css/main.css 
+2016-05-23 16:11:52 overwrite css/main.css 
+2016-05-23 16:12:04 overwrite css/main.css 
+2016-05-23 16:12:17 overwrite css/main.css 
+2016-05-23 16:12:33 overwrite css/main.css 
+2016-05-23 16:13:16 overwrite css/main.css 
+2016-05-23 16:13:27 overwrite css/main.css 
+2016-05-23 16:13:44 overwrite css/main.css 
+2016-05-23 16:13:57 overwrite css/main.css 
+2016-05-23 16:47:55 overwrite css/main.css 
+2016-05-23 16:48:15 overwrite css/main.css 
+2016-05-23 16:48:29 overwrite css/main.css 
+2016-05-23 16:48:36 overwrite css/main.css 
+2016-05-23 16:48:46 overwrite css/main.css 
+2016-05-23 16:48:54 overwrite css/main.css 
+2016-05-23 16:49:16 overwrite css/main.css 
+2016-05-23 16:49:33 overwrite css/main.css 
+2016-05-23 16:50:22 overwrite css/main.css 
+2016-05-23 16:50:28 overwrite css/main.css 
+2016-05-23 16:50:36 overwrite css/main.css 
+2016-05-23 16:50:45 overwrite css/main.css 
+2016-05-23 16:53:38 identical css/main.css 
+2016-05-23 16:54:13 identical css/main.css 
+2016-05-23 16:54:38 identical css/main.css 
+2016-05-23 16:54:41 identical css/main.css 
+2016-05-23 16:55:39 overwrite css/main.css 
+2016-05-23 16:56:54 overwrite css/main.css 
+2016-05-23 16:59:45 identical css/main.css 
+2016-05-23 17:00:21 identical css/main.css 
+2016-05-23 17:00:47     error sass/main.scss (Line 2 of sass/media/_touch_media_news.scss: Invalid CSS after "    .": expected class name, was "}")
+2016-05-23 17:00:47 overwrite css/main.css 
+2016-05-23 17:01:04 overwrite css/main.css 
+2016-05-23 17:01:25 overwrite css/main.css 
+2016-05-23 17:07:43 identical css/main.css 
+2016-05-23 17:10:42 overwrite css/main.css 
+2016-05-23 17:11:09 identical css/main.css 
+2016-05-23 17:12:04 overwrite css/main.css 
+2016-05-23 17:14:15 identical css/main.css 
+2016-05-23 17:14:15 identical css/frame/frame.css 
+2016-05-23 17:15:27 overwrite css/main.css 
+2016-05-23 17:15:31 overwrite css/main.css 
+2016-05-23 17:15:32 overwrite css/frame/frame.css 
+2016-05-23 17:17:00 overwrite css/main.css 
+2016-05-23 17:17:03 overwrite css/main.css 
+2016-05-23 17:17:46 identical css/main.css 
+2016-05-23 17:28:58 identical css/main.css 
+2016-05-23 17:30:58 identical css/main.css 
+2016-05-23 17:30:59 identical css/frame/frame.css 
+2016-05-23 17:31:16     error sass/main.scss (Line 19 of sass/frame/_responsive.scss: Mixin respond-mobile takes 0 arguments but 2 were passed.)
+2016-05-23 17:31:16 overwrite css/main.css 
+2016-05-23 17:31:17     error sass/frame/frame.scss (Line 19 of sass/frame/_responsive.scss: Mixin respond-mobile takes 0 arguments but 2 were passed.)
+2016-05-23 17:31:17 overwrite css/frame/frame.css 
+2016-05-23 17:31:34 overwrite css/main.css 
+2016-05-23 17:31:35 overwrite css/frame/frame.css 
+2016-05-23 17:31:37 identical css/main.css 
+2016-05-23 17:31:38 identical css/frame/frame.css 
+2016-05-23 17:32:09 overwrite css/main.css 
+2016-05-23 17:33:07 overwrite css/main.css 
+2016-05-23 17:33:26 overwrite css/main.css 
+2016-05-23 17:34:13 overwrite css/main.css 
+2016-05-23 17:34:54 identical css/main.css 
+2016-05-23 17:35:24 overwrite css/main.css 
+2016-05-23 17:36:09 identical css/main.css 
+2016-05-23 17:36:16 overwrite css/main.css 
+2016-05-23 17:36:19 overwrite css/main.css 
+2016-05-23 17:36:40 overwrite css/main.css 
+2016-05-23 17:37:12 overwrite css/main.css 
+2016-05-23 17:45:03 overwrite css/main.css 
+2016-05-23 17:45:06 identical css/main.css 
+2016-05-23 17:47:02 overwrite css/main.css 
+2016-05-23 17:48:36 identical css/main.css 
+2016-05-23 17:48:56 overwrite css/main.css 
+2016-05-23 17:49:27 overwrite css/main.css 
+2016-05-23 17:49:37 identical css/main.css 
+2016-05-23 17:49:47 overwrite css/main.css 
+2016-05-23 17:49:52 overwrite css/main.css 
+2016-05-23 17:50:09 overwrite css/main.css 
+2016-05-23 17:53:00 overwrite css/main.css 
+2016-05-23 17:53:20 overwrite css/main.css 
+2016-05-23 17:55:47 overwrite css/main.css 
+2016-05-23 17:56:06 overwrite css/main.css 
+2016-05-23 17:56:28 overwrite css/main.css 
+2016-05-23 18:03:30 overwrite css/main.css 
+2016-05-23 18:03:48 overwrite css/main.css 
+2016-05-23 18:03:55 overwrite css/main.css 
+2016-05-23 18:04:25 overwrite css/main.css 
+2016-05-23 18:08:29 overwrite css/main.css 
+2016-05-23 18:08:54 overwrite css/main.css 
+2016-05-23 18:09:40 overwrite css/main.css 
+2016-05-23 18:10:17 overwrite css/main.css 
+2016-05-23 18:11:08 overwrite css/main.css 
+2016-05-23 18:12:02 overwrite css/main.css 
+2016-05-23 18:23:41 overwrite css/main.css 
+2016-05-23 18:30:44 overwrite css/main.css 
+2016-05-23 18:32:00 overwrite css/main.css 
+2016-05-23 18:32:05 overwrite css/main.css 
+2016-05-23 18:32:51 overwrite css/main.css 
+2016-05-23 18:33:05 overwrite css/main.css 
+2016-05-23 18:33:17 overwrite css/main.css 
+2016-05-23 18:33:27 overwrite css/main.css 
+2016-05-23 18:34:06 overwrite css/main.css 
+2016-05-23 18:34:23 overwrite css/main.css 
+2016-05-23 18:34:26 overwrite css/main.css 
+2016-05-23 18:34:41 overwrite css/main.css 
+2016-05-23 18:36:08     error sass/main.scss (Line 73 of sass/media/_media_news.scss: Invalid CSS after "    &:nth-child(2)": expected "{", was "(4),{")
+2016-05-23 18:36:08 overwrite css/main.css 
+2016-05-23 18:36:32 overwrite css/main.css 
+2016-05-23 18:36:35 overwrite css/main.css 
+2016-05-23 18:39:11 overwrite css/main.css 
+2016-05-23 18:39:26 overwrite css/main.css 
+2016-05-23 18:39:35 overwrite css/main.css 
+2016-05-23 18:39:43 overwrite css/main.css 
+2016-05-23 18:39:56 overwrite css/main.css 
+2016-05-23 18:40:47 overwrite css/main.css 
+2016-05-23 18:40:52 overwrite css/main.css 
+2016-05-23 18:41:01 overwrite css/main.css 
+2016-05-23 18:49:44 overwrite css/main.css 
+2016-05-23 18:49:58 overwrite css/main.css 
+2016-05-23 18:50:03 overwrite css/main.css 
+2016-05-23 18:50:10 overwrite css/main.css 
+2016-05-23 18:50:20 overwrite css/main.css 
+2016-05-23 18:50:27 overwrite css/main.css 
+2016-05-23 18:50:33 overwrite css/main.css 
+2016-05-23 18:50:40 overwrite css/main.css 
+2016-05-23 18:50:49 overwrite css/main.css 
+2016-05-23 18:51:44     error sass/main.scss (Line 73 of sass/media/_media_news.scss: Invalid CSS after "...:nth-child(2n),": expected "{", was "(5n) {")
+2016-05-23 18:51:44 overwrite css/main.css 
+2016-05-23 18:54:55 overwrite css/main.css 
+2016-05-23 18:55:00 overwrite css/main.css 
+2016-05-23 18:55:12 overwrite css/main.css 
+2016-05-23 18:55:30 overwrite css/main.css 
+2016-05-23 18:55:55 overwrite css/main.css 
+2016-05-23 18:56:00 overwrite css/main.css 
+2016-05-23 18:56:37 overwrite css/main.css 
+2016-05-23 18:57:14 overwrite css/main.css 
+2016-05-23 18:57:29 overwrite css/main.css 
+2016-05-23 18:57:50 overwrite css/main.css 
+2016-05-23 18:57:59 overwrite css/main.css 
+2016-05-23 18:58:14 overwrite css/main.css 
+2016-05-23 18:58:31 overwrite css/main.css 
+2016-05-24 10:10:41 overwrite css/main.css 
+2016-05-24 10:11:28 identical css/main.css 
+2016-05-24 10:11:36 overwrite css/main.css 
+2016-05-24 10:11:59 overwrite css/main.css 
+2016-05-24 10:12:09 overwrite css/main.css 
+2016-05-24 10:12:26 overwrite css/main.css 
+2016-05-24 10:12:44 identical css/main.css 
+2016-05-24 10:13:10     error sass/main.scss (Line 172 of sass/media/_media_news.scss: Invalid CSS after "}": expected "}", was "")
+2016-05-24 10:13:10 overwrite css/main.css 
+2016-05-24 10:13:21     error sass/main.scss (Line 172 of sass/media/_media_news.scss: Invalid CSS after "}": expected "}", was "")
+2016-05-24 10:13:21 identical css/main.css 
+2016-05-24 10:13:42     error sass/main.scss (Line 172 of sass/media/_media_news.scss: Invalid CSS after "}": expected "}", was "")
+2016-05-24 10:13:42 identical css/main.css 
+2016-05-24 10:13:53 overwrite css/main.css 
+2016-05-24 10:15:14 overwrite css/main.css 
+2016-05-24 10:15:22 overwrite css/main.css 
+2016-05-24 10:18:27 identical css/main.css 
+2016-05-24 10:26:23 overwrite css/main.css 
+2016-05-24 10:28:45     error sass/main.scss (Line 73 of sass/media/_media_news.scss: Invalid CSS after "    &:nth-child(": expected expression (e.g. fr, 2n+1), was "){")
+2016-05-24 10:28:45 overwrite css/main.css 
+2016-05-24 10:35:24     error sass/main.scss (Line 73 of sass/media/_media_news.scss: Invalid CSS after "    &:nth-child(": expected expression (e.g. fr, 2n+1), was "){")
+2016-05-24 10:35:24 identical css/main.css 
+2016-05-24 10:35:27 overwrite css/main.css 
+2016-05-24 10:37:33 overwrite css/main.css 
+2016-05-24 11:09:39 overwrite css/main.css 
+2016-05-24 11:10:05 identical css/main.css 
+2016-05-24 11:10:17 identical css/main.css 
+2016-05-24 11:10:26 identical css/main.css 
+2016-05-24 11:10:30 identical css/main.css 
+2016-05-24 11:10:34 identical css/main.css 
+2016-05-24 11:10:47 identical css/main.css 
+2016-05-24 11:11:08 overwrite css/main.css 
+2016-05-24 11:12:58 overwrite css/main.css 
+2016-05-24 11:13:46 overwrite css/main.css 
+2016-05-24 11:14:03 overwrite css/main.css 
+2016-05-24 11:14:20 overwrite css/main.css 
+2016-05-24 11:14:49 overwrite css/main.css 
+2016-05-24 11:15:44 overwrite css/main.css 
+2016-05-24 11:15:52 overwrite css/main.css 
+2016-05-24 11:16:01 overwrite css/main.css 
+2016-05-24 11:16:31 identical css/main.css 
+2016-05-24 11:17:18 overwrite css/main.css 
+2016-05-24 11:17:41 overwrite css/main.css 
+2016-05-24 11:17:51 overwrite css/main.css 
+2016-05-24 11:18:17 overwrite css/main.css 
+2016-05-24 11:18:31 overwrite css/main.css 
+2016-05-24 11:19:08 overwrite css/main.css 
+2016-05-24 11:19:19 identical css/main.css 
+2016-05-24 11:20:58 overwrite css/main.css 
+2016-05-24 11:21:03 overwrite css/main.css 
+2016-05-24 11:21:09 overwrite css/main.css 
+2016-05-24 11:21:32 overwrite css/main.css 
+2016-05-24 11:21:41 overwrite css/main.css 
+2016-05-24 11:21:49 overwrite css/main.css 
+2016-05-24 11:22:17 overwrite css/main.css 
+2016-05-24 11:25:26 overwrite css/main.css 
+2016-05-24 11:26:02 overwrite css/main.css 
+2016-05-24 11:26:06 overwrite css/main.css 
+2016-05-24 11:26:26 overwrite css/main.css 
+2016-05-24 11:30:11 overwrite css/main.css 
+2016-05-24 11:30:14 overwrite css/main.css 
+2016-05-24 11:33:02 overwrite css/main.css 
+2016-05-24 11:33:06 overwrite css/main.css 
+2016-05-24 11:34:45 overwrite css/main.css 
+2016-05-24 11:35:29 overwrite css/main.css 
+2016-05-24 11:36:39 overwrite css/main.css 
+2016-05-24 11:39:14 overwrite css/main.css 
+2016-05-24 11:50:14 overwrite css/main.css 
+2016-05-24 11:50:15 identical css/main.css 
+2016-05-24 11:51:24 overwrite css/main.css 
+2016-05-24 11:51:40 overwrite css/main.css 
+2016-05-24 11:52:59 overwrite css/main.css 
+2016-05-24 11:56:01 identical css/main.css 
+2016-05-24 11:57:40 identical css/main.css 
+2016-05-24 11:57:42 identical css/main.css 
+2016-05-24 11:58:13 identical css/main.css 
+2016-05-24 11:59:04 identical css/main.css 
+2016-05-24 11:59:07 identical css/main.css 
+2016-05-24 11:59:10 identical css/main.css 
+2016-05-24 11:59:28 identical css/main.css 
+2016-05-24 12:04:44 overwrite css/main.css 
+2016-05-24 12:08:30 overwrite css/main.css 
+2016-05-24 12:08:40 identical css/main.css 
+2016-05-24 12:16:58 overwrite css/main.css 
+2016-05-24 12:17:08 overwrite css/main.css 
+2016-05-24 12:17:40 overwrite css/main.css 
+2016-05-24 12:17:52 overwrite css/main.css 
+2016-05-24 12:18:09 overwrite css/main.css 
+2016-05-24 12:18:25 identical css/main.css 
+2016-05-24 12:23:05 overwrite css/main.css 
+2016-05-24 12:26:55 overwrite css/main.css 
+2016-05-24 12:27:10 identical css/main.css 
+2016-05-24 16:57:26 overwrite css/main.css 
+2016-05-24 16:57:40 overwrite css/main.css 
+2016-05-24 16:59:18 overwrite css/main.css 
+2016-05-24 16:59:46 overwrite css/main.css 
+2016-05-24 17:00:05 overwrite css/main.css 
+2016-05-24 17:00:07 identical css/main.css 
+2016-05-24 17:00:30 overwrite css/main.css 
+2016-05-24 17:00:36 overwrite css/main.css 
+2016-05-24 17:00:46 overwrite css/main.css 
+2016-05-24 18:30:08 overwrite css/main.css 
+2016-05-24 18:30:32 overwrite css/main.css 
+2016-05-24 18:31:20 overwrite css/main.css 
+2016-05-24 18:31:41 overwrite css/main.css 
+2016-05-24 18:31:42 identical css/main.css 
+2016-05-24 18:32:08 overwrite css/main.css 
+2016-05-24 18:32:12 identical css/main.css 
+2016-05-24 18:39:13 overwrite css/main.css 
+2016-05-24 18:39:29 overwrite css/main.css 
+2016-05-24 18:39:35 overwrite css/main.css 
+2016-05-24 18:39:57 overwrite css/main.css 
+2016-05-24 18:41:01 overwrite css/main.css 
+2016-05-24 18:41:27 overwrite css/main.css 
+2016-05-24 18:42:33 overwrite css/main.css 
+2016-05-24 18:42:36 overwrite css/main.css 
+2016-05-24 18:43:05 identical css/main.css 
+2016-05-24 18:43:10 overwrite css/main.css 
+2016-05-24 18:43:31 overwrite css/main.css 
+2016-05-24 18:43:34 overwrite css/main.css 
+2016-05-24 18:45:20 overwrite css/main.css 
+2016-05-24 18:45:52 overwrite css/main.css 
+2016-05-24 18:46:19 overwrite css/main.css 
+2016-05-24 18:46:31 overwrite css/main.css 
+2016-05-24 18:49:01 identical css/main.css 
+2016-05-24 18:49:46 overwrite css/main.css 
+2016-05-24 18:50:17 overwrite css/main.css 
+2016-05-24 18:53:50 overwrite css/main.css 
+2016-05-24 18:53:55 identical css/main.css 
+2016-05-24 18:54:53 overwrite css/main.css 
+2016-05-24 18:55:04 overwrite css/main.css 
+2016-05-24 18:56:19 overwrite css/main.css 
+2016-05-24 18:56:36 overwrite css/main.css 
+2016-05-24 18:56:57 overwrite css/main.css 
+2016-05-24 18:57:00 identical css/main.css 
+2016-05-24 18:57:13 overwrite css/main.css 
+2016-05-24 18:58:44 overwrite css/main.css 
+2016-05-24 18:59:06 overwrite css/main.css 
+2016-05-24 18:59:29 overwrite css/main.css 
+2016-05-24 19:00:17 overwrite css/main.css 
+2016-05-24 19:04:17 overwrite css/main.css 
+2016-05-24 19:04:28 identical css/main.css 
+2016-05-24 19:06:05 overwrite css/main.css 
+2016-05-24 19:06:27 overwrite css/main.css 
+2016-05-24 19:06:43 overwrite css/main.css 
+2016-05-24 19:07:53 overwrite css/main.css 
+2016-05-24 19:08:13 overwrite css/main.css 
+2016-05-24 19:13:12 overwrite css/main.css 
+2016-05-24 19:13:27 overwrite css/main.css 
+2016-05-24 19:13:54 overwrite css/main.css 
+2016-05-24 19:13:55 overwrite css/main.css 
+2016-05-24 19:14:51 overwrite css/main.css 
+2016-05-26 15:02:41 overwrite css/main.css 
+2016-05-26 15:03:14 overwrite css/main.css 
+2016-05-26 15:07:30 overwrite css/main.css 
+2016-05-26 15:08:01 overwrite css/main.css 
+2016-05-26 15:08:31 overwrite css/main.css 
+2016-05-26 15:08:37 identical css/main.css 
+2016-05-26 15:09:06 overwrite css/main.css 
+2016-05-26 15:09:33 overwrite css/main.css 
+2016-05-26 15:09:36 identical css/main.css 
+2016-05-26 15:10:06 overwrite css/main.css 
+2016-05-26 15:10:08 overwrite css/main.css 
+2016-05-26 15:11:34 overwrite css/main.css 
+2016-05-26 15:11:57 overwrite css/main.css 
+2016-05-26 15:12:48 overwrite css/main.css 
+2016-05-26 15:13:51 overwrite css/main.css 
+2016-05-26 15:14:39 overwrite css/main.css 
+2016-05-26 15:14:40 identical css/main.css 
+2016-05-26 15:14:53 overwrite css/main.css 
+2016-05-26 15:15:31 overwrite css/main.css 
+2016-05-26 15:15:42 overwrite css/main.css 
+2016-05-26 15:15:45 identical css/main.css 
+2016-05-26 15:16:06 overwrite css/main.css 
+2016-05-26 15:16:31 overwrite css/main.css 
+2016-05-26 15:18:59 overwrite css/main.css 
+2016-05-26 15:19:15 overwrite css/main.css 
+2016-05-26 15:21:17 overwrite css/main.css 
+2016-05-26 15:21:57 overwrite css/main.css 
+2016-05-26 15:24:28 overwrite css/main.css 
+2016-05-26 15:25:02 overwrite css/main.css 
+2016-05-26 15:25:14 overwrite css/main.css 
+2016-05-26 15:27:27 overwrite css/main.css 
+2016-05-26 15:28:25 overwrite css/main.css 
+2016-05-26 15:28:30 identical css/main.css 
+2016-05-26 15:28:39 overwrite css/main.css 
+2016-05-26 16:52:36 overwrite css/main.css 
+2016-05-26 17:40:45 overwrite css/main.css 
+2016-05-26 17:40:54 overwrite css/main.css 
+2016-05-26 17:41:42 overwrite css/main.css 
+2016-05-26 17:41:54 overwrite css/main.css 
+2016-05-26 17:41:57 identical css/main.css 
+2016-05-26 17:51:42 overwrite css/main.css 
+2016-05-26 17:51:48 overwrite css/main.css 
+2016-05-26 17:52:15 overwrite css/main.css 
+2016-05-26 17:53:28 overwrite css/main.css 
+2016-05-27 11:30:15 overwrite css/main.css 
+2016-05-27 11:30:19 overwrite css/main.css 
+2016-05-27 11:31:05 overwrite css/main.css 
+2016-05-27 11:31:19 overwrite css/main.css 
+2016-05-27 11:38:06 overwrite css/main.css 
+2016-05-27 11:38:43 overwrite css/main.css 
+2016-05-27 11:44:01 overwrite css/main.css 
+2016-05-27 12:14:58 identical css/main.css 
+2016-05-27 12:14:59 identical css/frame/frame.css 
+2016-05-27 12:16:09 identical css/main.css 
+2016-05-27 12:17:01 identical css/main.css 
+2016-05-27 12:27:49 overwrite css/main.css 
+2016-05-27 12:27:50 overwrite css/frame/frame.css 
+2016-05-27 12:28:09 identical css/main.css 
+2016-05-27 12:28:11 overwrite css/frame/frame.css 
+2016-05-27 12:28:25 overwrite css/main.css 
+2016-05-27 12:28:45 overwrite css/main.css 
+2016-05-27 12:28:46 overwrite css/frame/frame.css 
+2016-05-27 13:45:01 identical css/main.css 
+2016-05-27 14:17:23 overwrite css/main.css 
+2016-05-27 14:17:26 overwrite css/main.css 
+2016-05-27 14:17:26 overwrite css/frame/frame.css 
+2016-05-27 14:26:47 overwrite css/main.css 
+2016-05-27 14:26:59 overwrite css/main.css 
+2016-05-27 14:28:59 overwrite css/main.css 
+2016-05-27 14:31:23 overwrite css/main.css 
+2016-05-27 14:31:44 overwrite css/main.css 
+2016-05-27 14:31:45 identical css/main.css 
+2016-05-27 14:32:13 overwrite css/main.css 
+2016-05-27 14:32:19 overwrite css/main.css 
+2016-05-27 14:33:10 overwrite css/main.css 
+2016-05-27 14:34:44 overwrite css/main.css 
+2016-05-27 14:37:30 overwrite css/main.css 
+2016-05-27 14:37:52 identical css/main.css 
+2016-05-27 14:39:32 overwrite css/main.css 
+2016-05-27 14:42:37 overwrite css/main.css 
+2016-05-27 14:54:19 overwrite css/main.css 
+2016-05-27 14:54:48 overwrite css/main.css 
+2016-05-27 14:55:16 overwrite css/main.css 
+2016-05-27 14:55:25 overwrite css/main.css 
+2016-05-27 14:55:37 overwrite css/main.css 
+2016-05-27 14:56:19 identical css/main.css 
+2016-05-27 14:57:13 overwrite css/main.css 
+2016-05-27 14:57:38 overwrite css/main.css 
+2016-05-27 14:58:39 overwrite css/main.css 
+2016-05-27 14:58:53 overwrite css/main.css 
+2016-05-27 14:58:58 overwrite css/main.css 
+2016-05-27 14:59:03 overwrite css/main.css 
+2016-05-27 15:00:00 overwrite css/main.css 
+2016-05-27 15:00:23 identical css/main.css 
+2016-05-27 15:00:32     error sass/main.scss (Line 6 of sass/define/__init.scss: File to import not found or unreadable: ./___extend.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-27 15:00:33 overwrite css/main.css 
+2016-05-27 15:00:33     error sass/frame/frame.scss (Line 6 of sass/frame/../define/__init.scss: File to import not found or unreadable: ./___extend.scss.
+Load paths:
+  C:/xampp/htdocs/media/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/thomas-mcdonald-bootstrap-sass-831f25b/vendor/assets/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/susy-1.0/sass
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/sassy-math-1.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_common/modular-scale-1.0.2/stylesheets
+  C:/Users/ivy.jheng/Desktop/compass.app/compass.app/lib/ruby/compass_extensions/zurb-foundation-3.0.9/scss
+  Compass::SpriteImporter)
+2016-05-27 15:00:33 overwrite css/frame/frame.css 
+2016-05-27 15:00:38 overwrite css/main.css 
+2016-05-27 15:00:38 overwrite css/frame/frame.css 
+2016-05-27 15:00:41 identical css/main.css 
+2016-05-27 15:59:39 overwrite css/main.css 
+2016-05-30 15:21:32 identical css/main.css 
+2016-05-30 15:21:33 overwrite css/main.css 
+2016-05-30 15:21:56 identical css/main.css 
+2016-05-30 15:29:21 overwrite css/main.css 
+2016-05-30 15:30:03 identical css/main.css 
+2016-07-20 10:24:04 overwrite css/main.css 
+2016-07-20 10:26:59 overwrite css/main.css 
+2016-07-20 10:29:36 overwrite css/main.css 
+2016-07-20 10:29:53 overwrite css/main.css 
+2016-07-20 10:30:00 overwrite css/main.css 
+2016-07-20 10:30:09 overwrite css/main.css 
+2016-07-20 10:30:18 overwrite css/main.css 
+2016-07-20 10:30:31 identical css/main.css 
+2016-07-20 10:30:45 overwrite css/main.css 
+2016-07-20 10:30:53 overwrite css/main.css 
+2016-07-20 10:31:12 overwrite css/main.css 
+2016-07-20 10:31:35 overwrite css/main.css 
+2016-07-20 10:31:44 overwrite css/main.css 
+2016-07-20 10:32:01 overwrite css/main.css 
+2016-07-20 10:32:06 overwrite css/main.css 
+2016-07-20 10:32:17 overwrite css/main.css 
+2016-07-20 10:32:33 overwrite css/main.css 
+2016-07-20 10:32:44 overwrite css/main.css 
+2016-07-20 10:34:51 overwrite css/main.css 
+2016-07-20 10:35:27 overwrite css/main.css 
+2016-07-20 10:35:40 overwrite css/main.css 
+2016-07-20 10:35:42 identical css/main.css 
+2016-07-20 10:35:50 overwrite css/main.css 
+2016-07-20 10:35:58 overwrite css/main.css 
+2016-07-20 10:36:06 overwrite css/main.css 
+2016-07-20 10:36:33 overwrite css/main.css 
+2016-07-20 10:37:21 overwrite css/main.css 
+2016-07-20 10:37:24 overwrite css/main.css 
+2016-07-20 10:38:11 overwrite css/main.css 
+2016-07-20 10:38:18 overwrite css/main.css 
+2016-07-20 10:38:23 overwrite css/main.css 
+2016-07-20 10:38:41 overwrite css/main.css 
+2016-07-20 10:38:53 overwrite css/main.css 
+2016-07-20 10:39:08 overwrite css/main.css 
+2016-07-20 10:39:23 overwrite css/main.css 
+2016-07-20 10:40:39 overwrite css/main.css 
+2016-07-20 10:40:52 overwrite css/main.css 
+2016-07-20 10:40:59 overwrite css/main.css 
+2016-07-20 10:41:07 overwrite css/main.css 
+2016-07-20 10:42:25 overwrite css/main.css 
+2016-07-20 10:43:31     error sass/main.scss (Line 23 of sass/media/_flashbuy_star.scss: Invalid CSS after "...       position": expected ";", was ": absolute;")
+2016-07-20 10:43:31 overwrite css/main.css 
+2016-07-20 10:43:41 overwrite css/main.css 
+2016-07-20 10:43:55 overwrite css/main.css 
+2016-07-20 10:44:10 overwrite css/main.css 
+2016-07-20 10:44:13 overwrite css/main.css 
+2016-07-20 10:44:34 overwrite css/main.css 
+2016-07-20 10:44:38 identical css/main.css 
+2016-07-20 10:44:54 overwrite css/main.css 
+2016-07-20 10:45:04 overwrite css/main.css 
+2016-07-20 10:45:22 overwrite css/main.css 
+2016-07-20 10:45:36 overwrite css/main.css 
+2016-07-20 10:45:46 overwrite css/main.css 
+2016-07-20 10:45:59 overwrite css/main.css 
+2016-07-20 10:46:17 overwrite css/main.css 
+2016-07-20 10:46:27 overwrite css/main.css 
+2016-07-20 10:46:36 overwrite css/main.css 
+2016-07-20 10:55:02 overwrite css/main.css 
+2016-07-20 10:55:30 overwrite css/main.css 
+2016-07-20 10:55:36 overwrite css/main.css 
+2016-07-20 10:55:49 overwrite css/main.css 
+2016-07-20 10:56:04 overwrite css/main.css 
+2016-07-20 10:56:19 overwrite css/main.css 
+2016-07-20 10:56:26 overwrite css/main.css 
+2016-07-20 10:56:38 overwrite css/main.css 
+2016-07-20 10:56:43 overwrite css/main.css 
+2016-07-20 10:57:20 identical css/main.css 
+2016-07-20 10:57:30 identical css/main.css 
+2016-07-20 10:57:41 overwrite css/main.css 
+2016-07-20 10:57:53 identical css/main.css 
+2016-07-20 10:58:42 overwrite css/main.css 
+2016-07-20 10:59:07 overwrite css/main.css 
+2016-07-20 10:59:09 overwrite css/main.css 
+2016-07-20 11:07:44 overwrite css/main.css 
+2016-07-20 11:08:02 overwrite css/main.css 
+2016-07-20 11:08:59 overwrite css/main.css 
+2016-07-20 11:09:14 overwrite css/main.css 
+2016-07-20 11:09:46 overwrite css/main.css 
+2016-07-20 11:10:21 overwrite css/main.css 
+2016-07-20 11:10:48     error sass/main.scss (Line 97 of sass/media/_flashbuy_star.scss: Invalid CSS after "    width": expected ";", was ": 32%;")
+2016-07-20 11:10:48 overwrite css/main.css 
+2016-07-20 11:10:52 overwrite css/main.css 
+2016-07-20 11:10:57 overwrite css/main.css 
+2016-07-20 11:16:29 overwrite css/main.css 
+2016-07-20 11:17:00 overwrite css/main.css 
+2016-07-20 11:17:07 overwrite css/main.css 
+2016-07-20 11:17:45 overwrite css/main.css 
+2016-07-20 11:21:48 overwrite css/main.css 
+2016-07-20 11:22:02     error sass/main.scss (Line 59 of sass/media/_flashbuy_star.scss: Invalid CSS after "    width": expected ";", was ": 9%;")
+2016-07-20 11:22:02 overwrite css/main.css 
+2016-07-20 11:22:04 overwrite css/main.css 
+2016-07-20 11:22:21 overwrite css/main.css 
+2016-07-20 11:22:29 overwrite css/main.css 
+2016-07-20 11:22:36 overwrite css/main.css 
+2016-07-20 11:23:03 overwrite css/main.css 
+2016-07-20 11:23:43 overwrite css/main.css 
+2016-07-20 11:24:00 overwrite css/main.css 
+2016-07-20 11:24:33 overwrite css/main.css 
+2016-07-20 11:24:55 overwrite css/main.css 
+2016-07-20 11:25:05 overwrite css/main.css 
+2016-07-20 11:25:22 overwrite css/main.css 
+2016-07-20 11:25:44 overwrite css/main.css 
+2016-07-20 11:25:56 overwrite css/main.css 
+2016-07-20 11:26:07 overwrite css/main.css 
+2016-07-20 11:26:54 overwrite css/main.css 
+2016-07-20 11:27:02 overwrite css/main.css 
+2016-07-20 11:29:56 overwrite css/main.css 
+2016-07-20 11:30:24 overwrite css/main.css 
+2016-07-20 11:30:52 overwrite css/main.css 
+2016-07-20 11:31:11 overwrite css/main.css 
+2016-07-20 11:31:58 overwrite css/main.css 
+2016-07-20 11:32:10 overwrite css/main.css 
+2016-07-20 11:33:59 overwrite css/main.css 
+2016-07-20 11:35:55 overwrite css/main.css 
+2016-07-20 11:36:29 overwrite css/main.css 
+2016-07-20 11:37:40 overwrite css/main.css 
+2016-07-20 11:37:43 identical css/main.css 
+2016-07-20 11:38:32 overwrite css/main.css 
+2016-07-20 11:39:13 overwrite css/main.css 
+2016-07-20 11:39:25 overwrite css/main.css 
+2016-07-20 11:39:31 overwrite css/main.css 
+2016-07-20 11:39:50 overwrite css/main.css 
+2016-07-20 11:40:06 overwrite css/main.css 
+2016-07-20 11:40:15 overwrite css/main.css 
+2016-07-20 11:40:22 overwrite css/main.css 
+2016-07-20 11:40:40 overwrite css/main.css 
+2016-07-20 11:40:52 overwrite css/main.css 
+2016-07-20 11:41:08 overwrite css/main.css 
+2016-07-20 11:41:32 overwrite css/main.css 
+2016-07-20 11:41:36 identical css/main.css 
+2016-07-20 11:41:41 overwrite css/main.css 
+2016-07-20 11:41:50 overwrite css/main.css 
+2016-07-20 11:42:07 overwrite css/main.css 
+2016-07-20 11:42:40 overwrite css/main.css 
+2016-07-20 11:42:55 overwrite css/main.css 
+2016-07-20 11:43:12 overwrite css/main.css 
+2016-07-20 11:43:21 overwrite css/main.css 
+2016-07-20 11:43:41 overwrite css/main.css 
+2016-07-20 11:43:53 overwrite css/main.css 
+2016-07-20 11:44:14 overwrite css/main.css 
+2016-07-20 11:44:25 overwrite css/main.css 
+2016-07-20 12:00:15 overwrite css/main.css 
+2016-07-20 12:00:33 overwrite css/main.css 
+2016-07-20 12:02:51 overwrite css/main.css 
+2016-07-20 12:06:07 overwrite css/main.css 
+2016-07-20 12:06:26 overwrite css/main.css 
+2016-07-20 12:06:34 overwrite css/main.css 
+2016-07-20 12:06:48 overwrite css/main.css 
+2016-07-20 12:07:06 overwrite css/main.css 
+2016-07-20 12:08:27 overwrite css/main.css 
+2016-07-20 12:08:42 overwrite css/main.css 
+2016-07-20 12:08:52 overwrite css/main.css 
+2016-07-20 12:08:54 overwrite css/main.css 
+2016-07-20 12:09:00 overwrite css/main.css 
+2016-07-20 12:10:51 overwrite css/main.css 
+2016-07-20 12:11:12 overwrite css/main.css 
+2016-07-20 12:11:31 overwrite css/main.css 
+2016-07-20 12:14:33 overwrite css/main.css 
+2016-07-20 12:14:38 overwrite css/main.css 
+2016-07-20 12:15:00 overwrite css/main.css 
+2016-07-20 12:15:05 overwrite css/main.css 
+2016-07-20 12:15:41 overwrite css/main.css 
+2016-07-20 12:15:48 identical css/main.css 
+2016-07-20 12:16:09 overwrite css/main.css 
+2016-07-20 12:16:51 overwrite css/main.css 
+2016-07-20 12:16:59 identical css/main.css 
+2016-07-20 12:17:17 overwrite css/main.css 
+2016-07-20 12:17:34 overwrite css/main.css 
+2016-07-20 12:17:43 overwrite css/main.css 
+2016-07-20 12:18:05 overwrite css/main.css 
+2016-07-20 12:18:22 overwrite css/main.css 
+2016-07-20 12:18:31 overwrite css/main.css 
+2016-07-20 12:20:04 overwrite css/main.css 
+2016-07-20 12:20:14 overwrite css/main.css 
+2016-07-20 12:20:36 overwrite css/main.css 
+2016-07-20 12:20:54 overwrite css/main.css 
+2016-07-20 12:21:08 overwrite css/main.css 
+2016-07-20 12:21:26 overwrite css/main.css 
+2016-07-20 12:22:52     error sass/main.scss (Line 53 of sass/media/_touch_flashbuy_star.scss: Invalid CSS after "}": expected "}", was "")
+2016-07-20 12:22:52 overwrite css/main.css 
+2016-07-20 12:23:03 overwrite css/main.css 
+2016-07-20 12:23:47 overwrite css/main.css 
+2016-07-20 12:23:57 overwrite css/main.css 
+2016-07-20 12:25:23 overwrite css/main.css 
+2016-07-20 12:25:29 overwrite css/main.css 
+2016-07-20 12:25:44 overwrite css/main.css 
+2016-07-20 12:26:32 overwrite css/main.css 
+2016-07-20 12:29:34 overwrite css/main.css 
+2016-07-20 13:49:28 overwrite css/main.css 
+2016-07-20 13:49:36 overwrite css/main.css 
+2016-07-20 13:49:48 overwrite css/main.css 
+2016-07-20 13:49:59 overwrite css/main.css 
+2016-07-20 13:50:42 overwrite css/main.css 
+2016-07-20 13:50:58 overwrite css/main.css 
+2016-07-20 13:51:16 overwrite css/main.css 
+2016-07-20 13:51:23 overwrite css/main.css 
+2016-07-20 13:52:24 overwrite css/main.css 
+2016-07-20 13:52:35 overwrite css/main.css 
+2016-07-20 13:53:45 overwrite css/main.css 
+2016-07-20 13:56:15 overwrite css/main.css 
+2016-07-20 13:56:43 overwrite css/main.css 
+2016-07-20 13:57:09 overwrite css/main.css 
+2016-07-20 14:00:42 overwrite css/main.css 
+2016-07-20 14:01:00 overwrite css/main.css 
+2016-07-20 14:02:14 overwrite css/main.css 
+2016-07-20 14:03:20 overwrite css/main.css 
+2016-07-20 14:03:30 overwrite css/main.css 
+2016-07-20 14:03:47 identical css/main.css 
+2016-07-20 14:12:59 overwrite css/main.css 
+2016-07-20 14:13:28 overwrite css/main.css 
+2016-07-20 14:13:51 overwrite css/main.css 
+2016-07-20 14:14:13 overwrite css/main.css 
+2016-07-20 14:14:36 identical css/main.css 
+2016-07-20 14:15:09 identical css/main.css 
+2016-07-20 14:36:54 overwrite css/main.css 
+2016-07-20 14:37:06 overwrite css/main.css 
+2016-07-20 14:37:36 overwrite css/main.css 
+2016-07-20 14:37:59 overwrite css/main.css 
+2016-07-20 14:38:16 overwrite css/main.css 
+2016-07-20 14:38:25 overwrite css/main.css 
+2016-07-20 14:38:53 overwrite css/main.css 
+2016-07-20 14:39:31 overwrite css/main.css 
+2016-07-20 14:40:44 identical css/main.css 
+2016-07-20 14:40:53 overwrite css/main.css 
+2016-07-20 14:41:01 overwrite css/main.css 
+2016-07-20 14:41:14 overwrite css/main.css 
+2016-07-20 14:41:51 overwrite css/main.css 
+2016-07-20 14:41:59 overwrite css/main.css 
+2016-07-20 14:44:11 overwrite css/main.css 
+2016-07-20 14:44:56 overwrite css/main.css 
+2016-07-20 14:45:11 overwrite css/main.css 
+2016-07-20 14:45:31 overwrite css/main.css 
+2016-07-20 14:45:38 overwrite css/main.css 
+2016-07-20 14:46:03 overwrite css/main.css 
+2016-07-20 14:46:21 overwrite css/main.css 
+2016-07-20 14:46:32 overwrite css/main.css 
+2016-07-20 14:46:33 overwrite css/main.css 
+2016-07-20 14:48:17 overwrite css/main.css 
+2016-07-20 14:48:44 overwrite css/main.css 
+2016-07-20 14:49:12 overwrite css/main.css 
+2016-07-20 14:49:23 overwrite css/main.css 
+2016-07-20 14:50:42 overwrite css/main.css 
+2016-07-20 14:51:00 overwrite css/main.css 
+2016-07-20 14:51:18 overwrite css/main.css 
+2016-07-20 14:53:16 overwrite css/main.css 
+2016-07-20 14:53:21 identical css/main.css 
+2016-07-20 14:53:48 overwrite css/main.css 
+2016-07-20 14:54:12 overwrite css/main.css 
+2016-07-20 15:04:15 overwrite css/main.css 
+2016-07-20 15:04:39 overwrite css/main.css 
+2016-07-20 15:05:14 overwrite css/main.css 
+2016-07-20 15:06:24 overwrite css/main.css 
+2016-07-20 15:07:14 overwrite css/main.css 
+2016-07-20 15:08:50 overwrite css/main.css 
+2016-07-20 15:09:18 overwrite css/main.css 
+2016-07-20 15:09:34 overwrite css/main.css 
+2016-07-20 15:09:40 overwrite css/main.css 
+2016-07-20 15:09:54 overwrite css/main.css 
+2016-07-20 15:10:02 overwrite css/main.css 
+2016-07-20 15:10:34 overwrite css/main.css 
+2016-07-20 15:10:53 overwrite css/main.css 
+2016-07-20 15:10:55 identical css/main.css 
+2016-07-20 15:11:20 overwrite css/main.css 
+2016-07-20 15:11:46 overwrite css/main.css 
+2016-07-20 15:11:50 identical css/main.css 
+2016-07-20 15:12:01 overwrite css/main.css 
+2016-07-20 15:12:07 overwrite css/main.css 
+2016-07-20 15:12:11 overwrite css/main.css 
+2016-07-20 15:12:40 overwrite css/main.css 
+2016-07-20 15:13:08 overwrite css/main.css 
+2016-07-20 15:13:13 overwrite css/main.css 
+2016-07-20 15:13:20 overwrite css/main.css 
+2016-07-20 15:14:04 overwrite css/main.css 
+2016-07-20 15:14:25 overwrite css/main.css 
+2016-07-20 15:31:55 overwrite css/main.css 
+2016-07-20 15:32:01 overwrite css/main.css 
+2016-07-20 15:33:35 overwrite css/main.css 
+2016-07-20 15:35:09     error sass/main.scss (Line 123 of sass/media/_flashbuy_star.scss: Invalid CSS: a space is required between a property and its definition
+when it has other properties nested beneath it.
+)
+2016-07-20 15:35:09 overwrite css/main.css 
+2016-07-20 15:35:15 overwrite css/main.css 
+2016-07-20 15:35:32 overwrite css/main.css 
+2016-07-20 15:35:41 identical css/main.css 
+2016-07-20 15:36:07 overwrite css/main.css 
+2016-07-20 15:37:38 overwrite css/main.css 
+2016-07-20 15:37:41 identical css/main.css 
+2016-07-20 15:37:49 overwrite css/main.css 
+2016-07-20 15:37:50 identical css/main.css 
+2016-07-20 15:37:57 overwrite css/main.css 
+2016-07-20 15:38:26 overwrite css/main.css 
+2016-07-20 15:38:53 identical css/main.css 
+2016-07-20 15:39:05 overwrite css/main.css 
+2016-07-20 15:39:08 overwrite css/main.css 
+2016-07-20 15:39:13 identical css/main.css 
+2016-07-20 15:48:51 overwrite css/main.css 
+2016-07-20 15:49:01 overwrite css/main.css 
+2016-07-20 15:49:52 overwrite css/main.css 
+2016-07-20 15:50:06 overwrite css/main.css 
+2016-07-20 15:51:09 identical css/main.css 
+2016-07-20 15:51:36 overwrite css/main.css 
+2016-07-20 15:51:40 overwrite css/main.css 
+2016-07-20 15:57:22 overwrite css/main.css 
+2016-07-20 15:57:29 identical css/main.css 
+2016-07-20 15:58:07 identical css/main.css 
+2016-07-20 15:58:15 overwrite css/main.css 
+2016-07-20 15:59:46 overwrite css/main.css 
+2016-07-20 16:03:16 overwrite css/main.css 
+2016-07-20 16:03:20 identical css/main.css 
+2016-07-20 16:43:25 identical css/main.css 
+2016-07-20 16:43:29 overwrite css/main.css 
+2016-07-20 16:43:47 overwrite css/main.css 
+2016-07-20 16:43:57 overwrite css/main.css 
+2016-07-20 16:44:05 overwrite css/main.css 
+2016-07-20 16:44:37 overwrite css/main.css 
+2016-07-20 16:44:58 overwrite css/main.css 
+2016-07-20 16:45:30 overwrite css/main.css 
+2016-07-20 16:45:38 overwrite css/main.css 
+2016-07-20 16:45:47 overwrite css/main.css 
+2016-07-20 16:45:54 overwrite css/main.css 
+2016-07-20 16:46:14 overwrite css/main.css 
+2016-07-20 16:46:28 overwrite css/main.css 
+2016-07-20 16:46:52 overwrite css/main.css 
+2016-07-20 16:47:02 overwrite css/main.css 
+2016-07-20 16:47:10 overwrite css/main.css 
+2016-07-20 16:47:55 overwrite css/main.css 
+2016-07-20 16:49:26 overwrite css/main.css 
+2016-07-20 16:51:22 overwrite css/main.css 
+2016-07-20 16:51:40 overwrite css/main.css 
+2016-07-20 16:51:53 overwrite css/main.css 
+2016-07-20 16:52:10 identical css/main.css 
+2016-07-20 16:52:21 overwrite css/main.css 
+2016-07-20 16:52:34 overwrite css/main.css 
+2016-07-20 16:52:48 overwrite css/main.css 
+2016-07-20 16:53:00 overwrite css/main.css 
+2016-07-20 16:53:09 overwrite css/main.css 
+2016-07-20 16:54:13 overwrite css/main.css 
+2016-07-20 16:54:24 overwrite css/main.css 
+2016-07-20 16:54:30 overwrite css/main.css 
+2016-07-20 16:54:40 overwrite css/main.css 
+2016-07-20 16:54:55 overwrite css/main.css 
+2016-07-20 16:57:35 overwrite css/main.css 
+2016-07-20 16:58:39 overwrite css/main.css 
+2016-07-20 16:58:57 overwrite css/main.css 
+2016-07-20 16:59:02 overwrite css/main.css 
+2016-07-20 16:59:14 overwrite css/main.css 
+2016-07-20 16:59:37 overwrite css/main.css 
+2016-07-20 17:00:12 overwrite css/main.css 
+2016-07-20 17:00:28 overwrite css/main.css 
+2016-07-20 17:00:32 identical css/main.css 
+2016-07-20 17:00:33 identical css/main.css 
+2016-07-20 17:00:40 overwrite css/main.css 
+2016-07-20 17:01:41 overwrite css/main.css 
+2016-07-20 17:01:54 overwrite css/main.css 
+2016-07-20 17:02:03 overwrite css/main.css 
+2016-07-20 17:02:21 overwrite css/main.css 
+2016-07-20 17:02:29 overwrite css/main.css 
+2016-07-20 17:02:39 overwrite css/main.css 
+2016-07-20 17:03:07 overwrite css/main.css 
+2016-07-20 17:04:23 overwrite css/main.css 
+2016-07-20 17:04:26 overwrite css/main.css 
+2016-07-20 17:04:39 overwrite css/main.css 
+2016-07-20 17:04:50 overwrite css/main.css 
+2016-07-20 17:04:55 identical css/main.css 
+2016-07-20 17:05:16 identical css/main.css 
+2016-07-20 17:05:31 overwrite css/main.css 
+2016-07-20 17:05:41 overwrite css/main.css 
+2016-07-20 17:07:44 overwrite css/main.css 
+2016-07-20 17:08:05 overwrite css/main.css 
+2016-07-20 17:10:56 overwrite css/main.css 
+2016-07-20 17:11:12 overwrite css/main.css 
+2016-07-20 17:11:25 overwrite css/main.css 
+2016-07-20 17:11:43 identical css/main.css 
+2016-07-20 17:12:05 identical css/main.css 
+2016-07-20 17:12:52 overwrite css/main.css 
+2016-07-20 17:13:48 overwrite css/main.css 
+2016-07-20 17:14:02 overwrite css/main.css 
+2016-07-20 17:14:42 overwrite css/main.css 
+2016-07-20 17:15:13 overwrite css/main.css 
+2016-07-20 17:16:23 overwrite css/main.css 
+2016-07-20 17:16:46 overwrite css/main.css 
+2016-07-20 17:16:55 identical css/main.css 
+2016-07-20 17:17:26 overwrite css/main.css 
+2016-07-20 17:17:54 overwrite css/main.css 
+2016-07-20 17:18:17 overwrite css/main.css 
+2016-07-20 17:19:28 overwrite css/main.css 
+2016-07-20 17:19:48 overwrite css/main.css 
+2016-07-20 17:20:00 overwrite css/main.css 
+2016-07-20 17:21:17 overwrite css/main.css 
+2016-07-20 17:23:03 overwrite css/main.css 
+2016-07-20 17:24:46 overwrite css/main.css 
+2016-07-20 17:25:29 overwrite css/main.css 
+2016-07-20 17:25:55 overwrite css/main.css 
+2016-07-20 17:26:51 overwrite css/main.css 
+2016-07-20 17:26:59 overwrite css/main.css 
+2016-07-20 17:27:24 overwrite css/main.css 
+2016-07-20 17:27:42 identical css/main.css 
+2016-07-20 17:28:05 overwrite css/main.css 
+2016-07-20 17:28:11 identical css/main.css 
+2016-07-20 17:29:25 overwrite css/main.css 
+2016-07-20 17:30:31 overwrite css/main.css 
+2016-07-20 17:30:39 overwrite css/main.css 
+2016-07-20 17:31:15 overwrite css/main.css 
+2016-07-20 17:31:21 overwrite css/main.css 
+2016-07-20 17:31:27 overwrite css/main.css 
+2016-07-20 17:31:54 overwrite css/main.css 
+2016-07-20 17:32:12 overwrite css/main.css 
+2016-07-20 17:32:18 overwrite css/main.css 
+2016-07-20 17:32:39 overwrite css/main.css 
+2016-07-20 17:33:34 overwrite css/main.css 
+2016-07-20 17:33:57 overwrite css/main.css 
+2016-07-20 17:35:28 overwrite css/main.css 
+2016-07-20 17:35:39 overwrite css/main.css 
+2016-07-20 17:36:00 overwrite css/main.css 
+2016-07-20 17:36:34 overwrite css/main.css 
+2016-07-20 17:37:26 overwrite css/main.css 
+2016-07-20 17:38:39 overwrite css/main.css 
+2016-07-20 17:39:03 overwrite css/main.css 
+2016-07-20 17:39:35 overwrite css/main.css 
+2016-07-20 17:44:06 overwrite css/main.css 
+2016-07-20 17:44:43 overwrite css/main.css 
+2016-07-20 17:44:52 identical css/main.css 
+2016-07-20 17:45:07 overwrite css/main.css 
+2016-07-20 17:45:17 overwrite css/main.css 
+2016-07-20 17:45:25 overwrite css/main.css 
+2016-07-20 17:45:58 overwrite css/main.css 
+2016-07-20 17:46:08 overwrite css/main.css 
+2016-07-20 17:46:47 identical css/main.css 
+2016-07-20 17:46:55 identical css/main.css 
+2016-07-20 17:47:05 overwrite css/main.css 
+2016-07-20 17:47:29 overwrite css/main.css 
+2016-07-20 17:54:47 overwrite css/main.css 
+2016-07-20 17:55:01 overwrite css/main.css 
+2016-07-20 17:55:04 identical css/main.css 
+2016-07-20 17:55:29 overwrite css/main.css 
+2016-07-20 17:56:50 identical css/main.css 
+2016-07-20 17:57:03 overwrite css/main.css 
+2016-07-20 17:57:17 overwrite css/main.css 
+2016-07-20 17:57:27 overwrite css/main.css 
+2016-07-20 17:58:45 overwrite css/main.css 
+2016-07-20 17:59:39 overwrite css/main.css 
+2016-07-20 18:00:22 overwrite css/main.css 
+2016-07-20 18:08:16 overwrite css/main.css 
+2016-07-20 18:08:38 overwrite css/main.css 
+2016-07-20 18:08:47 overwrite css/main.css 
+2016-07-20 18:08:55 overwrite css/main.css 
+2016-07-20 18:09:02 overwrite css/main.css 
+2016-07-20 18:09:11 identical css/main.css 
+2016-07-20 18:10:38     error sass/main.scss (Line 16 of sass/media/_flashbuy_star.scss: Invalid CSS after "...-size：contain": expected "{", was "}")
+2016-07-20 18:10:38 overwrite css/main.css 
+2016-07-20 18:10:41     error sass/main.scss (Line 15 of sass/media/_flashbuy_star.scss: Invalid CSS after "...-size：contain": expected "{", was ";")
+2016-07-20 18:10:41 overwrite css/main.css 
+2016-07-20 18:10:55     error sass/main.scss (Line 15 of sass/media/_flashbuy_star.scss: Invalid CSS after "...nd-size：cover": expected "{", was ";")
+2016-07-20 18:10:55 overwrite css/main.css 
+2016-07-20 18:11:17 overwrite css/main.css 
+2016-07-20 18:11:42 identical css/main.css 
+2016-07-20 18:12:04 overwrite css/main.css 
+2016-07-20 18:12:16 overwrite css/main.css 
+2016-07-20 18:12:28 overwrite css/main.css 
+2016-07-20 18:12:35 identical css/main.css 
+2016-07-20 18:14:01 overwrite css/main.css 
+2016-07-20 18:14:31 overwrite css/main.css 
+2016-07-20 18:14:55 identical css/main.css 
+2016-07-20 18:14:59 identical css/main.css 
+2016-07-20 18:15:04 identical css/main.css 
+2016-07-20 18:16:12 overwrite css/main.css 
+2016-07-20 18:17:28 overwrite css/main.css 
+2016-07-20 18:17:34 overwrite css/main.css 
+2016-07-20 18:18:14 overwrite css/main.css 
+2016-07-20 18:18:50 overwrite css/main.css 
+2016-07-20 18:18:58 overwrite css/main.css 
+2016-07-20 18:20:09 overwrite css/main.css 
+2016-07-20 18:20:25 overwrite css/main.css 
+2016-07-20 18:20:30 identical css/main.css 
+2016-07-20 18:20:37 overwrite css/main.css 
+2016-07-20 18:20:41 overwrite css/main.css 
+2016-07-20 18:20:54     error sass/main.scss (Line 7 of sass/media/_flashbuy_star.scss: Invalid CSS after "    padding-bottom": expected ";", was ": 56%;")
+2016-07-20 18:20:54 overwrite css/main.css 
+2016-07-20 18:21:02 overwrite css/main.css 
+2016-07-20 18:21:30 overwrite css/main.css 
+2016-07-20 18:21:37 overwrite css/main.css 
+2016-07-20 18:21:40 overwrite css/main.css 
+2016-07-20 18:21:45 overwrite css/main.css 
+2016-07-20 18:22:01 overwrite css/main.css 
+2016-07-20 18:22:07 overwrite css/main.css 
+2016-07-20 18:22:16 overwrite css/main.css 
+2016-07-20 18:22:22 identical css/main.css 
+2016-07-20 18:23:21 overwrite css/main.css 
+2016-07-20 18:23:31 overwrite css/main.css 
+2016-07-20 18:23:40 identical css/main.css 
+2016-07-20 18:24:30 overwrite css/main.css 
+2016-07-20 18:24:44 overwrite css/main.css 
+2016-07-20 18:25:47 overwrite css/main.css 
+2016-07-20 18:25:57 overwrite css/main.css 
+2016-07-20 18:26:18 overwrite css/main.css 
+2016-07-20 18:26:57 overwrite css/main.css 
+2016-07-20 18:28:45 overwrite css/main.css 
+2016-07-20 18:28:59 overwrite css/main.css 
+2016-07-20 18:29:26 overwrite css/main.css 
+2016-07-20 18:30:01 overwrite css/main.css 
+2016-07-20 18:30:24 overwrite css/main.css 
+2016-07-20 18:35:06 overwrite css/main.css 
+2016-07-20 18:35:19 overwrite css/main.css 
+2016-07-20 18:35:29 overwrite css/main.css 
+2016-07-20 18:37:03 overwrite css/main.css 
+2016-07-20 18:37:19 overwrite css/main.css 
+2016-07-20 18:37:23 overwrite css/main.css 
+2016-07-20 18:38:38 overwrite css/main.css 
+2016-07-20 18:38:52 overwrite css/main.css 
+2016-07-20 18:39:02 overwrite css/main.css 
+2016-07-20 18:39:28 overwrite css/main.css 
+2016-07-20 18:39:41 overwrite css/main.css 
+2016-07-20 18:39:54 overwrite css/main.css 
+2016-07-20 18:40:10 overwrite css/main.css 
+2016-07-20 18:41:34 overwrite css/main.css 
+2016-07-20 18:41:45 identical css/main.css 
+2016-07-20 18:42:05 overwrite css/main.css 
+2016-07-20 18:42:09 overwrite css/main.css 
+2016-07-20 18:42:18 overwrite css/main.css 
+2016-07-20 18:42:21 overwrite css/main.css 
+2016-07-20 18:42:49 identical css/main.css 
+2016-07-20 18:42:56 overwrite css/main.css 
+2016-07-20 18:43:16 overwrite css/main.css 
+2016-07-20 18:43:24 identical css/main.css 
+2016-07-20 18:44:04 overwrite css/main.css 
+2016-07-20 18:44:18 overwrite css/main.css 
+2016-07-20 18:44:28 overwrite css/main.css 
+2016-07-20 18:45:27 overwrite css/main.css 
+2016-07-20 18:46:15 overwrite css/main.css 
+2016-07-20 18:46:42 overwrite css/main.css 
+2016-07-20 18:57:58 overwrite css/main.css 
+2016-07-20 18:58:05 overwrite css/main.css 
+2016-07-20 18:59:40 overwrite css/main.css 
+2016-07-20 19:00:04 overwrite css/main.css 
+2016-07-20 19:00:34 overwrite css/main.css 
+2016-07-20 19:00:44 identical css/main.css 
+2016-07-20 19:02:46 overwrite css/main.css 
+2016-07-21 10:05:58 overwrite css/main.css 
+2016-07-21 10:06:15 overwrite css/main.css 
+2016-07-21 10:06:35 overwrite css/main.css 
+2016-07-21 10:09:44 overwrite css/main.css 
+2016-07-21 10:10:40 overwrite css/main.css 
+2016-07-21 10:10:50 overwrite css/main.css 
+2016-07-21 10:11:41 overwrite css/main.css 
+2016-07-21 10:11:57 overwrite css/main.css 
+2016-07-21 10:12:40 overwrite css/main.css 
+2016-07-21 10:12:51 overwrite css/main.css 
+2016-07-21 10:13:03 identical css/main.css 
+2016-07-21 10:13:44 overwrite css/main.css 
+2016-07-21 10:13:58 overwrite css/main.css 
+2016-07-21 10:14:06 overwrite css/main.css 
+2016-07-21 10:14:08 identical css/main.css 
+2016-07-21 10:14:29 overwrite css/main.css 
+2016-07-21 10:14:37 overwrite css/main.css 
+2016-07-21 10:15:31 overwrite css/main.css 
+2016-07-21 10:16:03 overwrite css/main.css 
+2016-07-21 10:16:12 overwrite css/main.css 
+2016-07-21 10:17:38 overwrite css/main.css 
+2016-07-21 10:18:16 overwrite css/main.css 
+2016-07-21 10:19:45 overwrite css/main.css 
+2016-07-21 10:20:34 overwrite css/main.css 
+2016-07-21 10:20:45 overwrite css/main.css 
+2016-07-21 10:21:18 overwrite css/main.css 
+2016-07-21 10:21:58 overwrite css/main.css 
+2016-07-21 10:22:57 overwrite css/main.css 
+2016-07-21 10:23:22 overwrite css/main.css 
+2016-07-21 10:23:33 overwrite css/main.css 
+2016-07-21 10:24:22 overwrite css/main.css 
+2016-07-21 10:25:52 overwrite css/main.css 
+2016-07-21 10:26:06 overwrite css/main.css 
+2016-07-21 10:26:10 overwrite css/main.css 
+2016-07-21 10:26:19 overwrite css/main.css 
+2016-07-21 10:26:48 overwrite css/main.css 
+2016-07-21 10:27:20 overwrite css/main.css 
+2016-07-21 10:28:09 overwrite css/main.css 
+2016-07-21 10:28:52 overwrite css/main.css 
+2016-07-21 10:29:57 overwrite css/main.css 
+2016-07-21 10:31:09 overwrite css/main.css 
+2016-07-21 10:31:21 overwrite css/main.css 
+2016-07-21 10:32:10 overwrite css/main.css 
+2016-07-21 10:32:32 overwrite css/main.css 
+2016-07-21 10:33:48 overwrite css/main.css 
+2016-07-21 10:34:03 overwrite css/main.css 
+2016-07-21 10:34:24 overwrite css/main.css 
+2016-07-21 10:35:52 overwrite css/main.css 
+2016-07-21 10:36:12 overwrite css/main.css 
+2016-07-21 10:36:14 identical css/main.css 
+2016-07-21 10:36:19 overwrite css/main.css 
+2016-07-21 10:38:58 overwrite css/main.css 
+2016-07-21 10:39:27 overwrite css/main.css 
+2016-07-21 10:39:42 overwrite css/main.css 
+2016-07-21 10:39:51 overwrite css/main.css 
+2016-07-21 10:40:06 overwrite css/main.css 
+2016-07-21 10:40:22 overwrite css/main.css 
+2016-07-21 10:40:57 overwrite css/main.css 
+2016-07-21 10:41:36 overwrite css/main.css 
+2016-07-21 10:41:47 overwrite css/main.css 
+2016-07-21 10:42:41 overwrite css/main.css 
+2016-07-21 10:43:04 overwrite css/main.css 
+2016-07-21 10:43:22 overwrite css/main.css 
+2016-07-21 10:43:38 overwrite css/main.css 
+2016-07-21 10:43:57 overwrite css/main.css 
+2016-07-21 10:44:17 identical css/main.css 
+2016-07-21 10:44:28 overwrite css/main.css 
+2016-07-21 10:46:40 overwrite css/main.css 
+2016-07-21 10:46:50 overwrite css/main.css 
+2016-07-21 10:46:59 overwrite css/main.css 
+2016-07-21 10:47:15 overwrite css/main.css 
+2016-07-21 10:47:25 overwrite css/main.css 
+2016-07-21 10:51:49 overwrite css/main.css 
+2016-07-21 10:52:19 identical css/main.css 
+2016-07-21 10:53:18 identical css/main.css 
+2016-07-21 10:55:24 overwrite css/main.css 
+2016-07-21 10:55:32 overwrite css/main.css 
+2016-07-21 10:55:55 identical css/main.css 
+2016-07-21 10:57:19 identical css/main.css 
+2016-07-21 10:57:36 overwrite css/main.css 
+2016-07-21 10:58:28 overwrite css/main.css 
+2016-07-21 11:00:48 overwrite css/main.css 
+2016-07-21 11:02:31 overwrite css/main.css 
+2016-07-21 11:03:24 overwrite css/main.css 
+2016-07-21 11:03:38 overwrite css/main.css 
+2016-07-21 11:03:56 overwrite css/main.css 
+2016-07-21 11:04:53 overwrite css/main.css 
+2016-07-21 11:05:04 overwrite css/main.css 
+2016-07-21 11:05:13 overwrite css/main.css 
+2016-07-21 11:05:37 overwrite css/main.css 
+2016-07-21 11:05:54 overwrite css/main.css 
+2016-07-21 11:06:01 overwrite css/main.css 
+2016-07-21 11:06:35 overwrite css/main.css 
+2016-07-21 11:08:05 overwrite css/main.css 
+2016-07-21 11:08:18 overwrite css/main.css 
+2016-07-21 11:08:30 overwrite css/main.css 
+2016-07-21 11:08:41 overwrite css/main.css 
+2016-07-21 11:09:34 overwrite css/main.css 
+2016-07-21 11:10:06 overwrite css/main.css 
+2016-07-21 11:10:47 overwrite css/main.css 
+2016-07-21 11:12:56 overwrite css/main.css 
+2016-07-21 11:13:03 overwrite css/main.css 
+2016-07-21 11:13:23 identical css/main.css 
+2016-07-21 11:14:06 overwrite css/main.css 
+2016-07-21 11:14:21 overwrite css/main.css 
+2016-07-21 11:15:11 overwrite css/main.css 
+2016-07-21 11:15:17 overwrite css/main.css 
+2016-07-21 11:16:12 overwrite css/main.css 
+2016-07-21 11:16:18 identical css/main.css 
+2016-07-21 11:18:06 overwrite css/main.css 
+2016-07-21 11:18:18 overwrite css/main.css 
+2016-07-21 11:18:44 overwrite css/main.css 
+2016-07-21 11:20:50 overwrite css/main.css 
+2016-07-21 11:21:36 overwrite css/main.css 
+2016-07-21 11:22:25 overwrite css/main.css 
+2016-07-21 11:22:56 overwrite css/main.css 
+2016-07-21 11:23:50 overwrite css/main.css 
+2016-07-21 11:24:25 overwrite css/main.css 
+2016-07-21 11:24:37 overwrite css/main.css 
+2016-07-21 11:25:11 overwrite css/main.css 
+2016-07-21 11:26:27 overwrite css/main.css 
+2016-07-21 11:37:19 overwrite css/main.css 
+2016-07-21 11:37:32 overwrite css/main.css 
+2016-07-21 11:37:37 overwrite css/main.css 
+2016-07-21 11:37:40 overwrite css/main.css 
+2016-07-21 11:37:52 overwrite css/main.css 
+2016-07-21 11:38:03 overwrite css/main.css 
+2016-07-21 11:38:33 overwrite css/main.css 
+2016-07-21 11:38:39 overwrite css/main.css 
+2016-07-21 11:40:02 overwrite css/main.css 
+2016-07-21 11:40:42 overwrite css/main.css 
+2016-07-21 11:40:49 overwrite css/main.css 
+2016-07-21 11:44:01 overwrite css/main.css 
+2016-07-21 11:46:32 overwrite css/main.css 
+2016-07-21 11:46:37 overwrite css/main.css 
+2016-07-21 11:46:55 overwrite css/main.css 
+2016-07-21 11:46:56 identical css/main.css 
+2016-07-21 11:48:23 identical css/main.css 
+2016-07-21 11:50:36 overwrite css/main.css 
+2016-07-21 11:50:59 overwrite css/main.css 
+2016-07-21 11:51:48 overwrite css/main.css 
+2016-07-21 11:51:54 overwrite css/main.css 
+2016-07-21 11:52:18 overwrite css/main.css 
+2016-07-21 11:52:26 overwrite css/main.css 
+2016-07-21 11:52:39 overwrite css/main.css 
+2016-07-21 11:53:57 identical css/main.css 
+2016-07-21 11:53:59 overwrite css/main.css 
+2016-07-21 11:54:13 overwrite css/main.css 
+2016-07-21 11:54:32 overwrite css/main.css 
+2016-07-21 11:54:42 overwrite css/main.css 
+2016-07-21 11:54:44 identical css/main.css 
+2016-07-21 11:55:21 identical css/main.css 
+2016-07-21 11:55:25 overwrite css/main.css 
+2016-07-21 11:55:28 overwrite css/main.css 
+2016-07-21 11:56:01 overwrite css/main.css 
+2016-07-21 11:56:17 overwrite css/main.css 
+2016-07-21 11:56:38 overwrite css/main.css 
+2016-07-21 11:59:21 overwrite css/main.css 
+2016-07-21 12:01:47 overwrite css/main.css 
+2016-07-21 12:01:55 overwrite css/main.css 
+2016-07-21 12:02:18 overwrite css/main.css 
+2016-07-21 12:02:41 overwrite css/main.css 
+2016-07-21 12:03:05 overwrite css/main.css 
+2016-07-21 12:03:31 overwrite css/main.css 
+2016-07-21 12:03:46 overwrite css/main.css 
+2016-07-21 12:04:19 overwrite css/main.css 
+2016-07-21 12:04:42 overwrite css/main.css 
+2016-07-21 12:04:53 identical css/main.css 
+2016-07-21 12:05:06 overwrite css/main.css 
+2016-07-21 12:05:41 overwrite css/main.css 
+2016-07-21 12:07:04 overwrite css/main.css 
+2016-07-21 12:07:36 overwrite css/main.css 
+2016-07-21 12:07:52 overwrite css/main.css 
+2016-07-21 12:08:43 overwrite css/main.css 
+2016-07-21 12:11:08 overwrite css/main.css 
+2016-07-21 12:11:29 overwrite css/main.css 
+2016-07-21 12:12:42 overwrite css/main.css 
+2016-07-21 12:13:01 overwrite css/main.css 
+2016-07-21 12:16:22 overwrite css/main.css 
+2016-07-21 12:16:24 identical css/main.css 
+2016-07-21 12:16:35 overwrite css/main.css 
+2016-07-21 12:16:51 overwrite css/main.css 
+2016-07-21 12:17:08 overwrite css/main.css 
+2016-07-21 12:17:19 overwrite css/main.css 
+2016-07-21 12:17:42 overwrite css/main.css 
+2016-07-21 12:18:23 overwrite css/main.css 
+2016-07-21 12:19:08 overwrite css/main.css 
+2016-07-21 12:19:24 overwrite css/main.css 
+2016-07-21 12:21:16 overwrite css/main.css 
+2016-07-21 12:21:30 overwrite css/main.css 
+2016-07-21 12:21:40 overwrite css/main.css 
+2016-07-21 12:21:47 overwrite css/main.css 
+2016-07-21 12:21:54 overwrite css/main.css 
+2016-07-21 12:22:07 overwrite css/main.css 
+2016-07-21 12:28:04 overwrite css/main.css 
+2016-07-21 12:30:30 overwrite css/main.css 
+2016-07-21 12:30:38 overwrite css/main.css 
+2016-07-21 12:31:07 overwrite css/main.css 
+2016-07-21 12:31:25 overwrite css/main.css 
+2016-07-21 12:31:31 identical css/main.css 
+2016-07-21 13:49:31 overwrite css/main.css 
+2016-07-21 13:49:32 identical css/main.css 
+2016-07-21 13:49:43 overwrite css/main.css 
+2016-07-21 13:49:49 overwrite css/main.css 
+2016-07-21 13:50:02 overwrite css/main.css 
+2016-07-21 13:52:32 overwrite css/main.css 
+2016-07-21 13:53:01 overwrite css/main.css 
+2016-07-21 14:00:20 overwrite css/main.css 
+2016-07-21 14:00:36 overwrite css/main.css 
+2016-07-21 14:00:47 overwrite css/main.css 
+2016-07-21 14:02:14 overwrite css/main.css 
+2016-07-21 14:02:23 overwrite css/main.css 
+2016-07-21 14:02:35 overwrite css/main.css 
+2016-07-21 14:02:46 overwrite css/main.css 
+2016-07-21 14:02:55 overwrite css/main.css 
+2016-07-21 14:11:59 overwrite css/main.css 
+2016-07-21 14:12:15 identical css/main.css 
+2016-07-21 14:12:22 overwrite css/main.css 
+2016-07-21 14:12:30 overwrite css/main.css 
+2016-07-21 14:12:40 overwrite css/main.css 
+2016-07-21 14:12:59 overwrite css/main.css 
+2016-07-21 14:13:02 identical css/main.css 
+2016-07-21 14:13:09 identical css/main.css 
+2016-07-21 14:19:02 overwrite css/main.css 
+2016-07-21 14:19:19 overwrite css/main.css 
+2016-07-21 14:19:34 overwrite css/main.css 
+2016-07-21 14:19:43 identical css/main.css 
+2016-07-21 14:20:38 overwrite css/main.css 
+2016-07-21 14:20:54 overwrite css/main.css 
+2016-07-21 14:21:08 identical css/main.css 
+2016-07-21 14:21:13 overwrite css/main.css 
+2016-07-21 14:22:43 overwrite css/main.css 
+2016-07-21 14:23:30 overwrite css/main.css 
+2016-07-21 14:28:50 identical css/main.css 
+2016-07-21 14:29:31 overwrite css/main.css 
+2016-07-21 14:32:08 overwrite css/main.css 
+2016-07-21 14:32:59 overwrite css/main.css 
+2016-07-21 15:00:46 overwrite css/main.css 
+2016-07-21 15:01:23 overwrite css/main.css 
+2016-07-21 15:01:58 overwrite css/main.css 
+2016-07-21 15:03:24 overwrite css/main.css 
+2016-07-21 15:04:06 overwrite css/main.css 
+2016-07-21 15:36:51 overwrite css/main.css 
+2016-07-21 15:36:53 identical css/main.css 

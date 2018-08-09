@@ -1,0 +1,23 @@
+@include respond-cozy {
+  #Layout-view {font-family:"cozy";}
+  .layout-wrapper {
+    width: 1200px;
+  }
+}
+@include respond-compact {
+  #Layout-view {font-family:"compact";}
+  .layout-wrapper {
+    width: 1000px;
+  }
+}
+@include respond( 0, 1005 ) {
+  #wrap {
+    width: 1030px;
+  }
+}
+
+ @include respond-mobile {
+    .layout-wrapper{
+        width: 100%;
+    }
+}

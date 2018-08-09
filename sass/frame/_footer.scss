@@ -1,0 +1,84 @@
+#footer {
+
+  /**
+   * General
+   */
+  & {
+    clear: both;
+  	color: white;
+  	background: #333;
+  	padding: 2em 0 3em;
+  	margin-top: 3em;
+	}
+	a {
+		color: #999;
+		@include transition(all .3s);
+		&:hover{
+			padding-left:.5em;
+			color:#FFF;
+		}
+	}
+	.h1 {
+		font-size: 15px;
+		margin-bottom: .5em;
+	}
+	h2 {
+		color: $yellow;
+	}
+	section {
+	  & {
+	    float: left;
+	  }
+	  div {
+		  float: left;
+	  }
+	  &.latest {
+	    width: 19%;
+	    div {
+	      width: 50%;
+	    }
+	  }
+	  &.features {
+          width: 25%;
+  	    div {
+  	      width: 50%;
+  	    }
+	  }
+      &.service_new{
+          width: 34%;
+         div {
+           width: 33%;
+         }
+      }
+	}
+    .footer_icon{
+        float: left;
+        width: 32px;
+        height: 32px;
+        margin-right: 10px;
+    }
+	#copyright {
+	  & {
+  		clear: both;
+  		font-size: 12px;
+  		padding-top: 3em;
+		}
+		.logo {
+			width: 160px;
+			height: 35px;
+			float: left;
+			@include background-image( 160px, 35px, 0, 0 );
+			text-indent: -9999px;
+		}
+		p {
+			margin-left: 180px;
+		}
+		.bottom {
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			margin: 0;
+			font-weight: bold;
+		}
+	}
+}

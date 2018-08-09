@@ -1,0 +1,107 @@
+
+/**
+ * UI Select
+ * g-select
+ */
+.g-select {
+  & {
+    
+  }
+  a.button:first-child + div {
+    padding-top: 7px;
+  }
+}
+
+/**
+ * Droplist
+ * ul.g-droplist
+ */
+ul.g-droplist {
+  & {
+    z-index: 1;
+    background: white;
+    border: 2px solid #ccc;
+    padding: .5em 0;
+    width: auto;
+    @include border-radius( 4px );
+  }
+  & li {
+    &.hr {
+      padding-bottom: .3em;
+      margin-bottom: .4em;
+      border-bottom: 1px solid #eee;
+    }
+    a {
+      display: block;
+      padding: .2em 1em;
+    }
+    a:hover {
+      text-decoration: none;
+      color: white;
+      background: $anchor;
+    }
+  }
+}
+
+/**
+  *
+*/
+.light-box-overlayer {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+}
+.light-box {
+  background: #FFF;
+  @include border-radius(5px);
+  padding: 15px;
+  z-index: 1000;
+}
+.light-box-close {
+  position: absolute !important;
+  background: #000;
+  @include border-radius(2px);
+  width: 24px;
+  height: 24px;
+  right: -26px;
+  top: 0;
+  @include background(16px, 16px, -240px, -154px, 4px, 4px);
+  cursor: pointer;
+}
+
+/**
+ * lightview
+ */
+.lightview-box {
+  .lightview-content {
+    & {
+      padding-top: 10px;
+      @include clearfix;
+    }
+    .avatar {
+      & {
+        float: left;
+        width: 50px;
+        height: 50px;
+      }
+      img {
+        width: 50px;
+        height: 50px;
+      }
+      & ~ p {
+        margin-left: 60px;
+      }
+      & + .name {
+        font-weight: bold;
+        margin-bottom: 3px;
+      }
+      & ~ .info {
+        line-height: 1.4em;
+      }
+    }
+  }
+}
