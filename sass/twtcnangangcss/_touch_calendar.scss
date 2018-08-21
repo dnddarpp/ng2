@@ -1,0 +1,36 @@
+@include respond-cozy {
+
+
+}
+@include respond-compact {
+
+
+}
+@include respond-pad {
+    .ticket_price{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .calen-list{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@include respond-mobile {
+    .calen-list{
+        grid-template-columns: 1fr 1fr;
+    }
+    .ticket_poster{
+        grid-template-columns: 1fr;
+        grid-row-gap:30px;
+    }
+
+
+}
+@include respond-small-mobile{
+    .event_more_title{
+        font-size: 1.8em;
+    }
+    .calen-list{
+        grid-template-columns: 1fr ;
+    }
+}

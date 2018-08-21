@@ -1,0 +1,27 @@
+@include respond-cozy {
+
+
+}
+@include respond-compact {
+
+
+}
+@include respond-pad {
+
+}
+@include respond-mobile {
+    .news-list{
+        grid-template-columns: 1fr 1fr;
+    }
+    .news_continer{
+        h1{
+            font-size: 1.8em;
+        }
+    }
+}
+@include respond-small-mobile{
+    .news-list{
+        grid-template-columns: 1fr;
+    }
+
+}

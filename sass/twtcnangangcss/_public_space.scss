@@ -1,0 +1,32 @@
+.public_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:30px;
+    grid-row-gap:30px;
+}
+.public_title{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bolder;
+    padding: 10px 0;
+}
+.public_pic{
+    position: relative;
+    border: 1px solid #cccccc;
+    img{
+        width: 100%;
+    }
+}
+.public_bg{
+    border: 1px solid #cccccc;
+    padding: 10px;
+}
+.pub_tag{
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: #569caf;
+    padding: 10px;
+    color:#ffffff;
+    font-size: 1.2em;
+}

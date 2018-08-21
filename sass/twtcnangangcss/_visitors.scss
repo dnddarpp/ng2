@@ -1,0 +1,60 @@
+.visitors_num_listbox{
+    width: 100%;
+    font-size: 1.2em;
+    line-height: 2;
+    ol{
+        margin-left: 20px;
+
+
+        li{
+        list-style-type:decimal;
+        }
+    }
+}
+
+
+.trans_box{
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+.tran_list{
+    img{
+        width: 100%;
+    }
+}
+.editor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap:5px;
+    margin-bottom: 30px;
+}
+.ed_box{
+    img{
+        margin-right: 10px;
+        width: 35px;
+    }
+}
+.wifi-pic{
+    width:300px;
+    img{
+        width: 100%;
+    }
+    text-align: center;
+}
+.googlemap_hotel{
+    img{
+        width: 100%;
+    }
+}
+.floor_btn{
+    font-size: 1.5em;
+    li{
+        display: inline-block;
+        &:after{
+            content: " ｜";
+            margin: 0 20px;
+            color: #cccccc;
+        }
+    }
+
+}

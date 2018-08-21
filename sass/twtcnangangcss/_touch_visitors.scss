@@ -1,0 +1,22 @@
+@include respond-cozy {
+
+
+}
+@include respond-compact {
+
+
+}
+@include respond-pad {
+
+}
+@include respond-mobile {
+    .editor{
+            grid-template-columns: 1fr 1fr;
+    }
+    .floor_btn{
+        font-size: 1em;
+    }
+}
+@include respond-small-mobile{
+
+}

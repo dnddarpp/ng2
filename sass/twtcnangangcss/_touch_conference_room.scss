@@ -1,0 +1,81 @@
+@include respond-cozy {
+
+
+}
+@include respond-compact {
+    .viproom{
+        grid-template-columns: 1fr 1fr ;
+    }
+
+}
+@include respond-pad {
+    .viproom{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@include respond-mobile {
+    .viproom{
+        grid-template-columns: 1fr ;
+    }
+    .confer_room{
+    grid-template-columns: 1fr 1fr ;
+    grid-row-gap:30px;
+    }
+    .step{
+        grid-template-columns: 1fr;
+    }
+    .step_four{
+        grid-template-columns: 1fr;
+    }
+    .step_bg{
+        text-align: center;
+        img {
+        width: 25px;
+        margin-top:0;
+        transform:rotate(90deg);
+        }
+    }
+    .public_box{
+        grid-template-columns: 1fr;
+    }
+    .bookmark{
+        width: 28%;
+        font-size: 1em;
+
+    }
+    .booking-calender{
+        overflow-x: scroll;
+    }
+    .blue_ch{
+        width: 25px;
+        height: 25px;
+        padding: 0;
+        i{
+            font-size: 1.5em;
+        }
+    }
+    .yellow_ch{
+        width: 25px;
+        height: 25px;
+        padding: 0;
+        i{
+            font-size: 1.5em;
+        }
+    }
+
+}
+@include respond-small-mobile{
+    .meetingfloor{
+        grid-template-columns: 1fr ;
+        grid-row-gap:30px;
+    }
+    .vip_blueprice{
+        font-size: 1.5em;
+    }
+    .vip_gray{
+        font-size: 1.2em;
+    }
+    .viproom{
+        grid-template-columns: 1fr ;
+    }
+}

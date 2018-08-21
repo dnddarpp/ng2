@@ -1,0 +1,22 @@
+@include respond-cozy {
+
+
+}
+@include respond-compact {
+
+
+}
+@include respond-pad {
+
+}
+@include respond-mobile {
+    .public_box{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+@include respond-small-mobile{
+    .public_box{
+        grid-template-columns: 1fr;
+    }
+}

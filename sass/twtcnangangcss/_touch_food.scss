@@ -1,0 +1,34 @@
+@include respond-cozy {
+
+
+}
+@include respond-compact {
+
+
+}
+@include respond-pad {
+    .hall2_mar{
+        width: 100%;
+        padding: 0 4%;
+    }
+    .telecom{
+        grid-template-columns: 1fr  1fr;
+    }
+}
+@include respond-mobile {
+    .food_com{
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+@include respond-small-mobile{
+    .food_com{
+        grid-template-columns: 1fr;
+    }
+    .telecom{
+        grid-template-columns: 1fr;
+    }
+
+
+}

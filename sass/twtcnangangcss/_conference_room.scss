@@ -1,0 +1,157 @@
+.confer_room{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    margin-bottom: 30px;
+}
+.room_sc{
+    border: 1px solid #cccccc;
+}
+.room_graybg{
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+.room_padding{
+    padding: 20px;
+    li{
+        vertical-align: middle;
+        margin-bottom: 10px;
+        input{
+            margin-right: 10px;
+            margin-top: -3px;
+        }
+    }
+
+}
+.room_left{
+    margin-left: 20px;
+}
+.roomsearch_btn{
+    padding: 10px 20px;
+    background-color: #6ea5c4;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    color: #ffffff;
+}
+.tatol_price{
+    margin-top: 20px;
+    font-size: 2em;
+    float: right;
+}
+.confre_table{
+    margin-bottom: 30px;
+    table{
+        border: 1px solid #ccc;
+    }
+    tr{
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+    td{
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+}
+.confre_gray{
+    background-color: #f2f2f2;
+}
+.confre_graydeep{
+    background-color: #dadada;
+}
+.viproom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:30px;
+    grid-row-gap:30px;
+}
+.vip_wrap{
+    background-color: #e5eef1;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.vip_titlebg{
+    background-color: $twt_blue_title;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #ffffff;
+    padding: 5px 10px;
+
+}
+.vip_pic{
+    img{
+        width: 100%;
+    }
+
+}
+.vip_font_wrap{
+    padding:30px 20px;
+}
+.vip_price{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 10px;
+    &:nth-child(2){
+        border-bottom:none;
+    }
+}
+.vip_textright{
+    text-align: right;
+}
+.vip_blueprice{
+    font-size: 2em;
+    color: $twt_blue_title;
+    font-weight: bolder;
+}
+.vip_gray{
+    font-size: 1.5em;
+    font-weight: bolder;
+    color:#999999;
+}
+.vip_strong{
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.meetingfloor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:100px;
+    margin-bottom: 50px;
+}
+.meeting_bg{
+
+}
+.meet_bluebg{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background: #50acf3;
+    background: -moz-linear-gradient(top, #50acf3 0%, #5ebcc7 100%);
+    background: -webkit-linear-gradient(top, #50acf3 0%, #5ebcc7 100%);
+    background: linear-gradient(to bottom, #50acf3 0%, #5ebcc7 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50acf3', endColorstr='#5ebcc7',GradientType=0 );
+    border-radius: 50%;
+    padding: 30px;
+    margin: 0 auto;
+    img{
+        width: 100%;
+    }
+}
+.meet_font{
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 10px;
+    img{
+        margin-left: 5px;
+        margin-top: -5px;
+    }
+}
+.meet_text{
+    text-align: center;
+}

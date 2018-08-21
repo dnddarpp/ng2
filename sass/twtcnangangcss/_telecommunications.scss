@@ -1,0 +1,57 @@
+.telecom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 20px;
+}
+.com{
+    img{
+
+    }
+}
+.com_title{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color:$twt-blue-sfont;
+}
+.com_font{
+    font-size: 1.2em;
+    color:$twt-gray;
+}
+.download_word{
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    padding: 20px 0;
+}
+.wod_box{
+    float: left;
+    font-size: 1.3em;
+
+
+    i{
+        margin-right: 10px;
+        font-size: 2em;
+        vertical-align: middle;
+    }
+}
+.down_boxright{
+    float: right;
+    padding: 10px;
+    background-color: #e8e8e8;
+    color:#2da4c5;
+    border-radius: 5px;
+}
+.word_color{
+    i{
+    color: #2c449d;
+    }
+}
+.margintop_title{
+    margin-top: 20px;
+}
+.safety_article{
+    font-size: 1.2em;
+    line-height: 2;
+    margin-bottom: 30px;
+}

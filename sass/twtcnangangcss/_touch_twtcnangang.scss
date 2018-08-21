@@ -3,19 +3,268 @@
 
 }
 @include respond-compact {
-
+    .listline{
+        margin: 0 5px;
+    }
+    .view_bg {
+    height: 418px;
+    background-position: 0 22px;
+    }
+    .rent_continer{
+        width: 100%;
+        padding: 0 50px;
+    }
+    .news_wrapper{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .footer_continer{
+        width: 100%;
+    }
+    .event_wrapper{
+        width: 100%;
+    }
+    .dview_wrapper{
+        width: 100%;
+    }
+    .ento_wrapper{
+        width: 100%;
+    }
+    .news_wrapper{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .mrt_box{
+        width: 100%;
+    }
+    .rent_wrapper{
+        width: 100%;
+    }
+    .traffic_big_title{
+        width: 100%;
+        margin-left: 0;
+        left:0;
+    }
+    .tra_contin{
+        width: 100%;
+    }
 
 }
 @include respond-pad {
 
 
-}
-@include respond-mobile {
-    .rightBox{
-        display: none;
+    .footer_continer{
+        width: 100%;
+    }
+    .event_wrapper{
+        width: 100%;
+    }
+    .dview_wrapper{
+        width: 100%;
     }
     .ento_wrapper{
         width: 100%;
+    }
+    .news_wrapper{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .mrt_box{
+        width: 100%;
+    }
+    .rent_continer{
+        width: 100%;
+        left: 0;
+        margin-left: 0;
+        // padding: 0 94px;
+    }
+    .pacd_tab{
+        font-size: 1.2em;
+    }
+    .rightBox{
+        display: none;
+    }
+    .ento_item{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .ento_wrapper{
+        margin: 0 auto;
+    }
+    .search_Bg_menu{
+        display: block;
+    }
+    .search_Bg {
+        display: none;
+    }
+    .skell_left{
+        clip-path:none;
+    }
+    .skell_right{
+        clip-path:none;
+    }
+    .spotList{
+        padding: 10px;
+        li{
+            font-size: 1.3em;
+        }
+    }
+    .ul_skell{
+        transform: none;
+    }
+    .ul_skell_right{
+        transform: none;
+    }
+    .net_bg02,.net_bg01{
+        display: none;
+    }
+    .rent_bluebg{
+        height: 600px;
+    }
+    .evnt_viewpic{
+        padding: 0 30px;
+        grid-column-gap: 23px;
+    }
+    .evt_tab{
+        padding: 0 30px;
+    }
+    .tra_contin{
+        width: 100%;
+        margin-left: 0;
+        left:0;
+    }
+    .view_bg{
+        height: 418px;
+        background-position: 0 150px;
+    }
+    .view_font{
+        top:-50px;
+        left:20px;
+        font-size: 2em;
+        width: 230px;
+    }
+    .view_vr{
+        right:50%;
+        margin-right: -250px;
+    }
+    .twtpic{
+        width: 65px;
+        height: 65px;
+    }
+
+}
+@include respond-mobile {
+
+    .twtpic{
+        width: 100px;
+        height: 100px;
+    }
+    .view_bg {
+    height: 418px;
+    background-position: 0 236px;
+    }
+
+    .mrt_box{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .tra_blue{
+        display: none;
+    }
+    .tra_dryblue{
+        width: 100%;
+        clip-path:none;
+        height: 357px;
+    }
+    .traffic_big_title{
+        width: 100%;
+        margin-left: 0;
+        left:0;
+    }
+    .goto_viewd{
+        width: 180px;
+        height: 100px;
+        bottom: 0;
+        right: 0;
+
+    }
+    .tra_contin{
+        width: 100%;
+        margin-left: 0;
+        left:0;
+    }
+    .newnew{
+        font-size: 1em;
+        i{
+            margin-right: 0;
+        }
+    }
+    .oranizers{
+        display: none;
+    }
+    .rent_continer{
+        padding: 0 80px;
+    }
+    .rent_bluebg{
+        min-height: 900px;
+        height: 750px;
+    }
+    .ul_skell{
+        img{
+            width: 60px;
+        }
+    }
+    .ul_skell_right{
+        img{
+            width: 60px;
+        }
+    }
+    .logo{
+        width: 250px;
+    }
+    .search_Bg_menu{
+        width:50px;
+        height: 50px;
+        padding: 14px
+    }
+    .rent_big_title{
+        font-size: 2em;
+    }
+    .rent_font{
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+    .pacd_tab{
+        font-size: 1.1em;
+    }
+    .rent_linehouse{
+            width: 457px;
+    }
+    .rent_bluebg{
+        min-height: 500px;
+        max-height: 700px;
+    }
+    .video-container{
+        padding-bottom: 54%;
+    }
+    .rentpace{
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap:40px;
+    }
+    .rent_bluebg{
+        width: 100%;
+        clip-path:none;
+    }
+    .evnt_viewpic{
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 70px;
+        padding: 0 30px;
+    }
+    .event_wrapper{
+        width: 100%;
+    }
+
+    .ento_wrapper{
+        width: 100%;
+        padding: 20px 18px;
     }
     .footer_continer{
         width: 100%;
@@ -26,13 +275,42 @@
         padding: 40px 30px;
     }
     .ento_item{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
+
+
     .copyright{
         padding: 0 30px;
+    }
+    .date_title{
+        font-size: 1.3em;
+    }
+    .shod{
+        top:50px;
     }
 
 }
 @include respond-small-mobile{
 
+    .logo{
+        // width: 220px;
+        max-width:220px;
+        min-width:185px;
+    }
+    .rent_continer{
+        padding: 0 36px;
+    }
+    .view_vr{
+        width: 320px;
+        top: 26px;
+        right: 50%;
+        margin-right: -161px;
+    }
+    .view_bg {
+    height: 418px;
+    background-position: 0 280px;
+    }
+    .evnt_viewpic{
+        grid-template-columns: 1fr;
+    }
 }

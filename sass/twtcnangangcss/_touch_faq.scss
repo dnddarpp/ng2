@@ -1,0 +1,20 @@
+@include respond-cozy {
+
+
+}
+@include respond-compact {
+
+
+}
+@include respond-pad {
+
+}
+@include respond-mobile {
+    .faq_continer{
+        grid-template-columns: 100%;
+    }
+
+}
+@include respond-small-mobile{
+
+}

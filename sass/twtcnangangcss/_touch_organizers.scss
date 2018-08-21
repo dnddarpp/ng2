@@ -1,0 +1,141 @@
+@include respond-cozy {
+
+
+}
+@include respond-compact {
+    .m-page-left_bg{
+        width: 50%;
+    }
+    .m-page-headerbg{
+        background-position: 159px 0;
+    }
+    .Vendor-resource_wrapper{
+        width: 1000px;
+    }
+    .titleBox{
+        width: 70%;
+        font-size: 2em;
+        &:before{
+            top: 47px;
+        }
+        &:after{
+            top: 47px;
+        }
+    }
+    .city_bg{
+        margin-top:0px;
+
+    }
+}
+@include respond-pad {
+    .m-page_wrapper{
+        padding: 2% 5%;
+    }
+    .orang_wrapper{
+        padding: 0 5%;
+    }
+    .pace_bok{
+        margin-bottom: 50px;
+    }
+    .pace_bok2{
+    margin-bottom: 50px;
+    }
+    .Vendor-resource_wrapper{
+        width: 100%;
+    }
+    .bok_rp{
+        padding: 7%;
+    }
+    .m-page-headerbg{
+        background-position:0 0;
+        width: 100%;
+    }
+    .m-page-left_bg{
+        width: 40%;
+
+    }
+    .m-page_font{
+        top: 190px;
+        left: 28px;
+        padding-right: 48px;
+    }
+    .page_headtitle{
+        font-size: 2em;
+    }
+    .page_headtext{
+        font-size: 1.2em;
+    }
+
+    .titleBox{
+        width: 70%;
+        font-size: 2em;
+        &:before{
+            top: 47px;
+        }
+        &:after{
+            top: 47px;
+        }
+    }
+}
+@include respond-mobile {
+    .titleBox{
+        width: 90%;
+        font-size: 1.5em;
+        &:before{
+            top: 47px;
+        }
+        &:after{
+            top: 47px;
+        }
+    }
+    .Catalogue{
+        grid-template-columns: 1fr;
+    }
+    .clod_bg{
+        grid-template-columns: 1fr;
+        grid-row-gap:30px;
+    }
+    .pace_bok{
+        grid-template-columns: 1fr;
+    }
+    .pace_bok2{
+        grid-template-columns: 1fr;
+    }
+    .flix01{
+    order: 0;
+    }
+    .flix02{
+    order: -1;
+    }
+    .m-page-left_bg{
+        top:208px;
+        bottom:0;
+        width: 90%;
+        height: 131px;
+    }
+    .m-page_font{
+        top: 0px;
+        left: 0px;
+        padding:20px 40px 20px 20px;
+    }
+
+}
+@include respond-small-mobile{
+    .Vendor_box{
+        grid-template-columns: 1fr 1fr;
+    }
+    .m-page-headerbg{
+        background-position: -220px 0;
+        width: 100%;
+    }
+    .card-Parallax {
+    height:360px;
+    max-height: 360px;
+    }
+    .page_headtitle{
+        font-size: 1.5em;
+    }
+    .page_headtext{
+        font-size: 1em;
+    }
+}

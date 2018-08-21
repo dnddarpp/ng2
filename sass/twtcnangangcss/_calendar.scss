@@ -1,0 +1,108 @@
+.calen-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:30px;
+}
+.calen-card-box{
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 50px;
+
+}
+.calen-card_vrte{
+    background-color: #f1f1f1;
+}
+.calen-card_head{
+    position: relative;
+}
+.calen-pic{
+    height: 150px;
+    overflow: hidden;
+    img{
+        width: 100%;
+    }
+}
+.calen-card_issuse{
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+.calen-card_tab{
+    padding: 10px;
+    color: #ffffff;
+    position: absolute;
+    top:0;
+    left:0;
+}
+.calen-card_date{
+    display:inline-block;
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: #2da4c5;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.calen-title{
+    width: 100%;
+    color: #161616;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.calen-font{
+    font-size: 1.1em;
+    color: $twt-gray;
+}
+.ticket_price{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap:5px;
+    grid-row-gap:5px;
+}
+.price_bg{
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f2f2f2;
+
+}
+.ticket_poster{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+    grid-column-gap:30px;
+}
+.poster_pic{
+    border: 1px solid #cccccc;
+    padding: 10px;
+    img{
+        width: 100%;
+    }
+}
+.event_more_title{
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+.eventpost_title{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.eventpost_btn{
+    padding: 10px 20px;
+    background-color: #6ea5c4;
+    border-radius: 4px;
+    width: 150px;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-align: center;
+    i{
+        font-size: 1.2em;
+        margin-right: 10px;
+    }
+}
+.ticket_date{
+
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}

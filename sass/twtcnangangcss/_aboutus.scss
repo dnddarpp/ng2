@@ -1,0 +1,231 @@
+.margin-top{
+    margin-top: 30px;
+
+}
+.public-art{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap:30px;
+}
+.public-art2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap:30px;
+}
+.art{
+    img{
+        width: 100%;
+    }
+}
+.art_title{
+    font-size: 1.8em;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: #2da4c5;
+}
+.green_pic{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:30px;
+}
+.green_bild{
+    img{
+        width: 100%;
+    }
+}
+.big_lightbanner{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 100px;
+    position: relative;
+}
+.light_bn{
+    width: 100%;
+    margin-right: 30px;
+    text-align: center;
+     display: inline-block;
+     /* Center slide text vertically */
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: -webkit-flex;
+     display: flex;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     -webkit-justify-content: center;
+     justify-content: center;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     -webkit-align-items: center;
+     align-items: center;
+    img{
+        width: 100%;
+    }
+}
+.ie-prev{
+    position: absolute;
+    top:50%;
+    right:0;
+    margin-top: -10px;
+    i{
+        font-size: 5em;
+        color: #ffffff;
+    }
+}
+.ie-next{
+    position: absolute;
+    top:50%;
+    left:0;
+    margin-top: -10px;
+    i{
+        font-size: 5em;
+        color: #ffffff;
+    }
+}
+.contact_wrap{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap:30px;
+}
+.content-area{
+    img{
+        width: 100%;
+    }
+}
+
+.name{
+    width: 100%;
+    background-color: #ebebeb;
+    height: 55px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    font-size: 1.2em;
+    padding: 10px;
+    color:#757575;
+
+    input{
+        background-color: #ebebeb;
+        width: 100%;
+        height: 34px;
+
+    }
+    form{
+        display: inline-block;
+        color:#555555;
+        margin-left: 10px;
+        vertical-align: middle;
+    }
+
+}
+.name_slk{
+    width: 100%;
+    background-color: #ebebeb;
+    height: 55px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    overflow: hidden;
+    font-size: 1.2em;
+    padding: 10px;
+    color:#757575;
+    display: inline-block;
+
+}
+.kkekm{
+    display: inline-block;
+    margin-left:40px;
+    td{
+        padding: 0 10px;
+        vertical-align: middle;
+    }
+
+}
+.massage{
+    width: 100%;
+    background-color: #ebebeb;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    font-size: 1.2em;
+    padding: 10px;
+    textarea{
+        background-color: #ebebeb;
+        width: 100%;
+        height: 160px;
+    }
+}
+.importent{
+    font-size: 1.2em;
+    line-height: 2;
+}
+.content_btn{
+    padding: 10px 20px;
+    background-color: #6ea5c4;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 4px;
+    color: #ffffff;
+}
+.robit{
+    width: 306px;
+    margin-bottom: 10px;
+    img{
+        width: 100%;
+    }
+}
+.popupbg{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    height: 100vh;
+
+}
+.popup_pic{
+    position: absolute;
+    top:50%;
+    left:50%;
+    background-image: url("../images/56f390222f0ee.JPG");
+    background-size: contain;
+    width: 1000px;
+    height: 1000px;
+    margin-top: -250px;
+    margin-left: -500px;
+    padding-bottom: 50%;
+    text-align: center;
+    background-repeat: no-repeat;
+
+    img{
+        width: 100%;
+    }
+
+}
+.pop_title{
+    margin-top: -50px;
+    color: #ffffff;
+    font-size: 1.8em;
+    font-weight: bolder;
+}
+.pop_icon{
+    margin-top: -50px;
+    color: #ffffff;
+    text-align: right;
+    margin-right: -50px;
+    i{
+        font-size: 3em;
+        font-weight: bolder;
+    }
+    a{
+        color: #ffffff;
+        &:hover{
+            transition: all 0.5s;
+            color: #999;
+        }
+
+        &:focus{
+            color: #999;
+        }
+    }
+}
