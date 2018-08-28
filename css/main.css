@@ -2561,15 +2561,28 @@ html {
 }
 
 .floor_btn {
-  font-size: 1.5em;
+  font-size: 1.2em;
+}
+.floor_btn ul {
+  margin-bottom: 0;
 }
 .floor_btn li {
+  background-color: #f5f5f5;
+  width: 100px;
+  padding: 10px 20px;
   display: inline-block;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
 }
-.floor_btn li:after {
-  content: " ｜";
-  margin: 0 20px;
-  color: #cccccc;
+.floor_btn li:hover {
+  background-color: #2da4c5;
+  color: #ffffff;
+}
+.floor_btn li a {
+  color: #999;
+}
+.floor_btn li a:hover {
+  text-decoration: none;
 }
 
 .link_box {
