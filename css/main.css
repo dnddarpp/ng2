@@ -1357,7 +1357,7 @@ html {
 }
 
 .page_headtext {
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #ffffff;
 }
 
@@ -1367,6 +1367,13 @@ html {
   color: #434343;
 }
 
+.twtbreadcrumb a {
+  color: #999999;
+}
+.twtbreadcrumb a:hover {
+  text-decoration: none;
+  color: #2da4c5;
+}
 .twtbreadcrumb li {
   display: inline-block;
   margin-right: 10px;
@@ -2563,6 +2570,26 @@ html {
   content: " ｜";
   margin: 0 20px;
   color: #cccccc;
+}
+
+.link_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  width: 100%;
+}
+
+.link_pic {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.link_pic img {
+  width: 100%;
+}
+
+.link_font {
+  font-size: 1.2em;
 }
 
 @media only screen and (max-width: 768px) {

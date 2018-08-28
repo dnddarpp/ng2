@@ -58,3 +58,22 @@
     }
 
 }
+.link_box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap:30px;
+    grid-row-gap:30px;
+    width: 100%;
+}
+.link_pic{
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    // height: 100px;
+    // overflow: hidden;
+    img{
+        width: 100%;
+    }
+}
+.link_font{
+    font-size: 1.2em;
+}
