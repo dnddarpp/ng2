@@ -824,3 +824,21 @@ html {
     padding:12px 10px;
 
 }
+.footer_faq{
+    text-align: center;
+
+    li{
+        color:#e0eeff;
+        margin-right: 10px;
+        display: inline-block;
+
+
+    }
+    a{
+        color:#e0eeff;
+        &:hover{
+            color:#ffffff;
+        }
+
+    }
+}

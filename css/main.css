@@ -926,6 +926,21 @@ html {
   padding: 12px 10px;
 }
 
+.footer_faq {
+  text-align: center;
+}
+.footer_faq li {
+  color: #e0eeff;
+  margin-right: 10px;
+  display: inline-block;
+}
+.footer_faq a {
+  color: #e0eeff;
+}
+.footer_faq a:hover {
+  color: #ffffff;
+}
+
 @media only screen and (max-width: 1239px) {
   .listline {
     margin: 0 5px;
