@@ -391,25 +391,17 @@
 }
 .step{
     display: grid;
-    grid-template-columns: 10fr 1fr 10fr 1fr 10fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap:20px;
     margin-bottom: 20px;
 }
 .step_four{
     display: grid;
-    grid-template-columns: 10fr 1fr 10fr 1fr 10fr 1fr 10fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap:20px;
     margin-bottom: 20px;
 }
-.step_bg{
 
-    img{
-        width: 40px;
-        margin-top: 50px;
-
-    }
-
-}
 .stepblue{
     padding: 20px;
     border-radius: 10px;

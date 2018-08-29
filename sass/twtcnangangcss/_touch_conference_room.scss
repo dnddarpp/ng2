@@ -26,14 +26,7 @@
     }
     .step_four{
         grid-template-columns: 1fr;
-    }
-    .step_bg{
-        text-align: center;
-        img {
-        width: 25px;
-        margin-top:0;
-        transform:rotate(90deg);
-        }
+        grid-row-gap:30px;
     }
     .public_box{
         grid-template-columns: 1fr;
