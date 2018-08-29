@@ -288,7 +288,11 @@
     .shod{
         top:50px;
     }
-
+    .bok-pic{
+        img{
+            margin-bottom: 0!important;
+        }
+    }
 }
 @include respond-small-mobile{
 

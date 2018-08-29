@@ -90,10 +90,12 @@
 .pace_bok{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-row-gap:50px;
 }
 .pace_bok2{
     display: grid;
     grid-template-columns:1fr 2fr;
+    grid-row-gap:50px;
 }
 .bok_title{
     font-size: 2.25em;
@@ -107,6 +109,7 @@
 .bok-pic{
     img{
         width: 100%;
+        margin-bottom: 50px;
     }
     a{
         text-decoration: none;
@@ -117,7 +120,7 @@
     }
 }
 .bok_rp{
-    padding: 28%;
+    padding:24%;
     text-align: center;
     overflow: hidden;
     background-image: url("../images/bew.svg");

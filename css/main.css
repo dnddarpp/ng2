@@ -234,7 +234,6 @@ html {
 .video-container {
   position: relative;
   padding-bottom: 38%;
-  padding-top: 15px;
   height: 0;
   overflow: hidden;
   z-index: -1;
@@ -1288,6 +1287,10 @@ html {
   .shod {
     top: 50px;
   }
+
+  .bok-pic img {
+    margin-bottom: 0 !important;
+  }
 }
 @media only screen and (max-width: 480px) {
   .logo {
@@ -1415,11 +1418,13 @@ html {
 .pace_bok {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  grid-row-gap: 50px;
 }
 
 .pace_bok2 {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  grid-row-gap: 50px;
 }
 
 .bok_title {
@@ -1435,6 +1440,7 @@ html {
 
 .bok-pic img {
   width: 100%;
+  margin-bottom: 50px;
 }
 .bok-pic a {
   text-decoration: none;
@@ -1444,7 +1450,7 @@ html {
 }
 
 .bok_rp {
-  padding: 28%;
+  padding: 24%;
   text-align: center;
   overflow: hidden;
   background-image: url("../images/bew.svg");
