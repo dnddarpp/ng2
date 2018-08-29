@@ -159,6 +159,12 @@ html {
 .listitem {
   display: inline-block;
 }
+.listitem a {
+  color: #000000;
+}
+.listitem a:hover {
+  text-decoration: none;
+}
 .listitem li {
   text-align: center;
   font-size: 1.2em;

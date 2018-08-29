@@ -70,6 +70,12 @@ html {
 
 .listitem {
     display: inline-block;
+    a{
+        color:#000000;
+        &:hover{
+            text-decoration: none;
+        }
+    }
 
     li {
         text-align: center;
