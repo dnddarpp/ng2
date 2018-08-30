@@ -2990,6 +2990,32 @@ html {
   grid-template-columns: 1fr;
 }
 
+.sitemap_wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.site_title {
+  font-size: 1.5em;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.site_box li {
+  line-height: 2;
+}
+.site_box li i {
+  margin-right: 10px;
+}
+
+.site_smfont {
+  margin-left: 40px;
+  color: #555555;
+}
+.site_smfont a {
+  color: #555555;
+}
+
 .confer_room {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
