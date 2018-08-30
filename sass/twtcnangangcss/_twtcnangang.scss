@@ -848,3 +848,43 @@ html {
 
     }
 }
+.downmenu_bg{
+    background-color: #2e59ac;
+    width: 100%;
+    position: fixed;
+    margin-top: 64px;
+    z-index: 1500;
+    background-image: url("../images/101blue.svg");
+    background-size: cover;
+}
+.downmenu_box{
+    width: 1200px;
+    margin: 40px auto;
+}
+.do_wrip{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.do_font{
+    color: #ffffff;
+    li{
+        color: #ffffff;
+        line-height: 2;
+        margin-left: 20px;
+        a{
+            color: #ffffff;
+        }
+    }
+}
+.do_title{
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+.do_icon{
+    width: 100px;
+    img{
+        width: 100%;
+    }
+}

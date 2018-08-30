@@ -150,10 +150,17 @@
         width: 65px;
         height: 65px;
     }
+    .downmenu_box{
+        width: 960px;
+        margin: 40px auto;
+    }
 
 }
 @include respond-mobile {
-
+    .do_wrip{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
     .twtpic{
         width: 100px;
         height: 100px;
@@ -293,9 +300,20 @@
             margin-bottom: 0!important;
         }
     }
+    .downmenu_box{
+        width: 100%;
+        margin: 40px 0;
+    }
+    .downmenu_bg{
+        margin-top: 50px;
+    }
 }
 @include respond-small-mobile{
 
+    .do_wrip{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
     .logo{
         // width: 220px;
         max-width:220px;

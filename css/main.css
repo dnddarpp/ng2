@@ -946,6 +946,52 @@ html {
   color: #ffffff;
 }
 
+.downmenu_bg {
+  background-color: #2e59ac;
+  width: 100%;
+  position: fixed;
+  margin-top: 64px;
+  z-index: 1500;
+  background-image: url("../images/101blue.svg");
+  background-size: cover;
+}
+
+.downmenu_box {
+  width: 1200px;
+  margin: 40px auto;
+}
+
+.do_wrip {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.do_font {
+  color: #ffffff;
+}
+.do_font li {
+  color: #ffffff;
+  line-height: 2;
+  margin-left: 20px;
+}
+.do_font li a {
+  color: #ffffff;
+}
+
+.do_title {
+  font-size: 1.3em;
+  font-weight: bolder;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.do_icon {
+  width: 100px;
+}
+.do_icon img {
+  width: 100%;
+}
+
 @media only screen and (max-width: 1239px) {
   .listline {
     margin: 0 5px;
@@ -1128,8 +1174,18 @@ html {
     width: 65px;
     height: 65px;
   }
+
+  .downmenu_box {
+    width: 960px;
+    margin: 40px auto;
+  }
 }
 @media only screen and (max-width: 768px) {
+  .do_wrip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   .twtpic {
     width: 100px;
     height: 100px;
@@ -1291,8 +1347,22 @@ html {
   .bok-pic img {
     margin-bottom: 0 !important;
   }
+
+  .downmenu_box {
+    width: 100%;
+    margin: 40px 0;
+  }
+
+  .downmenu_bg {
+    margin-top: 50px;
+  }
 }
 @media only screen and (max-width: 480px) {
+  .do_wrip {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   .logo {
     max-width: 220px;
     min-width: 185px;
