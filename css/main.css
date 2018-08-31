@@ -2129,15 +2129,24 @@ html {
   }
 }
 .news-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 30px;
+  zoom: 1;
+}
+.news-list:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 .card-box {
+  width: 30%;
+  float: left;
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 50px;
+  margin-right: 2%;
 }
 
 .card_vrte {
@@ -2250,8 +2259,16 @@ html {
   .news_continer h1 {
     font-size: 1.8em;
   }
+
+  .card-box {
+    width: 46%;
+  }
 }
 @media only screen and (max-width: 480px) {
+  .card-box {
+    width: 100%;
+  }
+
   .news-list {
     grid-template-columns: 1fr;
   }

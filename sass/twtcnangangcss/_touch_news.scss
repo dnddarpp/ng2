@@ -18,8 +18,14 @@
             font-size: 1.8em;
         }
     }
+    .card-box{
+        width: 46%;
+    }
 }
 @include respond-small-mobile{
+    .card-box{
+        width: 100%;
+    }
     .news-list{
         grid-template-columns: 1fr;
     }
