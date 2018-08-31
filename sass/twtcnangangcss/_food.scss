@@ -1,13 +1,20 @@
 .food_com{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap:30px;
-    grid-row-gap:30px;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr;
+    // grid-column-gap:30px;
+    // grid-row-gap:30px;
+    // overflow: hidden;
+    @include clearfix;
+    margin-top: 140px;
 }
 .food_bg{
     background-color: #f2f2f2;
     border-radius: 20px;
-    margin-top: 100px;
+    // margin-top: 100px;
+    width: 30%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 140px;
 }
 .food_list_box{
     box-shadow: inset 0px 0px 50px -100px #ABABAB,0px 0px 24px -4px #a6a6a6;

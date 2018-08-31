@@ -19,10 +19,15 @@
     .food_com{
         grid-template-columns: 1fr 1fr;
     }
-
+    .food_bg{
+        width: 46%;
+    }
 
 }
 @include respond-small-mobile{
+    .food_bg{
+        width: 100%;
+    }
     .food_com{
         grid-template-columns: 1fr;
     }

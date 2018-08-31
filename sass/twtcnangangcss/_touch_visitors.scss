@@ -16,7 +16,12 @@
     .floor_btn{
         font-size: 1em;
     }
+    .ed_box{
+        width: 33.3%;
+    }
 }
 @include respond-small-mobile{
-
+    .ed_box{
+        width: 50%;
+    }
 }

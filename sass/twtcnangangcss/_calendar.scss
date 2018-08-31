@@ -1,13 +1,16 @@
 .calen-list{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap:30px;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr;
+    // grid-column-gap:30px;
+    @include clearfix;
 }
 .calen-card-box{
+    width: 30%;
+    margin: 0 2% 2% 0;
+    float: left;
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 50px;
-
 }
 .calen-card_vrte{
     background-color: #f1f1f1;
