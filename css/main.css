@@ -2321,7 +2321,6 @@ html {
 
 .calen-card_head {
   position: relative;
-  height: 250px;
   overflow: hidden;
 }
 
@@ -3081,6 +3080,7 @@ html {
 
 .site_box li {
   line-height: 2;
+  font-size: 1.2em;
 }
 .site_box li i {
   margin-right: 10px;
