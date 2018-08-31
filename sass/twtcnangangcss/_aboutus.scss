@@ -24,11 +24,12 @@
     color: #2da4c5;
 }
 .green_pic{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap:30px;
+    overflow: hidden;
 }
 .green_bild{
+    width: 33.3%;
+    padding: 0 2%;
+    float: left;
     img{
         width: 100%;
     }
@@ -83,14 +84,22 @@
     }
 }
 .contact_wrap{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-column-gap:30px;
+    // display: grid;
+    // grid-template-columns: 1fr 2fr;
+    // grid-column-gap:30px;
+    overflow: hidden;
 }
 .content-area{
+    float: left;
+    width: 40%;
     img{
         width: 100%;
     }
+}
+.content-right{
+    float: left;
+    margin-left: 2%;
+    width: 57%;
 }
 
 .name{

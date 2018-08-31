@@ -2779,11 +2779,14 @@ html {
 }
 
 .green_pic {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 30px;
+  overflow: hidden;
 }
 
+.green_bild {
+  width: 33.3%;
+  padding: 0 2%;
+  float: left;
+}
 .green_bild img {
   width: 100%;
 }
@@ -2842,13 +2845,21 @@ html {
 }
 
 .contact_wrap {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-column-gap: 30px;
+  overflow: hidden;
 }
 
+.content-area {
+  float: left;
+  width: 40%;
+}
 .content-area img {
   width: 100%;
+}
+
+.content-right {
+  float: left;
+  margin-left: 2%;
+  width: 57%;
 }
 
 .name {
@@ -2994,6 +3005,21 @@ html {
     display: grid;
     grid-template-columns: 1fr;
     grid-row-gap: 30px;
+  }
+
+  .green_bild {
+    width: 100%;
+    padding-bottom: 5%;
+  }
+
+  .content-area {
+    width: 100%;
+  }
+
+  .content-right {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 40px;
   }
 }
 .rental-calculator {
