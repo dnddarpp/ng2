@@ -396,24 +396,36 @@
     font-size: 1em;
 }
 .step{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap:20px;
-    margin-bottom: 20px;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+    // grid-column-gap:20px;
+    // margin-bottom: 20px;
+    @include clearfix;
+    margin-bottom: 30px;
 }
 .step_four{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap:20px;
-    margin-bottom: 20px;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+    // grid-column-gap:20px;
+    // margin-bottom: 20px;
+    @include clearfix;
+    margin-bottom: 30px;
 }
 
 .stepblue{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
     padding: 20px;
     border-radius: 10px;
     background-color: #e5eef1;
+    min-height:300px;
+    max-height: 330px;
+
 }
 .stepblue_deep{
+    width: 25%;
+    float: left;
     padding: 20px;
     border-radius: 10px;
     background-color: #2da4c5;

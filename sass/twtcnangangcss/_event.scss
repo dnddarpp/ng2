@@ -74,6 +74,8 @@
     background-color: #ebebeb;
 }
 .event_wrap{
-    display: grid;
-    grid-template-columns: 1fr;
+    // display: grid;
+    // grid-template-columns: 1fr;
+
+@include clearfix;
 }

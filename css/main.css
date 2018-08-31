@@ -1820,26 +1820,49 @@ html {
 }
 
 .step {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+.step {
+  zoom: 1;
+}
+.step:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 .step_four {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+.step_four {
+  zoom: 1;
+}
+.step_four:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 .stepblue {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
   padding: 20px;
   border-radius: 10px;
   background-color: #e5eef1;
+  min-height: 300px;
+  max-height: 330px;
 }
 
 .stepblue_deep {
+  width: 25%;
+  float: left;
   padding: 20px;
   border-radius: 10px;
   background-color: #2da4c5;
@@ -2104,8 +2127,20 @@ html {
     left: 0px;
     padding: 20px 40px 20px 20px;
   }
+
+  .stepblue {
+    width: 46%;
+    margin-bottom: 30px;
+  }
 }
 @media only screen and (max-width: 480px) {
+  .stepblue {
+    width: 100%;
+    min-height: auto;
+    max-height: auto;
+    margin-bottom: 30px;
+  }
+
   .Vendor_box {
     grid-template-columns: 1fr 1fr;
   }
@@ -2920,6 +2955,10 @@ html {
   width: 100%;
 }
 
+.cont_online {
+  width: 100%;
+}
+
 .content-right {
   float: left;
   margin-left: 2%;
@@ -3163,8 +3202,15 @@ html {
 }
 
 .event_wrap {
-  display: grid;
-  grid-template-columns: 1fr;
+  zoom: 1;
+}
+.event_wrap:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 .sitemap_wrap {

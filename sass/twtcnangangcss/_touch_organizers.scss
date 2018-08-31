@@ -118,9 +118,19 @@
         left: 0px;
         padding:20px 40px 20px 20px;
     }
+    .stepblue{
+        width: 46%;
+        margin-bottom: 30px;
+    }
 
 }
 @include respond-small-mobile{
+    .stepblue{
+        width: 100%;
+        min-height: auto;
+        max-height: auto;
+        margin-bottom: 30px;
+    }
     .Vendor_box{
         grid-template-columns: 1fr 1fr;
     }
