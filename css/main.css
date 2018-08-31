@@ -477,21 +477,28 @@ html {
 }
 
 .row_cop {
+  overflow: hidden;
   padding: 40px 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 20px;
 }
 
-.twt_one {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  grid-column-gap: 20px;
+.copy {
+  width: 33.3%;
+  float: left;
+}
+
+.twt_bx {
+  width: 78%;
+  float: left;
+}
+
+.twt_bx_src {
+  width: 20%;
+  float: left;
 }
 
 .twtpic {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   overflow: hidden;
   grid-column-gap: 20px;
@@ -1172,25 +1179,24 @@ html {
     margin-right: -250px;
   }
 
-  .twtpic {
-    width: 65px;
-    height: 65px;
-  }
-
   .downmenu_box {
     width: 960px;
     margin: 40px auto;
   }
 }
 @media only screen and (max-width: 768px) {
+  .copy {
+    width: 100%;
+    float: left;
+  }
+
+  .appleft {
+    margin-left: 20%;
+  }
+
   .do_wrip {
     display: grid;
     grid-template-columns: 1fr 1fr;
-  }
-
-  .twtpic {
-    width: 100px;
-    height: 100px;
   }
 
   .view_bg {
