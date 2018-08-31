@@ -281,6 +281,7 @@ html {
     top:0;
     left:-100px;
     width: 30%;
+    z-index: -1;
     img{
         width: 100%;
     }
@@ -290,6 +291,7 @@ html {
     top:0;
     right:0;
     width: 30%;
+    z-index: -1;
     img{
         width: 100%;
     }

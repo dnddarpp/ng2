@@ -375,6 +375,7 @@ html {
   top: 0;
   left: -100px;
   width: 30%;
+  z-index: -1;
 }
 .net_bg01 img {
   width: 100%;
@@ -385,6 +386,7 @@ html {
   top: 0;
   right: 0;
   width: 30%;
+  z-index: -1;
 }
 .net_bg02 img {
   width: 100%;
@@ -1427,6 +1429,9 @@ html {
   /* IE6-9 */
   width: 40%;
   -webkit-clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+  -moz-clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+  -o-clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+  -ms-clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
   height: 350px;
   overflow: hidden;
