@@ -151,6 +151,11 @@
         margin-left: 5px;
         margin-top: -5px;
     }
+    a{
+        &:hover{
+            text-decoration: none;
+        }
+    }
 }
 .meet_text{
     text-align: center;

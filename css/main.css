@@ -3262,6 +3262,9 @@ html {
   margin-left: 5px;
   margin-top: -5px;
 }
+.meet_font a:hover {
+  text-decoration: none;
+}
 
 .meet_text {
   text-align: center;
