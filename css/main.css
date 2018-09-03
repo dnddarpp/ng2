@@ -602,9 +602,8 @@ html {
 }
 
 .evn_box {
-  width: 30%;
-  margin-right: 2%;
-  margin-bottom: 2%;
+  width: 29.333%;
+  margin: 2% 2%;
   float: left;
   transition: box-shadow .3s ease-out, transform .3s ease-out, opacity .2s ease-out;
   transition-delay: .1s;
@@ -966,7 +965,7 @@ html {
 
 .fik_test {
   float: left;
-  padding: 12px 14px;
+  padding: 12px 9px;
 }
 
 .bebe_wrip {
@@ -983,7 +982,7 @@ html {
 
 .fast_font {
   background-color: #f2f2f2;
-  width: 140px;
+  width: 120px;
   overflow: hidden;
   margin-bottom: 2px;
 }
@@ -1094,10 +1093,6 @@ html {
     padding: 0 30px;
   }
 
-  .mrt_box {
-    width: 100%;
-  }
-
   .rent_wrapper {
     width: 100%;
   }
@@ -1115,6 +1110,13 @@ html {
 @media only screen and (max-width: 1096px) {
   .ubike_btn {
     width: 33%;
+  }
+  .ubike_btn li {
+    font-size: 1.2em;
+    color: #ffffff;
+  }
+  .ubike_btn li img {
+    width: 60px;
   }
 
   .footer_continer {
@@ -1156,10 +1158,6 @@ html {
     display: none;
   }
 
-  .ento_item {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
   .ento_wrapper {
     margin: 0 auto;
   }
@@ -1182,6 +1180,7 @@ html {
 
   .spotList {
     padding: 10px;
+    width: 33.3333%;
   }
   .spotList li {
     font-size: 1.3em;
@@ -1201,6 +1200,22 @@ html {
 
   .rent_bluebg {
     height: 600px;
+  }
+
+  .skell_right {
+    -moz-transform: skewX(0deg) skewY(0deg);
+    -webkit-transform: skewX(0deg) skewY(0deg);
+    -o-transform: skewX(0deg) skewY(0deg);
+    -ms-transform: skewX(0deg) skewY(0deg);
+    transform: skewX(0deg) skewY(0deg);
+  }
+
+  .skell_left {
+    -moz-transform: skewX(0deg) skewY(0deg);
+    -webkit-transform: skewX(0deg) skewY(0deg);
+    -o-transform: skewX(0deg) skewY(0deg);
+    -ms-transform: skewX(0deg) skewY(0deg);
+    transform: skewX(0deg) skewY(0deg);
   }
 
   .evt_tab {
@@ -1237,7 +1252,8 @@ html {
 }
 @media only screen and (max-width: 768px) {
   .evn_box {
-    width: 45%;
+    width: 44%;
+    margin: 3% 3%;
   }
 
   .copy {
@@ -1257,10 +1273,6 @@ html {
   .view_bg {
     height: 418px;
     background-position: 0 236px;
-  }
-
-  .mrt_box {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .tra_blue {
@@ -1340,7 +1352,7 @@ html {
   }
 
   .pacd_tab {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .rent_linehouse {
@@ -1383,10 +1395,6 @@ html {
     grid-template-columns: 1fr;
     grid-row-gap: 20px;
     padding: 40px 30px;
-  }
-
-  .ento_item {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 
   .copyright {

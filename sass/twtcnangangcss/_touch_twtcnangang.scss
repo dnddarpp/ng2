@@ -34,9 +34,6 @@
         width: 100%;
         padding: 0 30px;
     }
-    .mrt_box{
-        width: 100%;
-    }
     .rent_wrapper{
         width: 100%;
     }
@@ -53,6 +50,13 @@
 @include respond-pad {
     .ubike_btn{
         width: 33%;
+        li{
+            font-size: 1.2em;
+            color: #ffffff;
+            img{
+                width: 60px;
+            }
+        }
     }
 
     .footer_continer{
@@ -86,9 +90,6 @@
     .rightBox{
         display: none;
     }
-    .ento_item{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
     .ento_wrapper{
         margin: 0 auto;
     }
@@ -106,6 +107,7 @@
     }
     .spotList{
         padding: 10px;
+        width: 33.3333%;
         li{
             font-size: 1.3em;
         }
@@ -123,6 +125,22 @@
         height: 600px;
     }
 
+    .skell_right {
+        -moz-transform:skewX(0deg) skewY(0deg);
+        -webkit-transform:skewX(0deg) skewY(0deg);
+        -o-transform:skewX(0deg) skewY(0deg);
+        -ms-transform:skewX(0deg) skewY(0deg);
+        transform: skewX(0deg) skewY(0deg);
+
+    }
+
+    .skell_left {
+        -moz-transform:skewX(0deg) skewY(0deg);
+        -webkit-transform:skewX(0deg) skewY(0deg);
+        -o-transform:skewX(0deg) skewY(0deg);
+        -ms-transform:skewX(0deg) skewY(0deg);
+        transform: skewX(0deg) skewY(0deg);
+    }
     .evt_tab{
         padding: 0 30px;
     }
@@ -153,7 +171,8 @@
 }
 @include respond-mobile {
     .evn_box{
-        width: 45%;
+        width: 44%;
+        margin: 3% 3%;
     }
     .copy{
         width: 100%;
@@ -171,9 +190,6 @@
     background-position: 0 236px;
     }
 
-    .mrt_box{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
     .tra_blue{
         display: none;
     }
@@ -241,7 +257,7 @@
         margin-bottom: 10px;
     }
     .pacd_tab{
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .rent_linehouse{
             width: 457px;
@@ -277,11 +293,6 @@
         grid-row-gap:20px;
         padding: 40px 30px;
     }
-    .ento_item{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-
     .copyright{
         padding: 0 30px;
     }
