@@ -3552,13 +3552,21 @@ html {
 }
 
 .viproom {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  zoom: 1;
+}
+.viproom:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 .vip_wrap {
+  width: 29.333%;
+  float: left;
+  margin: 2%;
   background-color: #e5eef1;
   border-radius: 10px;
   overflow: hidden;
@@ -3675,21 +3683,7 @@ html {
   margin-top: -50px;
 }
 
-@media only screen and (max-width: 1239px) {
-  .viproom {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-@media only screen and (max-width: 1096px) {
-  .viproom {
-    grid-template-columns: 1fr 1fr;
-  }
-}
 @media only screen and (max-width: 768px) {
-  .viproom {
-    grid-template-columns: 1fr;
-  }
-
   .room_sc {
     width: 50%;
     height: 400px;
@@ -3735,6 +3729,10 @@ html {
   .yellow_ch i {
     font-size: 1.5em;
   }
+
+  .vip_wrap {
+    width: 46%;
+  }
 }
 @media only screen and (max-width: 480px) {
   .meeting_bg {
@@ -3750,8 +3748,9 @@ html {
     font-size: 1.2em;
   }
 
-  .viproom {
-    grid-template-columns: 1fr;
+  .vip_wrap {
+    width: 100%;
+    margin: 0 0 5% 0;
   }
 }
 .line_gray {

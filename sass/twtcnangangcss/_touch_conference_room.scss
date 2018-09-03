@@ -3,20 +3,14 @@
 
 }
 @include respond-compact {
-    .viproom{
-        grid-template-columns: 1fr 1fr ;
-    }
+
 
 }
 @include respond-pad {
-    .viproom{
-        grid-template-columns: 1fr 1fr ;
-    }
+
 }
 @include respond-mobile {
-    .viproom{
-        grid-template-columns: 1fr ;
-    }
+
     .room_sc{
         width:50%;
         height: 400px;
@@ -56,6 +50,9 @@
             font-size: 1.5em;
         }
     }
+    .vip_wrap{
+        width: 46%;
+    }
 
 }
 @include respond-small-mobile{
@@ -69,7 +66,8 @@
     .vip_gray{
         font-size: 1.2em;
     }
-    .viproom{
-        grid-template-columns: 1fr ;
+    .vip_wrap{
+        width: 100%;
+        margin: 0 0 5% 0;
     }
 }

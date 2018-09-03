@@ -65,12 +65,12 @@
     background-color: #dadada;
 }
 .viproom{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap:30px;
-    grid-row-gap:30px;
+    @include clearfix;
 }
 .vip_wrap{
+    width: 29.333%;
+    float: left;
+    margin: 2%;
     background-color: #e5eef1;
     border-radius: 10px;
     overflow: hidden;
