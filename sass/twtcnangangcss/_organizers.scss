@@ -30,11 +30,16 @@
     background: linear-gradient(to bottom, #50acf3 0%,#5ebcc7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50acf3', endColorstr='#5ebcc7',GradientType=0 ); /* IE6-9 */
     width: 40%;
-    -webkit-clip-path:polygon(0 0, 100% 0, 90% 100%, 0 100%);
-    -moz-clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
-    -o-clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
-    -ms-clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+    // -webkit-clip-path:polygon(0 0, 100% 0, 90% 100%, 0 100%);
+    // -moz-clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+    // -o-clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+    // -ms-clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+    // clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+    -webkit-transform: skewX(-12deg);
+    transform: skewX(-12deg);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+
     height: 350px;
     overflow: hidden;
     img{
@@ -49,6 +54,10 @@
     top: 177px;
     left: 111px;
     padding-right: 100px;
+    -webkit-transform: skewX(11deg);
+    transform: skewX(11deg);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
 }
 .page_headtitle{
     font-size: 2.8em;
