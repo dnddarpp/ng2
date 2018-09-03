@@ -170,6 +170,12 @@
 
 }
 @include respond-mobile {
+    .chun_wraper{
+        width: 100%;
+    }
+    .chun_logo{
+        margin-bottom: 30px;
+    }
     .evn_box{
         width: 44%;
         margin: 3% 3%;

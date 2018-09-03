@@ -1,9 +1,12 @@
 .telecom{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin-bottom: 20px;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+    // margin-bottom: 20px;
+    @include clearfix;
 }
 .com{
+    width: 45%;
+    float: left;
     img{
 
     }

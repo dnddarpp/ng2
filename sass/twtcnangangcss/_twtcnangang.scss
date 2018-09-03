@@ -225,6 +225,25 @@ html {
         width: 100%;
     }
 }
+.chunghwa_table{
+    @include clearfix;
+}
+.chun_wraper{
+    width: 50%;
+    float: left;
+}
+.chun_logo{
+    width: 30%;
+    float: left;
+    margin-right: 5%;
+    img{
+        width: 100%;
+    }
+}
+.chun_font{
+    width: 60%;
+    float: left;
+}
 .oranizers{
     margin-top: 5%;
         -webkit-transform: rotate(-90deg) translateX(0%);

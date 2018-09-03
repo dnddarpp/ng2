@@ -313,6 +313,37 @@ html {
   width: 100%;
 }
 
+.chunghwa_table {
+  zoom: 1;
+}
+.chunghwa_table:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.chun_wraper {
+  width: 50%;
+  float: left;
+}
+
+.chun_logo {
+  width: 30%;
+  float: left;
+  margin-right: 5%;
+}
+.chun_logo img {
+  width: 100%;
+}
+
+.chun_font {
+  width: 60%;
+  float: left;
+}
+
 .oranizers {
   margin-top: 5%;
   -webkit-transform: rotate(-90deg) translateX(0%);
@@ -1254,6 +1285,14 @@ html {
   }
 }
 @media only screen and (max-width: 768px) {
+  .chun_wraper {
+    width: 100%;
+  }
+
+  .chun_logo {
+    margin-bottom: 30px;
+  }
+
   .evn_box {
     width: 44%;
     margin: 3% 3%;
@@ -2388,9 +2427,20 @@ html {
   }
 }
 .telecom {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-bottom: 20px;
+  zoom: 1;
+}
+.telecom:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.com {
+  width: 45%;
+  float: left;
 }
 
 .com_title {
