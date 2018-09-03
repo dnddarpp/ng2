@@ -2916,9 +2916,12 @@ html {
   list-style-type: decimal;
 }
 
-.trans_box {
-  display: grid;
-  grid-template-columns: 10% 90%;
+.trans_box td {
+  padding: 10px;
+  vertical-align: top;
+}
+.trans_box td img {
+  width: 100%;
 }
 
 .tran_list img {

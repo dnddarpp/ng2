@@ -14,8 +14,16 @@
 
 
 .trans_box{
-    display: grid;
-    grid-template-columns: 10% 90%;
+    tr{
+
+    }
+    td{
+        padding: 10px;
+        vertical-align: top;
+        img{
+            width: 100%;
+        }
+    }
 }
 .tran_list{
     img{
