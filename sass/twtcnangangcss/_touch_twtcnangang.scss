@@ -51,7 +51,9 @@
 
 }
 @include respond-pad {
-
+    .ubike_btn{
+        width: 33%;
+    }
 
     .footer_continer{
         width: 100%;
@@ -120,10 +122,7 @@
     .rent_bluebg{
         height: 600px;
     }
-    .evnt_viewpic{
-        padding: 0 30px;
-        grid-column-gap: 23px;
-    }
+
     .evt_tab{
         padding: 0 30px;
     }
@@ -153,6 +152,9 @@
 
 }
 @include respond-mobile {
+    .evn_box{
+        width: 45%;
+    }
     .copy{
         width: 100%;
         float: left;
@@ -259,11 +261,6 @@
         width: 100%;
         clip-path:none;
     }
-    .evnt_viewpic{
-        grid-template-columns: 1fr 1fr;
-        margin-bottom: 70px;
-        padding: 0 30px;
-    }
     .event_wrapper{
         width: 100%;
     }
@@ -306,8 +303,26 @@
     .downmenu_bg{
         margin-top: 50px;
     }
+    .pace_box{
+        width: 45%;
+        margin-right: 5%;
+        margin-bottom: 5%;
+    }
 }
 @include respond-small-mobile{
+    .pace_box{
+        width: 45%;
+        margin-right: 5%;
+        margin-bottom:20%;
+    }
+    .pacd_tab{
+        width: 99%;
+        left: 69%;
+    }
+    .evn_box{
+        width: 90%;
+        margin: 0 5%;
+    }
 
     .do_wrip{
         display: grid;
@@ -331,7 +346,5 @@
     height: 418px;
     background-position: 0 280px;
     }
-    .evnt_viewpic{
-        grid-template-columns: 1fr;
-    }
+
 }
