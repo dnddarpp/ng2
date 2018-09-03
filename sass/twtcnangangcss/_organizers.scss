@@ -91,14 +91,11 @@
     padding: 2% 14%;
 }
 .pace_bok{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-row-gap:50px;
-}
-.pace_bok2{
-    display: grid;
-    grid-template-columns:1fr 2fr;
-    grid-row-gap:50px;
+    // display: grid;
+    // grid-template-columns: 2fr 1fr;
+    // grid-row-gap:50px;
+    @include clearfix;
+    margin-bottom: 40px;
 }
 .bok_title{
     font-size: 2.25em;
@@ -109,7 +106,41 @@
     margin-bottom: 20px;
     color:$twt-gray;
 }
+.lili_pic01{
+    background-image: url("../images/biew.jpg");
+}
+.lili_pic02{
+    background-image: url("../images/biew1.jpg");
+}
+.lili_pic03{
+    background-image: url("../images/biew2.jpg");
+}
+.lili_pic04{
+    background-image: url("../images/biew3.jpg");
+}
 .bok-pic{
+    width: 70%;
+    float: left;
+    background-size: cover;
+    height: 430px;
+    img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    a{
+        text-decoration: none;
+
+        &:hover{
+            text-decoration: none;
+        }
+    }
+}
+
+.bok-pic00{
+    width: 30%;
+    float: left;
+
+
     img{
         width: 100%;
         margin-bottom: 50px;
@@ -123,7 +154,8 @@
     }
 }
 .bok_rp{
-    padding:24%;
+    // padding:24%;
+    height: 430px;
     text-align: center;
     overflow: hidden;
     background-image: url("../images/bew.svg");
