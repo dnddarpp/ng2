@@ -1,0 +1,24 @@
+@include respond-cozy {
+
+
+}
+@include respond-compact {
+
+
+}
+@include respond-pad {
+
+}
+@include respond-mobile {
+    .site_box{
+        width: 50%;
+        float: left;
+    }
+}
+@include respond-small-mobile{
+    .site_box{
+        width: 100%;
+        float: left;
+
+    }
+}

@@ -3414,8 +3414,15 @@ html {
 }
 
 .sitemap_wrap {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  zoom: 1;
+}
+.sitemap_wrap:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 .site_title {
@@ -3424,6 +3431,10 @@ html {
   margin-bottom: 10px;
 }
 
+.site_box {
+  width: 25%;
+  float: left;
+}
 .site_box li {
   line-height: 2;
   font-size: 1.2em;
@@ -3440,6 +3451,18 @@ html {
   color: #555555;
 }
 
+@media only screen and (max-width: 768px) {
+  .site_box {
+    width: 50%;
+    float: left;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .site_box {
+    width: 100%;
+    float: left;
+  }
+}
 .confer_room {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

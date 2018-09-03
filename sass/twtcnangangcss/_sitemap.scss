@@ -1,6 +1,8 @@
 .sitemap_wrap{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    @include clearfix;
 }
 .site_title{
     font-size: 1.5em;
@@ -8,6 +10,8 @@
     margin-bottom: 10px;
 }
 .site_box{
+    width: 25%;
+    float: left;
     li{
         line-height: 2;
         font-size: 1.2em;
