@@ -139,8 +139,6 @@
 .bok-pic00{
     width: 30%;
     float: left;
-
-
     img{
         width: 100%;
         margin-bottom: 50px;
@@ -154,7 +152,6 @@
     }
 }
 .bok_rp{
-    // padding:24%;
     height: 430px;
     text-align: center;
     overflow: hidden;
@@ -187,8 +184,7 @@
     font-weight: bolder;
 }
 .Vendor_box{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    @include clearfix;
     a{
         text-decoration: none;
         color: #555555;
@@ -201,8 +197,17 @@
 }
 .vendor_icon{
     text-align: center;
+    width: 25%;
+    float: left;
     img{
         width: 100px;
+    }
+}
+.ven_pic{
+    width: 80px;
+    margin: 0 auto;
+    img{
+        width: 100%;
     }
 }
 .ven_font{

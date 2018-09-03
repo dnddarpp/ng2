@@ -78,6 +78,14 @@
     }
 }
 @include respond-mobile {
+    .bok-pic{
+        width: 50%;
+        height: 300px;
+    }
+    .bok-pic00{
+        width:50%;
+        height: 300px;
+    }
     .titleBox{
         width: 90%;
         font-size: 1.5em;

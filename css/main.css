@@ -1725,8 +1725,15 @@ html {
 }
 
 .Vendor_box {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  zoom: 1;
+}
+.Vendor_box:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 .Vendor_box a {
   text-decoration: none;
@@ -1740,9 +1747,19 @@ html {
 
 .vendor_icon {
   text-align: center;
+  width: 25%;
+  float: left;
 }
 .vendor_icon img {
   width: 100px;
+}
+
+.ven_pic {
+  width: 80px;
+  margin: 0 auto;
+}
+.ven_pic img {
+  width: 100%;
 }
 
 .ven_font {
@@ -2241,6 +2258,16 @@ html {
   }
 }
 @media only screen and (max-width: 768px) {
+  .bok-pic {
+    width: 50%;
+    height: 300px;
+  }
+
+  .bok-pic00 {
+    width: 50%;
+    height: 300px;
+  }
+
   .titleBox {
     width: 90%;
     font-size: 1.5em;
