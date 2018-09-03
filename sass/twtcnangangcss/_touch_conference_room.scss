@@ -17,10 +17,11 @@
     .viproom{
         grid-template-columns: 1fr ;
     }
-    .confer_room{
-    grid-template-columns: 1fr 1fr ;
-    grid-row-gap:30px;
+    .room_sc{
+        width:50%;
+        height: 400px;
     }
+    .ro
     .step{
         grid-template-columns: 1fr;
     }
@@ -58,9 +59,9 @@
 
 }
 @include respond-small-mobile{
-    .meetingfloor{
-        grid-template-columns: 1fr ;
-        grid-row-gap:30px;
+    .meeting_bg{
+        width: 100%;
+        margin-bottom: 30px;
     }
     .vip_blueprice{
         font-size: 1.5em;

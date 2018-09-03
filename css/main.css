@@ -3467,14 +3467,25 @@ html {
   }
 }
 .confer_room {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-column-gap: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+}
+.confer_room {
+  zoom: 1;
+}
+.confer_room:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 .room_sc {
   border: 1px solid #cccccc;
+  width: 25%;
+  float: left;
+  height: 400px;
 }
 
 .room_graybg {
@@ -3601,10 +3612,23 @@ html {
 }
 
 .meetingfloor {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 100px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+}
+.meetingfloor {
+  zoom: 1;
+}
+.meetingfloor:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.meeting_bg {
+  width: 33.3%;
+  float: left;
 }
 
 .meet_bluebg {
@@ -3666,11 +3690,12 @@ html {
     grid-template-columns: 1fr;
   }
 
-  .confer_room {
-    grid-template-columns: 1fr 1fr;
-    grid-row-gap: 30px;
+  .room_sc {
+    width: 50%;
+    height: 400px;
   }
 
+  .ro
   .step {
     grid-template-columns: 1fr;
   }
@@ -3712,9 +3737,9 @@ html {
   }
 }
 @media only screen and (max-width: 480px) {
-  .meetingfloor {
-    grid-template-columns: 1fr;
-    grid-row-gap: 30px;
+  .meeting_bg {
+    width: 100%;
+    margin-bottom: 30px;
   }
 
   .vip_blueprice {
