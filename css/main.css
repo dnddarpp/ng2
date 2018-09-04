@@ -2887,17 +2887,19 @@ html {
 
 .faqtab {
   background-color: #2da4c5;
-  padding: 10px 15px;
+  padding: 12px 15px;
   color: #ffffff;
   text-align: center;
+  border-radius: 10px 0 10px 0;
 }
 
 .faq_quation {
+  font-size: 1.1em;
   padding: 10px 15px;
 }
 
 .fq_wid {
-  width: 10%;
+  width: 7%;
 }
 
 .faq_down {
@@ -2909,7 +2911,6 @@ html {
 
 .news_faq_title {
   border-bottom: 1px solid #ffffff;
-  font-size: 1.5em;
   font-weight: bolder;
   color: #2d3b3f;
   background-color: #d1e9ed;
@@ -2928,7 +2929,7 @@ html {
 
 .anser_font {
   padding: 30px;
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 2;
   color: #5a5a5a;
   background-color: #f0f0f0;
@@ -2937,14 +2938,6 @@ html {
 @media only screen and (max-width: 768px) {
   .faq_continer {
     grid-template-columns: 100%;
-  }
-
-  .faq_quation {
-    font-size: .8em;
-  }
-
-  .anser_font {
-    font-size: 1em;
   }
 
   .fq_wid {
