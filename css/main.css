@@ -2934,6 +2934,14 @@ html {
   .faq_continer {
     grid-template-columns: 100%;
   }
+
+  .faq_quation {
+    font-size: .8em;
+  }
+
+  .anser_font {
+    font-size: 1em;
+  }
 }
 .public_box {
   display: grid;
