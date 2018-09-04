@@ -7,7 +7,10 @@
 
 }
 @include respond-pad {
-
+    .card-box{
+        width: 46%;
+        margin: 2%;
+    }
 }
 @include respond-mobile {
     .news-list{
@@ -18,9 +21,7 @@
             font-size: 1.8em;
         }
     }
-    .card-box{
-        width: 46%;
-    }
+
     .card_title{
         font-size: 1.2em;
     }
@@ -28,6 +29,7 @@
 @include respond-small-mobile{
     .card-box{
         width: 100%;
+        margin: 0 0 8% 0;
     }
     .news-list{
         grid-template-columns: 1fr;

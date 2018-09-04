@@ -2544,6 +2544,12 @@ html {
   margin-left: -1em;
 }
 
+@media only screen and (max-width: 1096px) {
+  .card-box {
+    width: 46%;
+    margin: 2%;
+  }
+}
 @media only screen and (max-width: 768px) {
   .news-list {
     grid-template-columns: 1fr 1fr;
@@ -2553,10 +2559,6 @@ html {
     font-size: 1.8em;
   }
 
-  .card-box {
-    width: 46%;
-  }
-
   .card_title {
     font-size: 1.2em;
   }
@@ -2564,6 +2566,7 @@ html {
 @media only screen and (max-width: 480px) {
   .card-box {
     width: 100%;
+    margin: 0 0 8% 0;
   }
 
   .news-list {
