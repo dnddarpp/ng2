@@ -575,6 +575,7 @@ html {
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 8px;
+    color: #505050;
 }
 .event_sub-content{
     font-size: 1.1em;
@@ -588,10 +589,12 @@ html {
         margin-bottom: 0!important;
     }
     li{
+
         display: inline-block;
         margin-right: 20px;
         font-size: 1.3em;
         a{
+            color: #505050;
             &:hover{
                 text-decoration: none;
             }
