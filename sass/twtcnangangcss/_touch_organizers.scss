@@ -130,9 +130,33 @@
         width: 46%;
         margin-bottom: 30px;
     }
+    .breadcrumb_title{
+        font-size: 1.8em;
+    }
+    .twtbreadcrumb{
+        li{
+            font-size: 1em;
+        }
+    }
+    .bok_btn{
+        width: 112px;
+    }
+    .bok_font{
+        font-size: 1em;
+    }
+    .Vendor-resource_title{
+        font-size: 1.8em;
+    }
+    .ven_font{
+        font-size: 1em;
+    }
 
 }
 @include respond-small-mobile{
+    .bok_title{
+        font-size:1.8em;
+
+    }
     .stepblue{
         width: 100%;
         min-height: auto;

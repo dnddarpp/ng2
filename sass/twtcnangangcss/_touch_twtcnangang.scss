@@ -206,6 +206,7 @@
         height: 357px;
     }
     .traffic_big_title{
+        font-size: 1.8em;
         width: 100%;
         margin-left: 0;
         left:0;
@@ -233,10 +234,6 @@
     }
     .rent_continer{
         padding: 0 80px;
-    }
-    .rent_bluebg{
-        min-height: 900px;
-        height: 750px;
     }
     .ul_skell{
         img{
@@ -267,11 +264,15 @@
         font-size: 1em;
     }
     .rent_linehouse{
-            width: 457px;
+        width: 343px;
+        bottom: -61px;
+        right: 6px;
     }
     .rent_bluebg{
         min-height: 500px;
         max-height: 700px;
+        width: 100%;
+        clip-path:none;
     }
     .video-container{
         padding-bottom: 54%;
@@ -280,17 +281,12 @@
         grid-template-columns: 1fr 1fr;
         grid-row-gap:40px;
     }
-    .rent_bluebg{
-        width: 100%;
-        clip-path:none;
-    }
     .event_wrapper{
         width: 100%;
     }
 
     .ento_wrapper{
         width: 100%;
-        padding: 20px 18px;
     }
     .footer_continer{
         width: 100%;
@@ -326,8 +322,42 @@
         margin-right: 5%;
         margin-bottom: 5%;
     }
+    .news_bg{
+        padding: 0 0 45px 0;
+    }
+    .news_title{
+        width: 120px;
+    }
+    .news_list_continer{
+        padding-top: 67px;
+    }
+    .event_bigtitle{
+        font-size: 1.8em;
+    }
+    .evt_tab{
+        li{
+            font-size: 1.2em;
+        }
+    }
+    .viewmore{
+        font-size: 1.2em;
+    }
+    .spotList {
+        li{
+            font-size: 1.1em;
+        }
+    }
 }
 @include respond-small-mobile{
+    .rent_bluebg{
+        min-height: 500px;
+        max-height: 604px;
+    }
+    .new_readmore{
+        width:120px;
+        margin-top: 3px;
+        padding: 5px 20px;
+    }
     .pace_box{
         width: 45%;
         margin-right: 5%;

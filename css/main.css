@@ -624,6 +624,9 @@ html {
 }
 
 .evnt_viewpic {
+  margin-bottom: 50px;
+}
+.evnt_viewpic {
   zoom: 1;
 }
 .evnt_viewpic:after {
@@ -1334,6 +1337,7 @@ html {
   }
 
   .traffic_big_title {
+    font-size: 1.8em;
     width: 100%;
     margin-left: 0;
     left: 0;
@@ -1365,11 +1369,6 @@ html {
 
   .rent_continer {
     padding: 0 80px;
-  }
-
-  .rent_bluebg {
-    min-height: 900px;
-    height: 750px;
   }
 
   .ul_skell img {
@@ -1404,12 +1403,16 @@ html {
   }
 
   .rent_linehouse {
-    width: 457px;
+    width: 343px;
+    bottom: -61px;
+    right: 6px;
   }
 
   .rent_bluebg {
     min-height: 500px;
     max-height: 700px;
+    width: 100%;
+    clip-path: none;
   }
 
   .video-container {
@@ -1421,18 +1424,12 @@ html {
     grid-row-gap: 40px;
   }
 
-  .rent_bluebg {
-    width: 100%;
-    clip-path: none;
-  }
-
   .event_wrapper {
     width: 100%;
   }
 
   .ento_wrapper {
     width: 100%;
-    padding: 20px 18px;
   }
 
   .footer_continer {
@@ -1475,8 +1472,47 @@ html {
     margin-right: 5%;
     margin-bottom: 5%;
   }
+
+  .news_bg {
+    padding: 0 0 45px 0;
+  }
+
+  .news_title {
+    width: 120px;
+  }
+
+  .news_list_continer {
+    padding-top: 67px;
+  }
+
+  .event_bigtitle {
+    font-size: 1.8em;
+  }
+
+  .evt_tab li {
+    font-size: 1.2em;
+  }
+
+  .viewmore {
+    font-size: 1.2em;
+  }
+
+  .spotList li {
+    font-size: 1.1em;
+  }
 }
 @media only screen and (max-width: 480px) {
+  .rent_bluebg {
+    min-height: 500px;
+    max-height: 604px;
+  }
+
+  .new_readmore {
+    width: 120px;
+    margin-top: 3px;
+    padding: 5px 20px;
+  }
+
   .pace_box {
     width: 45%;
     margin-right: 5%;
@@ -2326,8 +2362,36 @@ html {
     width: 46%;
     margin-bottom: 30px;
   }
+
+  .breadcrumb_title {
+    font-size: 1.8em;
+  }
+
+  .twtbreadcrumb li {
+    font-size: 1em;
+  }
+
+  .bok_btn {
+    width: 112px;
+  }
+
+  .bok_font {
+    font-size: 1em;
+  }
+
+  .Vendor-resource_title {
+    font-size: 1.8em;
+  }
+
+  .ven_font {
+    font-size: 1em;
+  }
 }
 @media only screen and (max-width: 480px) {
+  .bok_title {
+    font-size: 1.8em;
+  }
+
   .stepblue {
     width: 100%;
     min-height: auto;
@@ -2492,6 +2556,10 @@ html {
   .card-box {
     width: 46%;
   }
+
+  .card_title {
+    font-size: 1.2em;
+  }
 }
 @media only screen and (max-width: 480px) {
   .card-box {
@@ -2649,24 +2717,30 @@ html {
   color: #727272;
 }
 
-.ticket_price {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
-}
-
-.price_bg {
-  text-align: center;
-  padding: 10px 0;
-  background-color: #f2f2f2;
-}
-
 .ticket_poster {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: 30px;
-  grid-column-gap: 30px;
+  margin-bottom: 40px;
+}
+.ticket_poster td {
+  vertical-align: top;
+  padding: 20px;
+}
+.ticket_poster td img {
+  border: 1px solid #cccccc;
+  width: 100%;
+}
+.ticket_poster {
+  zoom: 1;
+}
+.ticket_poster:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.ticket_poster img {
+  margin-right: 40px;
 }
 
 .poster_pic {
@@ -3024,6 +3098,10 @@ html {
 
   .floor_btn {
     font-size: 1em;
+  }
+  .floor_btn li {
+    border-radius: 10px;
+    margin-bottom: 5px;
   }
 
   .ed_box {
@@ -3582,7 +3660,7 @@ html {
 }
 
 .vip_wrap {
-  width: 29.333%;
+  width: 28.333%;
   float: left;
   margin: 2%;
   background-color: #e5eef1;
