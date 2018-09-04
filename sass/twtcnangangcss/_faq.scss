@@ -65,3 +65,43 @@
         }
     }
 }
+.newsfaq_box{
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.faqtab{
+    background-color: $twt-blue-title;
+    padding: 10px 15px;
+    color:#ffffff;
+    text-align: center;
+}
+.faq_quation{
+
+    padding: 10px 15px;
+
+}
+.faq_down{
+
+    padding: 10px 15px;
+    i{
+        margin-top: 5px;
+    }
+}
+.news_faq_title{
+
+    border-bottom: 1px solid #ffffff;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: #2d3b3f;
+    background-color: #d1e9ed;
+    @include clearfix;
+
+}
+.anser_font{
+    padding: 30px;
+    font-size: 1.2em;
+    line-height: 2;
+    color: #5a5a5a;
+    background-color: #f0f0f0;
+}

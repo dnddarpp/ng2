@@ -2879,6 +2879,57 @@ html {
   color: #727272;
 }
 
+.newsfaq_box {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.faqtab {
+  background-color: #2da4c5;
+  padding: 10px 15px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.faq_quation {
+  padding: 10px 15px;
+}
+
+.faq_down {
+  padding: 10px 15px;
+}
+.faq_down i {
+  margin-top: 5px;
+}
+
+.news_faq_title {
+  border-bottom: 1px solid #ffffff;
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: #2d3b3f;
+  background-color: #d1e9ed;
+}
+.news_faq_title {
+  zoom: 1;
+}
+.news_faq_title:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.anser_font {
+  padding: 30px;
+  font-size: 1.2em;
+  line-height: 2;
+  color: #5a5a5a;
+  background-color: #f0f0f0;
+}
+
 @media only screen and (max-width: 768px) {
   .faq_continer {
     grid-template-columns: 100%;
