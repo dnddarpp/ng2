@@ -297,7 +297,7 @@ html {
     text-align: center;
     padding: 5px 20px;
     margin-top: -30px;
-    z-index: 100;
+    z-index: 98;
     font-size: 2em;
     font-weight: bolder;
     color: #ffffff;
@@ -836,7 +836,7 @@ html {
 }
 
 .index_sidelabel{
-    z-index: 200;
+    z-index: 98;
     position: absolute;
     top:70%;
     right:0;
@@ -941,4 +941,7 @@ html {
     img{
         width: 100%;
     }
+}
+.mobile_darkbg{
+    display: none;
 }

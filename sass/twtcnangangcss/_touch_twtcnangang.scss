@@ -48,6 +48,38 @@
 
 }
 @include respond-pad {
+    .mob_box{
+        width: 100px;
+        height:60px;
+    }
+    .mobile_darkbg{
+        display: block;
+        background-color: rgba(0,0,0,.9);
+        width: 40%;
+        height: 100vh;
+        position: fixed;
+        z-index: 99;
+        overflow: scroll;
+        top:0;
+        right:0;
+    }
+    .mobile_darkbg_wrap{
+        @include clearfix;
+    }
+    .mobile_darkbg_box{
+        padding: 10px 30px;
+        width: 100%;
+        float: left;
+        color:#ffffff;
+        li{
+            line-height: 2;
+            font-size: 1.2em;
+            i{
+                margin-right: 10px;
+            }
+        }
+    }
+
     .ubike_btn{
         width: 33%;
         li{
@@ -349,6 +381,9 @@
     }
 }
 @include respond-small-mobile{
+    .mobile_darkbg{
+        width: 80%;
+    }
     .rent_bluebg{
         min-height: 500px;
         max-height: 604px;
