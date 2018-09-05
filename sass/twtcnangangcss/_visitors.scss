@@ -101,6 +101,12 @@
     margin-bottom: 10px;
     overflow: hidden;
     background-size: cover;
+    &:hover{
+    animation-duration: 0.5s;
+    animation-delay: 0.35s;
+    animation-name: fadeInDown;
+    opacity: .8;
+    }
     img{
         width: 100%;
 

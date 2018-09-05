@@ -3216,6 +3216,12 @@ html {
   overflow: hidden;
   background-size: cover;
 }
+.link_pic:hover {
+  animation-duration: 0.5s;
+  animation-delay: 0.35s;
+  animation-name: fadeInDown;
+  opacity: .8;
+}
 .link_pic img {
   width: 100%;
 }
