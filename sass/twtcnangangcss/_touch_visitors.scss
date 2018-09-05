@@ -7,7 +7,9 @@
 
 }
 @include respond-pad {
-
+    .link_wrap{
+        width: 29%;
+    }
 }
 @include respond-mobile {
     .editor{
@@ -23,9 +25,25 @@
     .ed_box{
         width: 33.3%;
     }
+    .link_font{
+        font-size: 1em;
+
+    }
+    .link_wrap{
+        width: 45%;
+    }
 }
 @include respond-small-mobile{
     .ed_box{
         width: 50%;
+    }
+    .link_wrap{
+        width: 100%;
+        margin: 0;
+
+    }
+    .link_wrap{
+        height: auto;
+        margin-bottom: 20px;
     }
 }

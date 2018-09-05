@@ -3207,6 +3207,7 @@ html {
   width: 21%;
   margin: 2%;
   float: left;
+  height: 120px;
 }
 
 .link_pic {
@@ -3223,6 +3224,11 @@ html {
   font-size: 1.2em;
 }
 
+@media only screen and (max-width: 1096px) {
+  .link_wrap {
+    width: 29%;
+  }
+}
 @media only screen and (max-width: 768px) {
   .editor {
     grid-template-columns: 1fr 1fr;
@@ -3239,10 +3245,28 @@ html {
   .ed_box {
     width: 33.3%;
   }
+
+  .link_font {
+    font-size: 1em;
+  }
+
+  .link_wrap {
+    width: 45%;
+  }
 }
 @media only screen and (max-width: 480px) {
   .ed_box {
     width: 50%;
+  }
+
+  .link_wrap {
+    width: 100%;
+    margin: 0;
+  }
+
+  .link_wrap {
+    height: auto;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (max-width: 1096px) {
