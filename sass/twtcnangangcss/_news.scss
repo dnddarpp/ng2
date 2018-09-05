@@ -3,6 +3,12 @@
     // grid-template-columns: 1fr 1fr 1fr;
     // grid-column-gap:30px;
     @include clearfix;
+    a{
+        color:#000000;
+        &:hover{
+            text-decoration: none;
+        }
+    }
 }
 .card-box{
     width: 30%;

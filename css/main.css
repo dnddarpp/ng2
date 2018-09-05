@@ -2495,6 +2495,12 @@ html {
   overflow: hidden;
   visibility: hidden;
 }
+.news-list a {
+  color: #000000;
+}
+.news-list a:hover {
+  text-decoration: none;
+}
 
 .card-box {
   width: 30%;
