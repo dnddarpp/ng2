@@ -10,6 +10,10 @@
     color:#2da4c5;
     width: 100px;
     border-radius: 30px;
+    &:hover{
+        background-color:#d8f2fa;
+        transition: all 0.5s;
+    }
 
 }
 .transport_point{

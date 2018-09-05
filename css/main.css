@@ -1807,6 +1807,10 @@ html {
   padding: 10px 20px;
   color: #ffffff;
 }
+.bok_btn:hover {
+  background-color: #4c9ac6;
+  transition: all 0.5s;
+}
 
 .Vendor-resource_wrapper {
   width: 1200px;
@@ -1887,6 +1891,10 @@ html {
   padding: 4px 10px;
   border-radius: 5px;
   margin-bottom: 5px;
+}
+.orang_tab li:hover {
+  transition: all 0.5s;
+  background-color: #c3eaf5;
 }
 .orang_tab .active {
   background-color: #2da4c5;
@@ -2834,6 +2842,13 @@ html {
 }
 
 .ticket_date a:hover {
+  text-decoration: none;
+}
+
+.eventpost_wrap a:hover {
+  text-decoration: none;
+}
+.eventpost_wrap a:focus {
   text-decoration: none;
 }
 
@@ -3979,6 +3994,10 @@ html {
   color: #2da4c5;
   width: 100px;
   border-radius: 30px;
+}
+.push_btn:hover {
+  background-color: #d8f2fa;
+  transition: all 0.5s;
 }
 
 .transport_point {

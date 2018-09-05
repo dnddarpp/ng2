@@ -179,6 +179,10 @@
     margin: 0 auto;
     padding: 10px 20px;
     color: #ffffff;
+    &:hover{
+        background-color: #4c9ac6;
+        transition: all 0.5s;
+    }
 }
 .Vendor-resource_wrapper{
     width: 1200px;
@@ -237,7 +241,6 @@
         color:#4a4a4a;
     }
     li{
-
         background-color: #e5eef1;
         line-height: 35px;
         cursor: pointer;
@@ -246,6 +249,10 @@
         padding: 4px 10px;
         border-radius: 5px;
         margin-bottom: 5px;
+        &:hover{
+            transition: all 0.5s;
+            background-color:#c3eaf5;
+        }
     }
     .active{
         background-color: #2da4c5;
