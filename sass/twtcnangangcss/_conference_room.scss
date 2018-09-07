@@ -138,8 +138,20 @@
     border-radius: 50%;
     padding: 30px;
     margin: 0 auto;
+
     img{
         width: 100%;
+    }
+}
+.meet_gray{
+    background: #cccccc;
+    &:hover{
+        transition: all 0.5s;
+        background: #50acf3;
+        background: -moz-linear-gradient(top, #50acf3 0%, #5ebcc7 100%);
+        background: -webkit-linear-gradient(top, #50acf3 0%, #5ebcc7 100%);
+        background: linear-gradient(to bottom, #50acf3 0%, #5ebcc7 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#50acf3', endColorstr='#5ebcc7',GradientType=0 );
     }
 }
 .meet_font{
@@ -167,4 +179,9 @@
         width: 100%;
         margin-top: -50px;
     }
+}
+
+.meet_center{
+    font-size: 1.2em;
+    font-weight: bolder;
 }
