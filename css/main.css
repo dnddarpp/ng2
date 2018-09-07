@@ -2336,12 +2336,12 @@ html {
   }
 
   .m-page-left_bg {
-    width: 40%;
+    width: 52%;
   }
 
   .m-page_font {
     top: 190px;
-    left: 28px;
+    left: 100px;
     padding-right: 48px;
   }
 
@@ -3971,6 +3971,21 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
+  .meet_bluebg {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+  }
+
+  .meeting_bg {
+    width: 29.5%;
+    margin-right: 10px;
+  }
+
+  .meet_font {
+    font-size: 1em;
+  }
+
   .room_sc {
     width: 50%;
     height: 400px;
@@ -4022,11 +4037,6 @@ html {
   }
 }
 @media only screen and (max-width: 480px) {
-  .meeting_bg {
-    width: 100%;
-    margin-bottom: 30px;
-  }
-
   .vip_blueprice {
     font-size: 1.5em;
   }

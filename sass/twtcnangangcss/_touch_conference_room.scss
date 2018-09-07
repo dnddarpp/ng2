@@ -10,6 +10,18 @@
 
 }
 @include respond-mobile {
+    .meet_bluebg{
+        width: 100%;
+        height: 100%;
+        padding: 15px;
+    }
+    .meeting_bg {
+        width: 29.5%;
+        margin-right: 10px;
+    }
+    .meet_font{
+        font-size: 1em;
+    }
 
     .room_sc{
         width:50%;
@@ -56,10 +68,7 @@
 
 }
 @include respond-small-mobile{
-    .meeting_bg{
-        width: 100%;
-        margin-bottom: 30px;
-    }
+
     .vip_blueprice{
         font-size: 1.5em;
     }
