@@ -3973,6 +3973,68 @@ html {
   font-weight: bolder;
 }
 
+.chiese_btn {
+  background-color: #e5eef1;
+  color: #000000;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px 20px;
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+.chi_box {
+  margin-bottom: 30px;
+}
+.chi_box {
+  zoom: 1;
+}
+.chi_box:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.chi_blue {
+  background-color: #2da4c5;
+  color: #ffffff;
+}
+
+.top_map {
+  width: 100%;
+  background-image: url("../images/7F_top01.jpg");
+  padding-bottom: 54%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+.chke_wrip {
+  margin-bottom: 30px;
+}
+.chke_wrip {
+  zoom: 1;
+}
+.chke_wrip:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.Qmap_01 {
+  float: left;
+  font-size: 1.2em;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 768px) {
   .meet_bluebg {
     width: 100%;

@@ -185,3 +185,39 @@
     font-size: 1.2em;
     font-weight: bolder;
 }
+.chiese_btn{
+    background-color: #e5eef1;
+    color:#000000;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+.chi_box{
+    margin-bottom: 30px;
+    @include clearfix;
+}
+.chi_blue{
+    background-color: $twt_blue_title;
+    color:#ffffff;
+}
+.top_map{
+    width: 100%;
+    background-image: url("../images/7F_top01.jpg");
+    padding-bottom: 54%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.chke_wrip{
+    @include clearfix;
+    margin-bottom: 30px;
+}
+.Qmap_01{
+    float: left;
+    font-size: 1.2em;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
