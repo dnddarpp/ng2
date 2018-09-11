@@ -3379,14 +3379,12 @@ html {
 .big_lightbanner {
   width: 100%;
   height: 100%;
-  overflow: hidden;
   margin-bottom: 100px;
   position: relative;
 }
 
 .light_bn {
   width: 100%;
-  margin-right: 30px;
   text-align: center;
   display: inline-block;
   /* Center slide text vertically */
@@ -3412,6 +3410,7 @@ html {
   top: 50%;
   right: 0;
   margin-top: -10px;
+  z-index: 100;
 }
 .ie-prev i {
   font-size: 5em;
@@ -3423,6 +3422,7 @@ html {
   top: 50%;
   left: 0;
   margin-top: -10px;
+  z-index: 100;
 }
 .ie-next i {
   font-size: 5em;
