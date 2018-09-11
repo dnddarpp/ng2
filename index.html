@@ -10,11 +10,22 @@
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="dist/js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="dist/js/main.js"></script>
     <title></title>
+    <script type="text/javascript">
+      $( document ).ready(function() {
+        pageinit()
+        $("#goMM").click(function(){
+          checkMenu()
+        })
+      });
+    </script>
 
 </head>
 
 <body>
+  <div class="pagemask"></div>
     <div id="id_wrapper">
         <header>
             <div id="id_header">
@@ -23,7 +34,7 @@
                         <a href="index.html"><a href="index.html"><img src="images/logo.svg"></a></a>
                     </div>
                     <nav>
-                        <a href="#"><div class="search_Bg_menu"><img src="images/menu.svg"></div></a>
+                        <a id="goMM" href="#"><div class="search_Bg_menu"><img src="images/menu.svg"></div></a>
                         <a href="#"><div class="search_Bg"><i class="mdi mdi-magnify"></i></div></a>
                         <div class="rightBox">
                             <div class="listitem">

@@ -55,13 +55,13 @@
     .mobile_darkbg{
         display: block;
         background-color:#89b0d0;
-        width: 40%;
+        width: $menu-width-pad;
         height: 100vh;
         position: fixed;
         z-index: 99;
         overflow: scroll;
         top:0;
-        right:0;
+        right:-$menu-width-pad;
     }
     .mobile_darkbg_wrap{
         @include clearfix;
@@ -382,7 +382,8 @@
 }
 @include respond-small-mobile{
     .mobile_darkbg{
-        width: 80%;
+        width: $menu-width-mobile;
+        right:-$menu-width-mobile;
     }
     .rent_bluebg{
         min-height: 500px;

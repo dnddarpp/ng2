@@ -1109,6 +1109,15 @@ html {
   display: none;
 }
 
+.pagemask {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+  display: none;
+}
+
 @media only screen and (max-width: 1239px) {
   .listline {
     margin: 0 5px;
@@ -1179,7 +1188,7 @@ html {
     z-index: 99;
     overflow: scroll;
     top: 0;
-    right: 0;
+    right: -40%;
   }
 
   .mobile_darkbg_wrap {
@@ -1561,6 +1570,7 @@ html {
 @media only screen and (max-width: 480px) {
   .mobile_darkbg {
     width: 80%;
+    right: -80%;
   }
 
   .rent_bluebg {
