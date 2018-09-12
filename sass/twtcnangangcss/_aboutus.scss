@@ -244,3 +244,12 @@
         }
     }
 }
+.tran_about{
+    li{
+        width: 25%;
+        float: left;
+    }
+}
+.aboutkeke{
+    @include clearfix;
+}

@@ -7,9 +7,20 @@
 
 }
 @include respond-pad {
-
+    .tran_about{
+        li{
+            width: 33%!important;
+            float: left;
+        }
+    }
 }
 @include respond-mobile {
+    .tran_about{
+        li{
+            width: 50%!important;
+            float: left;
+        }
+    }
     .contact_wrap{
         display: grid;
         grid-template-columns: 1fr;
@@ -31,5 +42,10 @@
 
 }
 @include respond-small-mobile{
-
+    .tran_about{
+        li{
+            width: 100%!important;
+            float: left;
+        }
+    }
 }
