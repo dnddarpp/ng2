@@ -3012,6 +3012,7 @@ html {
   font-weight: bolder;
   color: #2d3b3f;
   background-color: #d1e9ed;
+  cursor: pointer;
 }
 .news_faq_title {
   zoom: 1;

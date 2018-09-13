@@ -10,7 +10,23 @@
     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="dist/js/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
     <title></title>
+    <script type="text/javascript">
+      $( document ).ready(function() {
+        $(".anser_font").slideUp()
+        $(".newsfaq_box").click(function(){
+          var obj = $(this).find(".anser_font")
+          if($(this).hasClass("on")){
+            $(this).removeClass("on")
+            obj.slideUp()
+          }else{
+            $(this).addClass("on")
+            obj.slideDown()
+          }
+        })
+      })
+    </script>
 
 </head>
 
