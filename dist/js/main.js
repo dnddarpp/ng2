@@ -87,6 +87,15 @@ function initOrganizers(){
 
 }
 function checkOrganAnim(){
-  
+
   scrolltemp = nowtop
+}
+
+function checkSideLabel(){
+  nowtop = $(window).scrollTop()
+  console.log("nowtop:"+nowtop)
+  var side_now = $(".index_sidelabel").offset().top;
+  console.log("side_now:"+side_now)
+  var pos = nowtop+($(window).height()*0.6)
+  TweenMax.to($(".index_sidelabel"), 1, {top:pos, ease:Power1.easeOut});
 }

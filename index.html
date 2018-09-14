@@ -17,6 +17,10 @@
     <script type="text/javascript">
 
       $( document ).ready(function() {
+        var vids = $("video");
+        $.each(vids, function(){
+               this.controls = false;
+        });
         pageinit()
         initIndexTraffic()
         $("#goMM").click(function(){
@@ -24,6 +28,7 @@
         })
         $(window).on('scroll', function(e) {
             checkIndexAnim()
+            checkSideLabel()
           });
       });
     </script>
@@ -317,7 +322,7 @@
                 <div class="idx_banner">
                     <div class="bnmask"><img src="images/bn_mask.png"></div>
                     <div class="video-container">
-                        <video width="100%" controls src="hall2.mp4" Autoplay="autoplay" loop="loop" muted="true">
+                        <video width="100%" controls src="hall2.mp4" Autoplay="autoplay" loop="loop" muted="true" controls="false">
                         </video>
                     </div>
                 </div>
