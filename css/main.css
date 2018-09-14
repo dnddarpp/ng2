@@ -238,9 +238,6 @@ html {
   overflow: hidden;
   z-index: -1;
 }
-.video-container video {
-  margin-top: -116px;
-}
 
 .video-container embed,
 .video-container iframe,
@@ -1482,7 +1479,7 @@ html {
   }
 
   .video-container {
-    padding-bottom: 54%;
+    padding-bottom: 51%;
   }
 
   .rentpace {
