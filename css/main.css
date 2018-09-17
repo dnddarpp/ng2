@@ -3611,6 +3611,10 @@ html {
   margin-bottom: 30px;
 }
 
+.red {
+  color: #be252c;
+}
+
 @media only screen and (max-width: 1096px) {
   .tran_about li {
     width: 33% !important;
