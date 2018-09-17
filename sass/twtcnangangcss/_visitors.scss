@@ -68,18 +68,15 @@
         text-align: center;
         border-radius: 10px 10px 0 0;
         &:hover{
-            background-color:$twt-blue-title;
+            background-color:#5dbbc9;
             color: #ffffff;
-
         }
-        a{
-            color:#999;
-            &:hover{
-                text-decoration: none;
 
-            }
-        }
     }
+}
+.vis_btn{
+    background-color:$twt-blue-title!important;
+    color: #ffffff;
 }
 .link_box{
     // display: grid;

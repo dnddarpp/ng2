@@ -1922,6 +1922,7 @@ html {
 
 .widget-pic {
   margin-bottom: 20px;
+  border: 1px solid #cccccc;
 }
 .widget-pic img {
   width: 100%;
@@ -3204,14 +3205,13 @@ html {
   border-radius: 10px 10px 0 0;
 }
 .floor_btn li:hover {
-  background-color: #2da4c5;
+  background-color: #5dbbc9;
   color: #ffffff;
 }
-.floor_btn li a {
-  color: #999;
-}
-.floor_btn li a:hover {
-  text-decoration: none;
+
+.vis_btn {
+  background-color: #2da4c5 !important;
+  color: #ffffff;
 }
 
 .link_box {
@@ -3602,6 +3602,13 @@ html {
   height: 0;
   overflow: hidden;
   visibility: hidden;
+}
+
+.bilding {
+  font-size: 1.5em;
+  color: #2da4c5;
+  font-weight: bolder;
+  margin-bottom: 30px;
 }
 
 @media only screen and (max-width: 1096px) {
