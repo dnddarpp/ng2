@@ -1923,6 +1923,8 @@ html {
 .widget-pic {
   margin-bottom: 20px;
   border: 1px solid #cccccc;
+}
+.widget-pic.swiper-container {
   height: 50vw;
 }
 .widget-pic img {

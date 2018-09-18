@@ -267,7 +267,9 @@
 .widget-pic{
     margin-bottom: 20px;
     border: 1px solid #cccccc;
-    height:50vw;
+    &.swiper-container{
+      height:50vw;
+    }
     img{
         width: 100%;
     }
