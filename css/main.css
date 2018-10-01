@@ -2894,6 +2894,9 @@ html {
   width: 60%;
   margin-right: 30px;
 }
+.calendr_event_left img {
+  width: 100%;
+}
 
 .calendr_event_right {
   float: left;
