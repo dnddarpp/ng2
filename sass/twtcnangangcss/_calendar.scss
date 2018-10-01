@@ -134,3 +134,16 @@
         }
     }
 }
+.calendr_eventbn_wrap{
+    @include clearfix;
+
+}
+.calendr_event_left{
+    float: left;
+    width: 60%;
+    margin-right: 30px;
+}
+.calendr_event_right{
+    float: left;
+    width: 35%;
+}

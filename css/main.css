@@ -2877,6 +2877,29 @@ html {
   text-decoration: none;
 }
 
+.calendr_eventbn_wrap {
+  zoom: 1;
+}
+.calendr_eventbn_wrap:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.calendr_event_left {
+  float: left;
+  width: 60%;
+  margin-right: 30px;
+}
+
+.calendr_event_right {
+  float: left;
+  width: 35%;
+}
+
 @media only screen and (max-width: 1096px) {
   .ticket_price {
     grid-template-columns: 1fr 1fr 1fr;
