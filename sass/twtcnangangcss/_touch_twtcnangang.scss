@@ -379,8 +379,12 @@
             font-size: 1.1em;
         }
     }
+
 }
 @include respond-small-mobile{
+    .lili_box{
+        margin-top:30px;
+    }
     .mobile_darkbg{
         width: $menu-width-mobile;
         right:-$menu-width-mobile;
