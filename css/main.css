@@ -1564,6 +1564,10 @@ html {
   .spotList li {
     font-size: 1.1em;
   }
+
+  .lili_box {
+    margin-top: 30px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .lili_box {
