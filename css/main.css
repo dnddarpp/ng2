@@ -4249,17 +4249,10 @@ html {
 }
 
 .calendr_event_left {
-  float: left;
-  width: 60%;
-  margin-right: 30px;
+  margin-bottom: 30px;
 }
 .calendr_event_left img {
   width: 100%;
-}
-
-.calendr_event_right {
-  float: left;
-  width: 35%;
 }
 
 /** background image file **/
