@@ -1989,6 +1989,7 @@ html {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-bottom: 40px;
+  grid-column-gap: 10px;
 }
 
 .clod_pic img {
