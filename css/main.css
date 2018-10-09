@@ -1654,6 +1654,13 @@ html {
   width: 100%;
 }
 
+.m-page-news_bn {
+  background-image: url("../images/bgnews.jpg");
+}
+.m-page-news_bn img {
+  width: 100%;
+}
+
 .m-page-left_bg {
   position: absolute;
   top: 0;
