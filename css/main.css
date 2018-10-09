@@ -1682,6 +1682,20 @@ html {
   width: 100%;
 }
 
+.m-page-visitors_bn {
+  background-image: url("../images/bgLeftvisitors.jpg");
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70%;
+  min-height: 330px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.m-page-visitors_bn img {
+  width: 100%;
+}
+
 .m-page-left_bg {
   position: absolute;
   top: 0;
@@ -2389,6 +2403,19 @@ html {
     overflow: hidden;
   }
   .m-page-news_bn img {
+    width: 100%;
+  }
+
+  .m-page-visitors_bn {
+    background-image: url("../images/bgLeftvisitors.jpg");
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    max-height: 330px;
+    overflow: hidden;
+  }
+  .m-page-visitors_bn img {
     width: 100%;
   }
 
