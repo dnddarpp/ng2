@@ -20,13 +20,13 @@
 
 }
 .m-page-news_bn{
-    background-image: url("../images/side_news.jpg");
+    background-image: url("../images/bgnews.jpg");
     position: absolute;
     top: 0;
     right: 0;
     width: 100%;
     min-height: 330px;
-    overflow: hidden;
+    background-repeat: no-repeat;
     img{
         width: 100%;
     }
