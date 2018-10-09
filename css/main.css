@@ -1661,6 +1661,7 @@ html {
   right: 0;
   width: 100%;
   min-height: 330px;
+  background-repeat: no-repeat;
 }
 .m-page-news_bn img {
   width: 100%;
