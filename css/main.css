@@ -1992,6 +1992,9 @@ html {
 .widget-pic.swiper-container {
   height: 40vw;
 }
+.widget-pic.swiper-container.ogz {
+  height: auto;
+}
 .widget-pic img {
   width: 100%;
 }
