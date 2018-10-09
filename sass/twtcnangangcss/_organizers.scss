@@ -323,6 +323,9 @@
     border: 1px solid #cccccc;
     &.swiper-container{
       height:40vw;
+      &.ogz{
+        height:auto;
+      }
     }
     img{
         width: 100%;
