@@ -1986,12 +1986,22 @@ html {
 }
 
 .clod_bg {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-bottom: 40px;
-  grid-column-gap: 10px;
+  zoom: 1;
+}
+.clod_bg:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 
+.clod_pic {
+  float: left;
+  width: 49%;
+  margin-right: 4px;
+}
 .clod_pic img {
   width: 100%;
 }

@@ -317,12 +317,17 @@
 
 }
 .clod_bg{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 40px;
-    grid-column-gap: 10px;
+    // display: grid;
+    // grid-template-columns: 1fr 1fr;
+    // margin-bottom: 40px;
+    // grid-column-gap: 10px;
+    @include clearfix;
 }
 .clod_pic{
+    float: left;
+    width: 49%;
+    margin-right: 4px;
+
     img{
         width: 100%;
     }
