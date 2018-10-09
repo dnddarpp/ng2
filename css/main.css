@@ -1660,7 +1660,7 @@ html {
   top: 0;
   right: 0;
   width: 100%;
-  max-height: 330px;
+  min-height: 330px;
   overflow: hidden;
 }
 .m-page-news_bn img {
