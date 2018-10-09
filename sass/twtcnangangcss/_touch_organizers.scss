@@ -28,6 +28,17 @@
     }
 }
 @include respond-pad {
+    .m-page-event_bn{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        max-height: 330px;
+        overflow: hidden;
+        img{
+            width: 100%;
+        }
+    }
     .m-page-news_bn{
         background-image: url("../images/bgnews.jpg");
         position: absolute;
