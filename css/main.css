@@ -2887,6 +2887,7 @@ html {
 }
 
 .calen-pic {
+  background-image: url("../images/noimages.jpg");
   position: relative;
   width: 100%;
   background-size: cover;
