@@ -3,15 +3,11 @@
 
 }
 @include respond-compact {
-    .calen-pic{
-    min-height: 100px;
-    }
+
 
 }
 @include respond-pad {
-    .calen-pic{
-        min-height: 70px;
-    }
+
     .ticket_price{
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -21,9 +17,7 @@
 
 }
 @include respond-mobile {
-    .calen-pic{
-        min-height: 123px;
-    }
+
     .calen-list{
         grid-template-columns: 1fr 1fr;
     }
@@ -39,9 +33,7 @@
 
 }
 @include respond-small-mobile{
-    .calen-pic{
-        height: 133px;
-    }
+
     .calen-card-box{
         width: 100%;
     }
