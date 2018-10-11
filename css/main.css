@@ -2887,9 +2887,8 @@ html {
 }
 
 .calen-pic {
-  background-image: url("../images/noimages.jpg");
+  background-image: url("../images/noimages.svg");
   padding-bottom: 52%;
-  margin-top: 0px;
   text-align: center;
   position: relative;
   background-color: #cccccc;
