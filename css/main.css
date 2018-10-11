@@ -2888,10 +2888,13 @@ html {
 
 .calen-pic {
   background-image: url("../images/noimages.jpg");
-  min-height: 179px;
+  min-height: 119px;
+  margin-top: 0px;
+  text-align: center;
   position: relative;
+  background-color: #cccccc;
   width: 100%;
-  background-size: cover;
+  background-size: contain;
   cursor: pointer;
   transition: all 0.6s;
 }
