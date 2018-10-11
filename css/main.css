@@ -3014,12 +3014,12 @@ html {
 
 @media only screen and (max-width: 1239px) {
   .calen-pic {
-    height: 130px;
+    min-height: 130px;
   }
 }
 @media only screen and (max-width: 1096px) {
   .calen-pic {
-    height: 90px;
+    min-height: 70px;
   }
 
   .ticket_price {
@@ -3032,7 +3032,7 @@ html {
 }
 @media only screen and (max-width: 768px) {
   .calen-pic {
-    height: 123px;
+    min-height: 123px;
   }
 
   .calen-list {
