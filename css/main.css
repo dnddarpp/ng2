@@ -3014,7 +3014,7 @@ html {
 
 @media only screen and (max-width: 1239px) {
   .calen-pic {
-    min-height: 130px;
+    min-height: 100px;
   }
 }
 @media only screen and (max-width: 1096px) {
