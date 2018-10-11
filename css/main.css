@@ -2888,7 +2888,7 @@ html {
 
 .calen-pic {
   background-image: url("../images/noimages.jpg");
-  min-height: 159px;
+  min-height: 179px;
   position: relative;
   width: 100%;
   background-size: cover;
@@ -3009,7 +3009,16 @@ html {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 1239px) {
+  .calen-pic {
+    height: 130px;
+  }
+}
 @media only screen and (max-width: 1096px) {
+  .calen-pic {
+    height: 90px;
+  }
+
   .ticket_price {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -3019,6 +3028,10 @@ html {
   }
 }
 @media only screen and (max-width: 768px) {
+  .calen-pic {
+    height: 123px;
+  }
+
   .calen-list {
     grid-template-columns: 1fr 1fr;
   }
@@ -3033,6 +3046,10 @@ html {
   }
 }
 @media only screen and (max-width: 480px) {
+  .calen-pic {
+    height: 133px;
+  }
+
   .calen-card-box {
     width: 100%;
   }
