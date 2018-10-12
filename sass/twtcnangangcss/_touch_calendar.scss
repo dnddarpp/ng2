@@ -14,7 +14,13 @@
     .calen-list{
         grid-template-columns: 1fr 1fr;
     }
-
+    .from_box{
+    font-size: .8em;
+    }
+    .from_box_dash {
+    margin: 0 13px;
+    height: 20px;
+    }
 }
 @include respond-mobile {
 
@@ -27,6 +33,13 @@
     }
     .calen-card-box{
         width: 46%;
+    }
+    .from_box{
+    font-size: .8em;
+    }
+    .from_box_dash {
+    margin: 0 13px;
+    height: 20px;
     }
 
 

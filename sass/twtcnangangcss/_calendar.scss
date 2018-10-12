@@ -171,3 +171,40 @@
         }
     }
 }
+.from_to_wrap{
+    @include clearfix;
+    margin-bottom: 10px;
+}
+.from_box{
+    float: left;
+    width: calc( 49% - 21px );
+    font-size: 1.1em;
+    color:#2da4c5;
+    font-weight: bolder;
+    span{
+        display: inline-block;
+
+        &.secd{
+            color:#999999;
+        }
+    }
+
+
+}
+.ca_title{
+    font-size: 1em;
+    font-weight: bolder;
+}
+.from_box_dash{
+    float: left;
+    margin: 0 10px;
+    width: 1px;
+    height: 20px;
+
+    background-color: #bbbbbb;
+}
+.ca_font{
+    font-size: 1em;
+    color:#727272;
+    margin-bottom: 10px;
+}

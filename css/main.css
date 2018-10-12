@@ -3046,6 +3046,54 @@ html {
   text-decoration: none;
 }
 
+.from_to_wrap {
+  margin-bottom: 10px;
+}
+.from_to_wrap {
+  zoom: 1;
+}
+.from_to_wrap:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.from_box {
+  float: left;
+  width: calc( 49% - 21px );
+  font-size: 1.1em;
+  color: #2da4c5;
+  font-weight: bolder;
+}
+.from_box span {
+  display: inline-block;
+}
+.from_box span.secd {
+  color: #999999;
+}
+
+.ca_title {
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.from_box_dash {
+  float: left;
+  margin: 0 10px;
+  width: 1px;
+  height: 20px;
+  background-color: #bbbbbb;
+}
+
+.ca_font {
+  font-size: 1em;
+  color: #727272;
+  margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 1096px) {
   .ticket_price {
     grid-template-columns: 1fr 1fr 1fr;
@@ -3053,6 +3101,15 @@ html {
 
   .calen-list {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .from_box {
+    font-size: .8em;
+  }
+
+  .from_box_dash {
+    margin: 0 13px;
+    height: 20px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -3067,6 +3124,15 @@ html {
 
   .calen-card-box {
     width: 46%;
+  }
+
+  .from_box {
+    font-size: .8em;
+  }
+
+  .from_box_dash {
+    margin: 0 13px;
+    height: 20px;
   }
 }
 @media only screen and (max-width: 480px) {
