@@ -3,12 +3,25 @@
 
 }
 @include respond-compact {
+    .m-page-news_bn{
+        background-image: url("../images/news/bgnews_wn.jpg");
+    }
+    .m-page-visitors_bn{
+        background-image: url("../images/visitors/visitors_wn.jpg");
+    }
+    .m-page-transportation_bn{
+        background-image: url("../images/transportation/transportation_wn.jpg");
+    }
+    .m-page-event_bn{
+        background-image: url("../images/calendar/calendar_wn.jpg");
+    }
+    .m-page-headerbg{
+        background-image: url("../images/organizers/organizers_wn.jpg");
+    }
     .m-page-left_bg{
         width: 50%;
     }
-    .m-page-headerbg{
-        background-position: 159px 0;
-    }
+
     .Vendor-resource_wrapper{
         width: 1000px;
     }
@@ -28,52 +41,25 @@
     }
 }
 @include respond-pad {
-    .m-page-event_bn{
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%;
-        max-height: 330px;
-        overflow: hidden;
-        img{
-            width: 100%;
-        }
-    }
     .m-page-news_bn{
-        background-image: url("../images/bgnews.jpg");
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%;
-        max-height: 330px;
-        overflow: hidden;
-        img{
-            width: 100%;
-        }
+        width: 70%;
+        background-image: url("../images/news/bgnews_p.jpg");
     }
     .m-page-visitors_bn{
-        background-image: url("../images/bgLeftvisitors.jpg");
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%;
-        max-height: 330px;
-        overflow: hidden;
-        img{
-            width: 100%;
-        }
+        width: 70%;
+        background-image: url("../images/visitors/visitors_p.jpg");
     }
     .m-page-transportation_bn{
-        background-image: url("../images/bgLefttransportation.jpg");
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%;
-        max-height: 330px;
-        overflow: hidden;
-        img{
-            width: 100%;
-        }
+        width: 70%;
+        background-image: url("../images/transportation/transportation_p.jpg");
+    }
+    .m-page-event_bn{
+        width: 70%;
+        background-image: url("../images/calendar/calendar_p.jpg");
+    }
+    .m-page-headerbg{
+        width: 70%;
+        background-image: url("../images/organizers/organizers_p.jpg");
     }
     .m-page_wrapper{
         padding: 2% 5%;
@@ -92,10 +78,6 @@
     }
     .bok_rp{
         padding: 7%;
-    }
-    .m-page-headerbg{
-        background-position:0 0;
-        width: 100%;
     }
     .m-page-left_bg{
         width: 52%;
@@ -123,8 +105,29 @@
             top: 47px;
         }
     }
+
 }
 @include respond-mobile {
+    .m-page-news_bn{
+        width: 100%;
+        background-image: url("../images/news/bgnews_mn.jpg");
+    }
+    .m-page-visitors_bn{
+        width: 100%;
+        background-image: url("../images/visitors/visitors_mn.jpg");
+    }
+    .m-page-transportation_bn{
+        width: 100%;
+        background-image: url("../images/transportation/transportation_mn.jpg");
+    }
+    .m-page-event_bn{
+        width: 100%;
+        background-image: url("../images/calendar/calendar_mn.jpg");
+    }
+    .m-page-headerbg{
+        width:100%;
+        background-image: url("../images/organizers/organizers_mn.jpg");
+    }
     .bok-pic{
         width: 50%;
         height: 300px;
@@ -198,8 +201,29 @@
         font-size: 1em;
     }
 
+
 }
 @include respond-small-mobile{
+    .m-page-news_bn{
+        width: 100%;
+        background-image: url("../images/news/bgnews_m.jpg");
+    }
+    .m-page-visitors_bn{
+        width: 100%;
+        background-image: url("../images/visitors/visitors_m.jpg");
+    }
+    .m-page-transportation_bn{
+        width: 100%;
+        background-image: url("../images/transportation/transportation_m.jpg");
+    }
+    .m-page-event_bn{
+        width: 100%;
+        background-image: url("../images/calendar/calendar_m.jpg");
+    }
+    .m-page-headerbg{
+        width:100%;
+        background-image: url("../images/organizers/organizers_m.jpg");
+    }
     .bok_title{
         font-size:1.8em;
 
@@ -212,10 +236,6 @@
     }
     .Vendor_box{
         grid-template-columns: 1fr 1fr;
-    }
-    .m-page-headerbg{
-        background-position: -220px 0;
-        width: 100%;
     }
     .card-Parallax {
     height:360px;

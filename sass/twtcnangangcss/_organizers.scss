@@ -1,6 +1,6 @@
 .card-Parallax{
     width: 100%;
-    height:342px;
+    min-height:342px;
     position: relative;
 }
 .m-page-headerbg{
@@ -10,9 +10,8 @@
     width: 75%;
     max-height:450px;
     background-size: cover;
-    background-image: url("../images/bgLeft.jpg");
+    background-image: url("../images/organizers/organizers.jpg");
     height: 330px;
-    background-position: 131px -18px;
     background-repeat: no-repeat;
     img{
         width: 100%;
@@ -33,7 +32,7 @@
     }
 }
 .m-page-event_bn{
-    background-image: url("../images/bgLeft_event.jpg");
+    background-image: url("../images/calendar/calendar.jpg");
     position: absolute;
     top: 0;
     right: 0;
@@ -46,7 +45,7 @@
     }
 }
 .m-page-visitors_bn{
-    background-image: url("../images/bgLeftvisitors.jpg");
+    background-image: url("../images/visitors/visitors.jpg");
     position: absolute;
     top: 0;
     right: 0;
@@ -59,7 +58,7 @@
     }
 }
 .m-page-transportation_bn{
-    background-image: url("../images/bgLefttransportation.jpg");
+    background-image: url("../images/transportation/transportation.jpg");
     position: absolute;
     top: 0;
     right: 0;
