@@ -45,7 +45,15 @@
     .tra_contin{
         width: 100%;
     }
-
+    .rightBox{
+        display: none;
+    }
+    .search_Bg{
+        display: none;
+    }
+    .search_Bg_menu{
+        display: block;
+    }
 }
 @include respond-pad {
     .mob_box{

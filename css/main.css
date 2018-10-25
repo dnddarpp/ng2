@@ -1170,6 +1170,18 @@ html {
   .tra_contin {
     width: 100%;
   }
+
+  .rightBox {
+    display: none;
+  }
+
+  .search_Bg {
+    display: none;
+  }
+
+  .search_Bg_menu {
+    display: block;
+  }
 }
 @media only screen and (max-width: 1096px) {
   .mob_box {
