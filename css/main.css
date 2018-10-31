@@ -3136,6 +3136,11 @@ html {
   margin-bottom: 10px;
 }
 
+@media only screen and (max-width: 1239px) {
+  .calen-card_issuse {
+    min-height: 260px;
+  }
+}
 @media only screen and (max-width: 1096px) {
   .ticket_price {
     grid-template-columns: 1fr 1fr 1fr;
@@ -3155,6 +3160,10 @@ html {
   }
 }
 @media only screen and (max-width: 768px) {
+  .calen-card_issuse {
+    min-height: 285px;
+  }
+
   .calen-list {
     grid-template-columns: 1fr 1fr;
   }

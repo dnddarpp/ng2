@@ -4,9 +4,12 @@
 }
 @include respond-compact {
 
-
+    .calen-card_issuse{
+        min-height: 260px;
+    }
 }
 @include respond-pad {
+
 
     .ticket_price{
         grid-template-columns: 1fr 1fr 1fr;
@@ -23,6 +26,9 @@
     }
 }
 @include respond-mobile {
+    .calen-card_issuse{
+        min-height: 285px;
+    }
 
     .calen-list{
         grid-template-columns: 1fr 1fr;
