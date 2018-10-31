@@ -204,7 +204,10 @@
     .ven_font{
         font-size: 1em;
     }
-
+    .clod_pic{
+        width: 97%;
+        margin-bottom: 30px;
+    }
 
 }
 @include respond-small-mobile{

@@ -2620,6 +2620,11 @@ html {
   .ven_font {
     font-size: 1em;
   }
+
+  .clod_pic {
+    width: 97%;
+    margin-bottom: 30px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .clod_pic {
