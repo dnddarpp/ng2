@@ -2504,6 +2504,11 @@ html {
   }
 }
 @media only screen and (max-width: 768px) {
+  .clod_pic {
+    width: 95%;
+    margin-bottom: 30px;
+  }
+
   .m-page-news_bn {
     width: 100%;
     background-image: url("../images/news/bgnews_mn.jpg");
