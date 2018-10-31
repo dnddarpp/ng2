@@ -2062,8 +2062,8 @@ html {
 
 .clod_pic {
   float: left;
-  width: 48%;
-  margin: 0 9px;
+  width: 46%;
+  margin: 0 1%;
 }
 .clod_pic img {
   width: 100%;
@@ -2423,11 +2423,6 @@ html {
   .city_bg {
     margin-top: 0px;
   }
-
-  .clod_pic {
-    width: 46%;
-    margin: 0 9px;
-  }
 }
 @media only screen and (max-width: 1096px) {
   .m-page-news_bn {
@@ -2506,11 +2501,6 @@ html {
   }
   .titleBox:after {
     top: 47px;
-  }
-
-  .clod_pic {
-    width: 48%;
-    margin: 0 12px;
   }
 }
 @media only screen and (max-width: 768px) {

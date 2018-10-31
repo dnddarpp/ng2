@@ -39,10 +39,6 @@
         margin-top:0px;
 
     }
-    .clod_pic {
-        width: 46%;
-        margin: 0 9px;
-    }
 }
 @include respond-pad {
     .m-page-news_bn{
@@ -108,10 +104,6 @@
         &:after{
             top: 47px;
         }
-    }
-    .clod_pic {
-        width: 48%;
-        margin: 0 12px;
     }
 }
 @include respond-mobile {
