@@ -2423,6 +2423,11 @@ html {
   .city_bg {
     margin-top: 0px;
   }
+
+  .clod_pic {
+    width: 48%;
+    margin: 0 12px;
+  }
 }
 @media only screen and (max-width: 1096px) {
   .m-page-news_bn {
