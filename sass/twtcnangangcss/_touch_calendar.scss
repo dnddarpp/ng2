@@ -9,7 +9,9 @@
     }
 }
 @include respond-pad {
-
+    .calen-card_issuse{
+        min-height: 300px;
+    }
 
     .ticket_price{
         grid-template-columns: 1fr 1fr 1fr;
