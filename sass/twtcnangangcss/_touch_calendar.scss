@@ -4,7 +4,9 @@
 }
 @include respond-compact {
 
-
+    .calen-card_issuse{
+        min-height: 260px;
+    }
 }
 @include respond-pad {
 
@@ -24,7 +26,9 @@
     }
 }
 @include respond-mobile {
-
+    .calen-card_issuse{
+        min-height: 285px;
+    }
 
     .calen-list{
         grid-template-columns: 1fr 1fr;
