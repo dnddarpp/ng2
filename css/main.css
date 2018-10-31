@@ -2910,9 +2910,7 @@ html {
 }
 
 .calen-card-box {
-  width: 29.333%;
   margin: 2% 2%;
-  float: left;
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 50px;
