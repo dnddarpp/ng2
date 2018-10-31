@@ -210,6 +210,10 @@
 
 }
 @include respond-small-mobile{
+    .chinese_box{
+        margin: 2% 5%;
+        width: 91%;
+    }
     .ven_font {
         font-size: 1.3em;
     }
