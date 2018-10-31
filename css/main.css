@@ -2502,6 +2502,11 @@ html {
   .titleBox:after {
     top: 47px;
   }
+
+  .clod_pic {
+    width: 48%;
+    margin: 0 12px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .vendor_icon {
