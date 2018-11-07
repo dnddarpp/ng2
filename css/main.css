@@ -2468,7 +2468,7 @@ html {
   }
 
   .m-page-faq_bn {
-    width: 100%;
+    width: 70%;
     background-image: url("../images/faq/faq_p.jpg");
   }
 
@@ -2555,7 +2555,7 @@ html {
     background-image: url("../images/transportation/transportation_mn.jpg");
   }
 
-  .m-page-transportation_bn {
+  .m-page-faq_bn {
     width: 100%;
     background-image: url("../images/faq/faq_mn.jpg");
   }

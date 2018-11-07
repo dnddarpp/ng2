@@ -58,7 +58,7 @@
         background-image: url("../images/transportation/transportation_p.jpg");
     }
     .m-page-faq_bn{
-        width: 100%;
+        width: 70%;
         background-image: url("../images/faq/faq_p.jpg");
     }
     .m-page-event_bn{
@@ -115,7 +115,6 @@
     }
 }
 @include respond-mobile {
-
     .vendor_icon{
         width: 100%;
     }
@@ -131,7 +130,7 @@
         width: 100%;
         background-image: url("../images/transportation/transportation_mn.jpg");
     }
-    .m-page-transportation_bn{
+    .m-page-faq_bn{
         width: 100%;
         background-image: url("../images/faq/faq_mn.jpg");
     }
