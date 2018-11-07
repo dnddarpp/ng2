@@ -16,7 +16,6 @@
     img{
         width: 100%;
     }
-
 }
 .m-page-news_bn{
     background-image: url("../images/news/bgnews.jpg");
@@ -59,6 +58,19 @@
 }
 .m-page-transportation_bn{
     background-image: url("../images/transportation/transportation.jpg");
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70%;
+    min-height: 330px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    img{
+        width: 100%;
+    }
+}
+.m-page-faq_bn{
+    background-image: url("../images/transportation/faq.jpg");
     position: absolute;
     top: 0;
     right: 0;

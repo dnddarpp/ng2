@@ -1721,6 +1721,20 @@ html {
   width: 100%;
 }
 
+.m-page-faq_bn {
+  background-image: url("../images/transportation/faq.jpg");
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 70%;
+  min-height: 330px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.m-page-faq_bn img {
+  width: 100%;
+}
+
 .m-page-left_bg {
   position: absolute;
   top: 0;
@@ -2402,6 +2416,10 @@ html {
     background-image: url("../images/transportation/transportation_wn.jpg");
   }
 
+  .m-page-faq_bn {
+    background-image: url("../images/transportation/faq_wn.jpg");
+  }
+
   .m-page-event_bn {
     background-image: url("../images/calendar/calendar_wn.jpg");
   }
@@ -2447,6 +2465,11 @@ html {
   .m-page-transportation_bn {
     width: 70%;
     background-image: url("../images/transportation/transportation_p.jpg");
+  }
+
+  .m-page-faq_bn {
+    width: 70%;
+    background-image: url("../images/transportation/faq_p.jpg");
   }
 
   .m-page-event_bn {
@@ -2530,6 +2553,11 @@ html {
   .m-page-transportation_bn {
     width: 100%;
     background-image: url("../images/transportation/transportation_mn.jpg");
+  }
+
+  .m-page-transportation_bn {
+    width: 100%;
+    background-image: url("../images/transportation/faq_mn.jpg");
   }
 
   .m-page-event_bn {
@@ -2663,6 +2691,11 @@ html {
   .m-page-transportation_bn {
     width: 100%;
     background-image: url("../images/transportation/transportation_m.jpg");
+  }
+
+  .m-page-faq_bn {
+    width: 100%;
+    background-image: url("../images/transportation/faq_m.jpg");
   }
 
   .m-page-event_bn {
