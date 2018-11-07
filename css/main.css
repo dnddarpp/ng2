@@ -3144,6 +3144,7 @@ html {
 }
 .from_box span {
   display: inline-block;
+  min-width: 80px;
 }
 .from_box span.secd {
   color: #999999;

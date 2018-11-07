@@ -184,6 +184,7 @@
     font-weight: bolder;
     span{
         display: inline-block;
+        min-width: 80px;
 
         &.secd{
             color:#999999;
