@@ -62,7 +62,7 @@ function initIndexTraffic(){
   console.log("dis_max:"+dis_max);
 }
 function checkIndexAnim(){
-  console.log("nowtop:"+nowtop)
+  //console.log("nowtop:"+nowtop)
   var sub = scrolltemp - nowtop
   nowtop = $(window).scrollTop()
   if(nowtop>=dis_min && nowtop<=dis_max){
@@ -93,9 +93,9 @@ function checkOrganAnim(){
 
 function checkSideLabel(){
   nowtop = $(window).scrollTop()
-  console.log("nowtop:"+nowtop)
+  //console.log("nowtop:"+nowtop)
   var side_now = $(".index_sidelabel").offset().top;
-  console.log("side_now:"+side_now)
+  //console.log("side_now:"+side_now)
   var pos = nowtop+($(window).height()*0.6)
   TweenMax.to($(".index_sidelabel"), 1, {top:pos, ease:Power1.easeOut});
 }
