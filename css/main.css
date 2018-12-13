@@ -984,6 +984,7 @@ html {
   top: 70%;
   right: 0;
   width: 120px;
+  overflow: hidden;
 }
 
 .side_fastbtn {

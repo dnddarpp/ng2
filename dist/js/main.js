@@ -18,6 +18,12 @@ var ogdis_max = 0
 function pageinit(){
   pageww = $(document).width()
   pagehh = $(document).height()
+  TweenLite.to($(".index_sidelabel"), 0.5, { ease: Power2.easeOut, width: 45 });
+  $(".index_sidelabel").hover(function() {
+    TweenLite.to($(".index_sidelabel"), 0.5, { ease: Power2.easeOut, width: 120 })
+  },function(){
+    TweenLite.to($(".index_sidelabel"), 0.5, { ease: Power2.easeOut, width: 45 })
+  })
 }
 function checkMenu(){
   var menu_w = $(".mobile_darkbg").width()
