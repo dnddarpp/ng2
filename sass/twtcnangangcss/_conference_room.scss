@@ -194,6 +194,10 @@
     width: 100px;
     float: left;
     margin-right: 10px;
+    &.cjoin{
+      float: none;
+      margin: 0 auto;
+    }
 }
 .chi_box{
     margin-bottom: 30px;

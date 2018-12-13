@@ -4442,6 +4442,10 @@ html {
   float: left;
   margin-right: 10px;
 }
+.chiese_btn.cjoin {
+  float: none;
+  margin: 0 auto;
+}
 
 .chi_box {
   margin-bottom: 30px;
