@@ -23,6 +23,7 @@ $( document ).ready(function() {
   init()
   $(".cjoin").click(function(){
     var ttall = 0
+    area_ary = []
     $(".ttnum").each(function(){
       var tmp = $(this).data("num")
       console.log("tmp:"+tmp);
@@ -30,7 +31,9 @@ $( document ).ready(function() {
     })
     //檢查使用幾個區域
     $(".ttt").each(function(){
+
       var area = $(this).data("area")
+      console.log("area:"+area);
       if(area.indexOf("+")>=0){
         var tmp = area.split("+")
         for(var i=0;i<tmp.length;i++){
@@ -42,17 +45,21 @@ $( document ).ready(function() {
     })
     area_ary.sort()
     area_ary = jQuery.unique(area_ary)
-    //console.log("area_ary:"+area_ary);
+    console.log("area_ary:"+area_ary);
     //場地清潔費
-    var clean1 = Number(clean_event[area_ary.length])
-    if($('input[type=radio][name=food]').val()=="1"){
+    var clean1 = Number(clean_event[area_ary.length-1])
+    console.log("clean1:"+clean1);
+    if($('input[type=radio][name=food]:checked').val()=="1"){
       //餐會清潔費
-      clean1 += Number(food_event[area_ary.length])
+      clean1 += Number(food_event[area_ary.length-1])
+      console.log("2222clean1:"+clean1);
+      if($('input[type=radio][name=kitchen]:checked').val()=="1"){
+        //廚房使用費
+        clean1 += Number(kitchen_price)
+        console.log("3333clean1:"+clean1);
+      }
     }
-    if($('input[type=radio][name=kitchen]').val()=="1"){
-      //廚房使用費
-      clean1 += Number(kitchen_price)
-    }
+
     console.log("clean1:"+clean1);
     var p1 = ttall
     var p2 = Math.round(p1*0.05)
@@ -107,7 +114,12 @@ $( document ).ready(function() {
       alert("進場開始時間必需大於結束時間")
       return
     }
-    addStep1($("tbody.step1"))
+    if(nowfloor!="7f"){
+      addStep1()
+    }else{
+      addStep7($("tbody.step1"), $( "#datepicker1"), $("#st1"),$("#ed1"), daynum1)
+    }
+
   })
   $("#ab2").click(function(){
     if($("#datepicker2").val()==""){
@@ -130,7 +142,11 @@ $( document ).ready(function() {
       alert("活動結束時間必需大於開始時間")
       return
     }
-    addStep2()
+    if(nowfloor!="7f"){
+      addStep2()
+    }else{
+      addStep7($("tbody.step2"), $( "#datepicker2"), $("#st2"),$("#ed2"), daynum2)
+    }
   })
   $("#ab3").click(function(){
     if($("#datepicker3").val()==""){
@@ -149,7 +165,11 @@ $( document ).ready(function() {
       alert("撒場開始時間必需大於結束時間")
       return
     }
-    addStep1($("tbody.step3"))
+    if(nowfloor!="7f"){
+      addStep3()
+    }else{
+      addStep7($("tbody.step3"), $( "#datepicker3"), $("#st3"),$("#ed3"), daynum3)
+    }
   })
   $("#ad1").click(function(){
     $("tbody.step1").html("")
@@ -180,7 +200,7 @@ function init(){
   } })
 
 }
-function addStep1(_obj){
+function addStep1(){
   var str_table = ""
   st1 = Number($("#st1").val())
   ed1 = Number($("#ed1").val())
@@ -259,24 +279,17 @@ function addStep1(_obj){
     str_table +="</tr>"
   }
 
-  _obj.append(str_table)
-  var ttall = 0
-  $(".ttnum").each(function(){
-    var tmp = $(this).data("num")
-    console.log("tmp:"+tmp);
-    ttall+=Number(tmp)
-  })
-  console.log("ttall:"+ttall);
+  $("tbody.step1").append(str_table)
   initDelete()
 }
 function addStep2(){
-  var date = $( "#datepicker1").val()
+  var date = $( "#datepicker2").val()
   var str_table = ""
   var holiday = ""
   st1 = Number($("#st2").val())
   ed1 = Number($("#ed2").val())
   var diff = 18
-  if(daynum2>=6){
+  if(daynum2==6 || daynum2==0){
     ap1 *=1.2
     ap2 *=1.2
     date += "(假日)"
@@ -355,13 +368,186 @@ function addStep2(){
   }
 
   $("tbody.step2").append(str_table)
-  var ttall = 0
-  $(".ttnum").each(function(){
-    var tmp = $(this).data("num")
-    console.log("tmp:"+tmp);
-    ttall+=Number(tmp)
-  })
-  console.log("ttall:"+ttall);
+  initDelete()
+}
+function addStep3(){
+  var str_table = ""
+  st1 = Number($("#st3").val())
+  ed1 = Number($("#ed3").val())
+  console.log("nowarea:"+nowarea);
+  var diff = 7
+  //如果進場時間早於7點的話
+  if(st1<diff && ed1<=diff){
+    //如果開始和結束都在7點以前
+    pp = ap3
+    step_num++;
+    tmp1 = ed1-st1
+    var total1 = pp*tmp1
+    console.log("tmp1:"+tmp1);
+    console.log("total1:"+total1);
+    step_num++;
+    str_table +="<tr data-tt='"+step_num+"' data-area='"+nowarea+"' class='ttt'>"
+    str_table +="<td>"+$( "#datepicker1").val()+"</td>"
+    str_table +="<td>0"+st1+":00-0"+ed1+":00</td>"
+    str_table +="<td>00:00-07:00</td>"
+    str_table +="<td>"+addCommas(pp)+"</td>"
+    str_table +="<td>"+tmp1+"</td>"
+    str_table +="<td class=\"ttnum\" data-num=\""+total1+"\">$"+addCommas(total1)+"</td>"
+    str_table +="<td><i class=\"mdi mdi-delete godelete\" ></i></td>"
+    str_table +="</tr>"
+  }else if(st1<diff && ed1>diff){
+    //如果進場小於7點，而結束大於7點
+    //拆成兩組
+    pp = ap3
+    step_num++;
+    tmp1 = diff-st1
+    var total1 = pp*tmp1
+    console.log("tmp1:"+tmp1);
+    console.log("total1:"+total1);
+    step_num++;
+    str_table +="<tr data-tt='"+step_num+"' data-area='"+nowarea+"' class='ttt'>"
+    str_table +="<td>"+$( "#datepicker1").val()+"</td>"
+    str_table +="<td>"+(('0' + st1).slice(-2))+":00-07:00</td>"
+    str_table +="<td>00:00-07:00</td>"
+    str_table +="<td>"+addCommas(pp)+"</td>"
+    str_table +="<td>"+tmp1+"</td>"
+    str_table +="<td class=\"ttnum\" data-num=\""+total1+"\">$"+addCommas(total1)+"</td>"
+    str_table +="<td><i class=\"mdi mdi-delete godelete\" ></i></td>"
+    str_table +="</tr>"
+
+    pp = ap4
+    step_num++;
+    tmp2 = ed1-diff
+    var total2 = pp*tmp2
+    console.log("tmp2:"+tmp2);
+    console.log("total2:"+total2);
+    str_table +="<tr data-tt='"+step_num+"' data-area='"+nowarea+"' class='ttt'>"
+    str_table +="<td>"+$( "#datepicker1").val()+"</td>"
+    str_table +="<td>07:00-"+(('0' + ed1).slice(-2))+":00</td>"
+    str_table +="<td>07:00-24:00</td>"
+    str_table +="<td>"+addCommas(pp)+"</td>"
+    str_table +="<td>"+tmp2+"</td>"
+    str_table +="<td class=\"ttnum\" data-num=\""+total2+"\">$"+addCommas(total2)+"</td>"
+    str_table +="<td><i class=\"mdi mdi-delete godelete\"></i></td>"
+    str_table +="</tr>"
+  }else{
+    //如果開始和結束時間都大於7點
+    pp = ap4
+    step_num++;
+    tmp2 = ed1-st1
+    var total2 = pp*tmp2
+    console.log("tmp2:"+tmp2);
+    console.log("total2:"+total2);
+    str_table +="<tr data-tt='"+step_num+"' data-area='"+nowarea+"' class='ttt'>"
+    str_table +="<td>"+$( "#datepicker1").val()+"</td>"
+    str_table +="<td>"+(('0' + st1).slice(-2))+":00-"+(('0' + ed1).slice(-2))+":00</td>"
+    str_table +="<td>07:00-24:00</td>"
+    str_table +="<td>"+addCommas(pp)+"</td>"
+    str_table +="<td>"+tmp2+"</td>"
+    str_table +="<td class=\"ttnum\" data-num=\""+total2+"\">$"+addCommas(total2)+"</td>"
+    str_table +="<td><i class=\"mdi mdi-delete godelete\" ></i></td>"
+    str_table +="</tr>"
+  }
+
+  $("tbody.step3").append(str_table)
+  initDelete()
+}
+function addStep7(_obj,_picker, st, ed, daynum){
+  var date = _picker.val()
+  var str_table = ""
+  st1 = Number(st.val())
+  ed1 = Number(ed.val())
+  var diff = 18
+  if(daynum==6 || daynum==0){
+    //如果是假日，那全日都是高價
+    date += "(假日)"
+    pp = ap2
+    step_num++;
+    tmp2 = ed1-st1
+    var total2 = pp*tmp2
+    console.log("tmp2:"+tmp2);
+    console.log("total2:"+total2);
+    str_table +="<tr data-tt='"+step_num+"' data-area='"+nowarea+"' class='ttt'>"
+    str_table +="<td>"+date+"</td>"
+    str_table +="<td>"+(('0' + st1).slice(-2))+":00-"+(('0' + ed1).slice(-2))+":00</td>"
+    str_table +="<td>08:00-22:00</td>"
+    str_table +="<td>"+addCommas(pp)+"</td>"
+    str_table +="<td>"+tmp2+"</td>"
+    str_table +="<td class=\"ttnum\" data-num=\""+total2+"\">$"+addCommas(total2)+"</td>"
+    str_table +="<td><i class=\"mdi mdi-delete godelete\" ></i></td>"
+    str_table +="</tr>"
+  }else{
+    if(st1<diff && ed1<=diff){
+      pp = ap1
+      step_num++;
+      tmp1 = ed1-st1
+      var total1 = pp*tmp1
+      console.log("tmp1:"+tmp1);
+      console.log("total1:"+total1);
+      step_num++;
+      str_table +="<tr data-tt='"+step_num+"' data-area='"+nowarea+"' class='ttt'>"
+      str_table +="<td>"+date+"</td>"
+      str_table +="<td>"+(('0' + st1).slice(-2))+":00-"+(('0' + ed1).slice(-2))+":00</td>"
+      str_table +="<td>08:00-18:00</td>"
+      str_table +="<td>"+addCommas(pp)+"</td>"
+      str_table +="<td>"+tmp1+"</td>"
+      str_table +="<td class=\"ttnum\" data-num=\""+total1+"\">$"+addCommas(total1)+"</td>"
+      str_table +="<td><i class=\"mdi mdi-delete godelete\" ></i></td>"
+      str_table +="</tr>"
+    }else if(st1<diff && ed1>diff){
+      pp = ap1
+      step_num++;
+      tmp1 = diff-st1
+      var total1 = pp*tmp1
+      console.log("tmp1:"+tmp1);
+      console.log("total1:"+total1);
+      step_num++;
+      str_table +="<tr data-tt='"+step_num+"' data-area='"+nowarea+"' class='ttt'>"
+      str_table +="<td>"+date+"</td>"
+      str_table +="<td>"+(('0' + st1).slice(-2))+":00-18:00</td>"
+      str_table +="<td>08:00-18:00</td>"
+      str_table +="<td>"+addCommas(pp)+"</td>"
+      str_table +="<td>"+tmp1+"</td>"
+      str_table +="<td class=\"ttnum\" data-num=\""+total1+"\">$"+addCommas(total1)+"</td>"
+      str_table +="<td><i class=\"mdi mdi-delete godelete\" ></i></td>"
+      str_table +="</tr>"
+
+      pp = ap2
+      step_num++;
+      tmp2 = ed1-diff
+      var total2 = pp*tmp2
+      console.log("tmp2:"+tmp2);
+      console.log("total2:"+total2);
+      str_table +="<tr data-tt='"+step_num+"' data-area='"+nowarea+"' class='ttt'>"
+      str_table +="<td>"+date+"</td>"
+      str_table +="<td>18:00-"+(('0' + ed1).slice(-2))+":00</td>"
+      str_table +="<td>18:00-22:00</td>"
+      str_table +="<td>"+addCommas(pp)+"</td>"
+      str_table +="<td>"+tmp2+"</td>"
+      str_table +="<td class=\"ttnum\" data-num=\""+total2+"\">$"+addCommas(total2)+"</td>"
+      str_table +="<td><i class=\"mdi mdi-delete godelete\"></i></td>"
+      str_table +="</tr>"
+    }else{
+      pp = ap2
+      step_num++;
+      tmp2 = ed1-st1
+      var total2 = pp*tmp2
+      console.log("tmp2:"+tmp2);
+      console.log("total2:"+total2);
+      str_table +="<tr data-tt='"+step_num+"' data-area='"+nowarea+"' class='ttt'>"
+      str_table +="<td>"+date+"</td>"
+      str_table +="<td>"+(('0' + st1).slice(-2))+":00-"+(('0' + ed1).slice(-2))+":00</td>"
+      str_table +="<td>18:00-22:00</td>"
+      str_table +="<td>"+addCommas(pp)+"</td>"
+      str_table +="<td>"+tmp2+"</td>"
+      str_table +="<td class=\"ttnum\" data-num=\""+total2+"\">$"+addCommas(total2)+"</td>"
+      str_table +="<td><i class=\"mdi mdi-delete godelete\" ></i></td>"
+      str_table +="</tr>"
+    }
+  }
+
+
+  _obj.append(str_table)
   initDelete()
 }
 function initTime1(){
@@ -375,6 +561,14 @@ function initTime1(){
 function initTime2(){
   var str = '<option value="">==請選擇==</option>'
   for(var i=7;i<=23;i++){
+    var time = ('0' + i).slice(-2)+":00"
+    str += '<option value="'+i+'">'+time+'</option>'
+  }
+  return str
+}
+function initTime3(){
+  var str = '<option value="">==請選擇==</option>'
+  for(var i=8;i<=22;i++){
     var time = ('0' + i).slice(-2)+":00"
     str += '<option value="'+i+'">'+time+'</option>'
   }
@@ -409,6 +603,12 @@ function initArea(id){
       $("#ed3").html(initTime1())
     break
     case "7f":
+      $("#st1").html(initTime3())
+      $("#ed1").html(initTime3())
+      $("#st2").html(initTime3())
+      $("#ed2").html(initTime3())
+      $("#st3").html(initTime3())
+      $("#ed3").html(initTime3())
     break
   }
   $(".ffarea").html(str_inp)
@@ -424,11 +624,11 @@ function initArea(id){
       ap2 =ary_event[nowfloor][aid][1]
       ap3 =ary_event[nowfloor][aid][2]
       ap4 =ary_event[nowfloor][aid][3]
-
-
       console.log("ap1:"+ap1);
       break
       case "701全室":
+      ap1 =ary_event[nowfloor][aid][0]
+      ap2 =ary_event[nowfloor][aid][1]
       console.log("!!!!701全室");
       break
     }
