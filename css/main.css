@@ -3506,6 +3506,7 @@ html {
   border-radius: 20px;
   width: 30%;
   float: left;
+  min-height: 220px;
   margin-right: 2%;
   margin-bottom: 140px;
 }
