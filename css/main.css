@@ -3696,6 +3696,11 @@ html {
     margin-bottom: 20px;
   }
 }
+@media only screen and (max-width: 1239px) {
+  .food_bg {
+    min-height: 260px;
+  }
+}
 @media only screen and (max-width: 1096px) {
   .hall2_mar {
     width: 100%;

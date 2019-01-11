@@ -3,7 +3,9 @@
 
 }
 @include respond-compact {
-
+    .food_bg{
+    min-height: 260px;    
+    }
 
 }
 @include respond-pad {
