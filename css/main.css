@@ -4706,6 +4706,20 @@ span.event_inp {
   width: 90%;
 }
 
+.vendor_icon_en {
+  text-align: center;
+  width: 50%;
+  float: left;
+}
+.vendor_icon_en img {
+  width: 100px;
+}
+
+.Vendor_box_en {
+  width: 480px;
+  margin: 0 auto;
+}
+
 /** background image file **/
 /** benefits background image file **/
 /** vip icon background image file **/
