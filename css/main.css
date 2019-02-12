@@ -4719,6 +4719,26 @@ span.event_inp {
   width: 480px;
   margin: 0 auto;
 }
+.Vendor_box_en {
+  zoom: 1;
+}
+.Vendor_box_en:after {
+  content: ".";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.Vendor_box_en a {
+  text-decoration: none;
+  color: #555555;
+}
+.Vendor_box_en a:hover {
+  text-decoration: none;
+  color: #2da4c5;
+  transition: all 0.5s;
+}
 
 /** background image file **/
 /** benefits background image file **/
