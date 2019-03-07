@@ -4028,6 +4028,12 @@ html {
   color: #be252c;
 }
 
+.fish_side {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
 @media only screen and (max-width: 1096px) {
   .tran_about li {
     width: 33% !important;
