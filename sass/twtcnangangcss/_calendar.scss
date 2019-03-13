@@ -5,9 +5,10 @@
     @include clearfix;
 }
 .calen-card-box{
-    width: 29.333%;
+    width: 28.333%;
     margin:2% 2%;
-    float: left;
+    // float: left;
+    display: inline-block;
     border-radius: 10px;
     overflow: hidden;
     margin-bottom: 50px;
