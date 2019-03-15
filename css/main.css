@@ -646,9 +646,9 @@ html {
 }
 
 .evn_box {
-  width: 29.333%;
+  width: 28.333%;
   margin: 2% 2%;
-  float: left;
+  display: inline-block;
   transition: box-shadow .3s ease-out, transform .3s ease-out, opacity .2s ease-out;
   transition-delay: .1s;
   border-radius: 4px;
