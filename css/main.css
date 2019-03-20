@@ -3505,7 +3505,7 @@ html {
   background-color: #f2f2f2;
   border-radius: 20px;
   width: 30%;
-  float: left;
+  display: inline-block;
   min-height: 220px;
   margin-right: 2%;
   margin-bottom: 140px;
