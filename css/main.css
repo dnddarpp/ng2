@@ -3510,6 +3510,7 @@ html {
   margin-right: 2%;
   margin-bottom: 140px;
   vertical-align: top;
+  min-height: 282px;
 }
 
 .food_list_box {
