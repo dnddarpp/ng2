@@ -210,4 +210,7 @@
     font-size: 1em;
     color:#727272;
     margin-bottom: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }

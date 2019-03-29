@@ -3240,6 +3240,9 @@ html {
   font-size: 1em;
   color: #727272;
   margin-bottom: 10px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 @media only screen and (max-width: 1239px) {
@@ -3284,7 +3287,7 @@ html {
   }
 
   .calen-card-box {
-    width: 46%;
+    width: 45%;
   }
 
   .from_box {
