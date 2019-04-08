@@ -4396,6 +4396,10 @@ span.event_inp {
   float: right;
 }
 
+.roome_bottom {
+  border-bottom: 1px solid #cccccc;
+}
+
 .vip_gray {
   font-size: 1.2em;
   font-weight: bolder;
