@@ -4399,6 +4399,11 @@ span.event_inp {
 .roome_bottom {
   border-bottom: 1px solid #cccccc;
 }
+.roome_bottom td {
+  padding: 10px;
+  margin-top: 0;
+  vertical-align: middle;
+}
 
 .vip_gray {
   font-size: 1.2em;
