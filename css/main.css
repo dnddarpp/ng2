@@ -2832,6 +2832,9 @@ html {
   color: #161616;
   font-size: 1.5em;
   font-weight: bolder;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .news_blue {
