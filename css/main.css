@@ -4047,6 +4047,15 @@ html {
   width: 100%;
 }
 
+.on_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ffffff;
+  border-radius: 100%;
+  color: #024190;
+}
+
 @media only screen and (max-width: 1096px) {
   .tran_about li {
     width: 33% !important;
