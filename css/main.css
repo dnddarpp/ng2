@@ -4059,6 +4059,18 @@ html {
   color: #024190;
 }
 
+.off_btn {
+  width: 34px;
+  height: 36px;
+  position: absolute;
+  bottom: 200px;
+  right: 8px;
+  padding: 9px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  color: #024190;
+}
+
 @media only screen and (max-width: 1096px) {
   .tran_about li {
     width: 33% !important;
