@@ -275,9 +275,23 @@
 }
 
 .on_btn{
+    width: 34px;
+    height: 36px;
     position: absolute;
-    top:0;
-    right:0;
+    bottom: 150px;
+    right: 8px;
+    padding: 9px;
+    background-color: #ffffff;
+    border-radius: 100%;
+    color:$twt-blue;
+}
+.off_btn{
+    width: 34px;
+    height: 36px;
+    position: absolute;
+    bottom: 200px;
+    right: 8px;
+    padding: 9px;
     background-color: #ffffff;
     border-radius: 100%;
     color:$twt-blue;
