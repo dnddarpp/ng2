@@ -1117,6 +1117,11 @@ html {
   display: none;
 }
 
+.gsearch {
+  position: absolute;
+  display: none;
+}
+
 @media only screen and (max-width: 1239px) {
   .listline {
     margin: 0 5px;
