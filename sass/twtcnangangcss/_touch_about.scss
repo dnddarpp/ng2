@@ -13,6 +13,9 @@
             float: left;
         }
     }
+    .on_btn{
+        bottom: 52px;
+    }
 }
 @include respond-mobile {
     .tran_about{
@@ -40,6 +43,12 @@
     }
     .on_btn{
         bottom: 30px;
+    }
+    .ento_item{
+        padding-top: 50px;
+    }
+    .idx_banner{
+        display: none;
     }
 
 }

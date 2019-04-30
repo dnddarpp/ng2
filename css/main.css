@@ -4072,6 +4072,10 @@ html {
     width: 33% !important;
     float: left;
   }
+
+  .on_btn {
+    bottom: 52px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .tran_about li {
@@ -4102,6 +4106,14 @@ html {
 
   .on_btn {
     bottom: 30px;
+  }
+
+  .ento_item {
+    padding-top: 50px;
+  }
+
+  .idx_banner {
+    display: none;
   }
 }
 @media only screen and (max-width: 480px) {
