@@ -4099,6 +4099,10 @@ html {
     margin-left: 0;
     margin-top: 40px;
   }
+
+  .on_btn {
+    bottom: 30px;
+  }
 }
 @media only screen and (max-width: 480px) {
   .tran_about li {
