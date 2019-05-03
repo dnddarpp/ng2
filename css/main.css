@@ -4062,9 +4062,10 @@ html {
   background-color: #ffffff;
   border-radius: 100%;
   color: #024190;
+  text-align: center;
 }
 .on_btn i {
-  font-size: 1.5em;
+  font-size: 1.6em;
   margin-top: 3px;
 }
 
