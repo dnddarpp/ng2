@@ -275,8 +275,8 @@
 }
 
 .on_btn{
-    width: 34px;
-    height: 36px;
+    width: 45px;
+    height: 45px;
     position: absolute;
     bottom: 150px;
     right: 8px;
@@ -285,6 +285,7 @@
     border-radius: 100%;
     color:$twt-blue;
     i{
-        font-size: 1.2em;
+        font-size: 1.5em;
+        margin-top: 3px;
     }
 }
