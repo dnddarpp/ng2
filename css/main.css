@@ -1383,7 +1383,7 @@ html {
 @media only screen and (max-width: 768px) {
   .traffic_bg {
     height: auto;
-    padding-bottom: 89%;
+    padding-bottom: 118%;
     background-size: contain;
   }
 
@@ -1599,6 +1599,12 @@ html {
   }
 }
 @media only screen and (max-width: 480px) {
+  .traffic_bg {
+    height: auto;
+    padding-bottom: 129%;
+    background-size: contain;
+  }
+
   .lili_box {
     margin-top: 30px;
   }
