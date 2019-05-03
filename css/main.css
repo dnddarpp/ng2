@@ -1377,7 +1377,7 @@ html {
 @media only screen and (max-width: 768px) {
   .traffic_bg {
     height: auto;
-    padding-bottom: 118%;
+    padding-bottom: 114%;
     background-size: contain;
   }
 
