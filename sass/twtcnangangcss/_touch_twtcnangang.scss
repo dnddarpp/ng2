@@ -209,12 +209,16 @@
     }
     .traffic_bg{
         height: none;
-        padding-bottom: 116%;
+        padding-bottom: 90%;
         background-size: contain;
     }
 }
 @include respond-mobile {
-
+    .traffic_bg{
+        height: none;
+        padding-bottom: 89%;
+        background-size: contain;
+    }
     .chun_wraper{
         width: 100%;
     }
