@@ -207,7 +207,10 @@
         width: 960px;
         margin: 40px auto;
     }
-
+    .traffic_bg{
+        padding-bottom: 120%;
+        background-size: contain;
+    }
 }
 @include respond-mobile {
 

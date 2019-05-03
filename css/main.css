@@ -816,7 +816,6 @@ html {
   background-size: cover;
   position: relative;
   background-repeat: no-repeat;
-  position: relative;
 }
 
 .traffic_big_title {
@@ -1373,6 +1372,11 @@ html {
   .downmenu_box {
     width: 960px;
     margin: 40px auto;
+  }
+
+  .traffic_bg {
+    padding-bottom: 120%;
+    background-size: contain;
   }
 }
 @media only screen and (max-width: 768px) {
