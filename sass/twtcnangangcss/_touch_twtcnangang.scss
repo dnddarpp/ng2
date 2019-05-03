@@ -208,7 +208,7 @@
         margin: 40px auto;
     }
     .traffic_bg{
-        padding-bottom: 99%;
+        padding-bottom: 87%;
     }
 }
 @include respond-mobile {
@@ -397,6 +397,9 @@
 
 }
 @include respond-small-mobile{
+    .traffic_bg{
+        padding-bottom: 125%;
+    }
     .lili_box{
         margin-top:30px;
     }

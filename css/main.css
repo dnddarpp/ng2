@@ -1374,7 +1374,7 @@ html {
   }
 
   .traffic_bg {
-    padding-bottom: 99%;
+    padding-bottom: 87%;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1594,6 +1594,10 @@ html {
   }
 }
 @media only screen and (max-width: 480px) {
+  .traffic_bg {
+    padding-bottom: 125%;
+  }
+
   .lili_box {
     margin-top: 30px;
   }
