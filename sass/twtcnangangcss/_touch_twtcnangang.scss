@@ -208,12 +208,13 @@
         margin: 40px auto;
     }
     .traffic_bg{
-        padding-bottom: 120%;
-        background-size: contain;
+        padding-bottom: 99%;
     }
 }
 @include respond-mobile {
-
+    .traffic_bg{
+        padding-bottom: 116%;
+    }
     .chun_wraper{
         width: 100%;
     }

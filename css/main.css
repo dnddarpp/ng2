@@ -1374,11 +1374,14 @@ html {
   }
 
   .traffic_bg {
-    padding-bottom: 120%;
-    background-size: contain;
+    padding-bottom: 99%;
   }
 }
 @media only screen and (max-width: 768px) {
+  .traffic_bg {
+    padding-bottom: 116%;
+  }
+
   .chun_wraper {
     width: 100%;
   }
