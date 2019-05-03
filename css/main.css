@@ -810,9 +810,10 @@ html {
 
 .traffic_bg {
   width: 100%;
+  height: 600px;
   background-image: url("../images/15.JPG");
   padding-bottom: 49%;
-  background-size: contain;
+  background-size: cover;
   position: relative;
   background-repeat: no-repeat;
 }
@@ -1374,14 +1375,12 @@ html {
   }
 
   .traffic_bg {
-    padding-bottom: 87%;
+    height: none;
+    padding-bottom: 116%;
+    background-size: contain;
   }
 }
 @media only screen and (max-width: 768px) {
-  .traffic_bg {
-    padding-bottom: 116%;
-  }
-
   .chun_wraper {
     width: 100%;
   }
@@ -1594,10 +1593,6 @@ html {
   }
 }
 @media only screen and (max-width: 480px) {
-  .traffic_bg {
-    padding-bottom: 125%;
-  }
-
   .lili_box {
     margin-top: 30px;
   }

@@ -208,13 +208,13 @@
         margin: 40px auto;
     }
     .traffic_bg{
-        padding-bottom: 87%;
+        height: none;
+        padding-bottom: 116%;
+        background-size: contain;
     }
 }
 @include respond-mobile {
-    .traffic_bg{
-        padding-bottom: 116%;
-    }
+
     .chun_wraper{
         width: 100%;
     }
@@ -397,9 +397,7 @@
 
 }
 @include respond-small-mobile{
-    .traffic_bg{
-        padding-bottom: 125%;
-    }
+
     .lili_box{
         margin-top:30px;
     }
