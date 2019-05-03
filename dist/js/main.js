@@ -68,6 +68,10 @@ function initIndexTraffic(){
   console.log("dis_max:"+dis_max);
 }
 function checkIndexAnim(){
+  var ww = $(window).width()
+  if(ww<=768){
+    return
+  }
   //console.log("nowtop:"+nowtop)
   var sub = scrolltemp - nowtop
   nowtop = $(window).scrollTop()
