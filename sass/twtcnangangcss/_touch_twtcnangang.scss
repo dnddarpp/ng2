@@ -401,7 +401,11 @@
 
 }
 @include respond-small-mobile{
-
+    .traffic_bg{
+        height: none;
+        padding-bottom: 76%;
+        background-size: contain;
+    }
     .lili_box{
         margin-top:30px;
     }

@@ -1381,6 +1381,12 @@ html {
   }
 }
 @media only screen and (max-width: 768px) {
+  .traffic_bg {
+    height: none;
+    padding-bottom: 89%;
+    background-size: contain;
+  }
+
   .chun_wraper {
     width: 100%;
   }
@@ -1593,6 +1599,12 @@ html {
   }
 }
 @media only screen and (max-width: 480px) {
+  .traffic_bg {
+    height: none;
+    padding-bottom: 76%;
+    background-size: contain;
+  }
+
   .lili_box {
     margin-top: 30px;
   }
