@@ -4620,6 +4620,11 @@ span.event_inp {
   text-align: center;
 }
 
+@media only screen and (max-width: 1239px) {
+  .vip_wrap {
+    width: 46%;
+  }
+}
 @media only screen and (max-width: 1096px) {
   .vip_wrap {
     width: 46%;
