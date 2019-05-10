@@ -7,7 +7,9 @@
 
 }
 @include respond-pad {
-
+    .vip_wrap{
+        width: 46%;
+    }
 }
 @include respond-mobile {
     .meet_bluebg{
