@@ -4070,7 +4070,7 @@ html {
   bottom: 150px;
   right: 48px;
   padding: 9px;
-  background-color: #ffffff;
+  background-color: rgba(225, 225, 225, 0.3);
   border-radius: 100%;
   color: #024190;
   text-align: center;
