@@ -968,3 +968,6 @@ html {
     position: absolute;
     display: none;
 }
+video[poster]{
+  object-fit: cover;
+}

@@ -1121,6 +1121,10 @@ html {
   display: none;
 }
 
+video[poster] {
+  object-fit: cover;
+}
+
 @media only screen and (max-width: 1239px) {
   .listline {
     margin: 0 5px;
