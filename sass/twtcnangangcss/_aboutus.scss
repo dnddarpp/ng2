@@ -281,7 +281,7 @@
     bottom: 150px;
     right: 48px;
     padding: 9px;
-    background-color: #ffffff;
+    background-color: rgba("225,225,225,.3");
     border-radius: 100%;
     color:$twt-blue;
     text-align: center;
@@ -297,7 +297,7 @@
     left:50%;
     margin-left: -80px;
     margin-top: -80px;
-    opacity: .5;
+    opacity: .3;
     img{
         width: 100%;
     }
