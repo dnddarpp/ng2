@@ -4080,6 +4080,23 @@ html {
   margin-top: 8px;
 }
 
+.stop_btn {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: 150px;
+  right: 48px;
+  padding: 9px;
+  background-color: rgba(225, 225, 225, 0.3);
+  border-radius: 100%;
+  color: #024190;
+  text-align: center;
+}
+.stop_btn i {
+  font-size: 2em;
+  margin-top: 8px;
+}
+
 .playicon {
   position: absolute;
   width: 180px;
