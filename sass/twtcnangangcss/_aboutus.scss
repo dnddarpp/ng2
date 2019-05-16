@@ -292,9 +292,11 @@
 }
 .playicon{
     position: absolute;
-    width: 50px;
+    width: 110px;
     top:50%;
     left:50%;
+    margin-left: -55px;
+    margin-top: -55px;
     img{
         width: 100%;
     }
