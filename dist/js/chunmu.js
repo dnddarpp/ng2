@@ -551,7 +551,7 @@ function addStep7(_obj,_picker, st, ed, daynum){
   initDelete()
 }
 function initTime1(){
-  var str = '<option value="">==請選擇==</option>'
+  var str = '<option value="">==select==</option>'
   for(var i=0;i<=24;i++){
     var time = ('0' + i).slice(-2)+":00"
     str += '<option value="'+i+'">'+time+'</option>'
@@ -559,7 +559,7 @@ function initTime1(){
   return str
 }
 function initTime2(){
-  var str = '<option value="">==請選擇==</option>'
+  var str = '<option value="">==select==</option>'
   for(var i=7;i<=23;i++){
     var time = ('0' + i).slice(-2)+":00"
     str += '<option value="'+i+'">'+time+'</option>'
@@ -567,7 +567,7 @@ function initTime2(){
   return str
 }
 function initTime3(){
-  var str = '<option value="">==請選擇==</option>'
+  var str = '<option value="">==select==</option>'
   for(var i=8;i<=22;i++){
     var time = ('0' + i).slice(-2)+":00"
     str += '<option value="'+i+'">'+time+'</option>'
