@@ -73,9 +73,17 @@
         }
 
     }
+    a{
+      cursor: pointer;
+
+      &.ff{
+
+      }
+    }
 }
 .vis_btn{
     background-color:$twt-blue-title!important;
+    color:#fff;
 }
 .link_box{
     // display: grid;

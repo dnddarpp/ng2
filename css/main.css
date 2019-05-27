@@ -3635,9 +3635,13 @@ video[poster] {
   background-color: #5dbbc9;
   color: #ffffff;
 }
+.floor_btn a {
+  cursor: pointer;
+}
 
 .vis_btn {
   background-color: #2da4c5 !important;
+  color: #fff;
 }
 
 .link_box {
