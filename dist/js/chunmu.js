@@ -90,7 +90,12 @@ $( document ).ready(function() {
   $('input[type=radio][name=floor]').change(function() {
     var id = $(this).val()
     nowfloor = id
-    initArea(id)
+    var lang = "tw"
+
+    if($(this).hasClass("en")){
+      lang="en"
+    }
+    initArea(id,lang)
   })
   $(".mdi-delete").click(function(){
     var tt = $(this).data("tt")
@@ -550,31 +555,43 @@ function addStep7(_obj,_picker, st, ed, daynum){
   _obj.append(str_table)
   initDelete()
 }
-function initTime1(){
-  var str = '<option value="">==select==</option>'
+function initTime1(lang){
+  var str_select = "請選擇"
+  if(lang=="en"){
+    str_select="select"
+  }
+  var str = '<option value="">=='+str_select+'==</option>'
   for(var i=0;i<=24;i++){
     var time = ('0' + i).slice(-2)+":00"
     str += '<option value="'+i+'">'+time+'</option>'
   }
   return str
 }
-function initTime2(){
-  var str = '<option value="">==select==</option>'
+function initTime2(lang){
+  var str_select = "請選擇"
+  if(lang=="en"){
+    str_select="select"
+  }
+  var str = '<option value="">=='+str_select+'==</option>'
   for(var i=7;i<=23;i++){
     var time = ('0' + i).slice(-2)+":00"
     str += '<option value="'+i+'">'+time+'</option>'
   }
   return str
 }
-function initTime3(){
-  var str = '<option value="">==select==</option>'
+function initTime3(lang){
+  var str_select = "請選擇"
+  if(lang=="en"){
+    str_select="select"
+  }
+  var str = '<option value="">=='+str_select+'==</option>'
   for(var i=8;i<=22;i++){
     var time = ('0' + i).slice(-2)+":00"
     str += '<option value="'+i+'">'+time+'</option>'
   }
   return str
 }
-function initArea(id){
+function initArea(id,lang){
   nowfloor = id
   var ary = ary_event[id]
   var str_inp=""
@@ -595,20 +612,20 @@ function initArea(id){
   switch(id){
     case "1f":
     case "4f":
-      $("#st1").html(initTime1())
-      $("#ed1").html(initTime1())
-      $("#st2").html(initTime2())
-      $("#ed2").html(initTime2())
-      $("#st3").html(initTime1())
-      $("#ed3").html(initTime1())
+      $("#st1").html(initTime1(lang))
+      $("#ed1").html(initTime1(lang))
+      $("#st2").html(initTime2(lang))
+      $("#ed2").html(initTime2(lang))
+      $("#st3").html(initTime1(lang))
+      $("#ed3").html(initTime1(lang))
     break
     case "7f":
-      $("#st1").html(initTime3())
-      $("#ed1").html(initTime3())
-      $("#st2").html(initTime3())
-      $("#ed2").html(initTime3())
-      $("#st3").html(initTime3())
-      $("#ed3").html(initTime3())
+      $("#st1").html(initTime3(lang))
+      $("#ed1").html(initTime3(lang))
+      $("#st2").html(initTime3(lang))
+      $("#ed2").html(initTime3(lang))
+      $("#st3").html(initTime3(lang))
+      $("#ed3").html(initTime3(lang))
     break
   }
   $(".ffarea").html(str_inp)
