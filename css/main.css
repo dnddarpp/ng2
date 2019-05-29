@@ -233,7 +233,7 @@ html {
 
 .video-container {
   position: relative;
-  padding-bottom: 42%;
+  padding-bottom: 38%;
   height: 0;
   overflow: hidden;
   z-index: -1;
@@ -1123,6 +1123,7 @@ html {
 
 video[poster] {
   object-fit: cover;
+  width: 100%;
 }
 
 @media only screen and (max-width: 1239px) {
