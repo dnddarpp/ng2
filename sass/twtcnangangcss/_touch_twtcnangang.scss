@@ -65,6 +65,19 @@
         top:0;
         right:-$menu-width-pad;
     }
+    .mobile_darkbg_box{
+        padding: 10px 30px;
+        width: 100%;
+        float: left;
+        color:#ffffff;
+        li{
+            line-height: 2;
+            font-size: 1.2em;
+            i{
+                margin-right: 10px;
+            }
+        }
+    }
 }
 @include respond-pad {
     .mob_box{

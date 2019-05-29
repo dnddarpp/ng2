@@ -1204,6 +1204,20 @@ video[poster] {
     top: 0;
     right: -40%;
   }
+
+  .mobile_darkbg_box {
+    padding: 10px 30px;
+    width: 100%;
+    float: left;
+    color: #ffffff;
+  }
+  .mobile_darkbg_box li {
+    line-height: 2;
+    font-size: 1.2em;
+  }
+  .mobile_darkbg_box li i {
+    margin-right: 10px;
+  }
 }
 @media only screen and (max-width: 1096px) {
   .mob_box {
