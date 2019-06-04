@@ -237,6 +237,7 @@ html {
   height: 0;
   overflow: hidden;
   z-index: -1;
+  background: url(../images/videobg.jpg) no-repeat center;
 }
 
 .video-container embed,
