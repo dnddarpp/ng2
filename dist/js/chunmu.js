@@ -237,9 +237,13 @@ function addStep1(){
   console.log("nowarea:"+nowarea);
   var diff = 7
   var day = $( "#datepicker1").val()
+  var date = new Date($(this).val());
+  daynum1 = date.getUTCDay()
   if(daynum1==6 || daynum1==0){
     day = day+"(假日)"
   }
+  var id = $('input[type=radio][name=floor]:checked').val()
+  setAP(id)
   //如果進場時間早於7點的話
   if(st1<diff && ed1<=diff){
     //如果開始和結束都在7點以前
@@ -338,6 +342,8 @@ function addStep2(){
     ap2 *=1.2
     date += "(假日)"
   }
+  var id = $('input[type=radio][name=floor]:checked').val()
+  setAP(id)
   //如果進場時間早於18點的話
   if(st1<diff && ed1<=diff){
     console.log("pppp1");
@@ -422,6 +428,8 @@ function addStep3(){
   st1 = Number($("#st3").val())
   ed1 = Number($("#ed3").val())
   console.log("nowarea:"+nowarea);
+  var id = $('input[type=radio][name=floor]:checked').val()
+  setAP(id)
   var diff = 7
   //如果進場時間早於7點的話
   if(st1<diff && ed1<=diff){
@@ -504,6 +512,8 @@ function addStep7(_obj,_picker, st, ed, daynum){
   var str_table = ""
   st1 = Number(st.val())
   ed1 = Number(ed.val())
+  var id = $('input[type=radio][name=floor]:checked').val()
+  setAP(id)
   var diff = 18
   if(daynum==6 || daynum==0){
     //如果是假日，那全日都是高價
