@@ -336,14 +336,14 @@ function addStep2(){
   var diff = 18
   console.log("date:"+date);
   console.log("daynum2:"+daynum2);
-
+  var id = $('input[type=radio][name=floor]:checked').val()
+  setAP(id)
   if(daynum2==6 || daynum2==0){
     ap1 *=1.2
     ap2 *=1.2
     date += "(假日)"
   }
-  var id = $('input[type=radio][name=floor]:checked').val()
-  setAP(id)
+
   //如果進場時間早於18點的話
   if(st1<diff && ed1<=diff){
     console.log("pppp1");
