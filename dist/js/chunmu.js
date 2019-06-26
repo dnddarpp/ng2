@@ -119,6 +119,7 @@ $( document ).ready(function() {
       alert("進場開始時間必需大於結束時間")
       return
     }
+
     if(nowfloor!="7f"){
       addStep1()
     }else{
@@ -147,6 +148,7 @@ $( document ).ready(function() {
       alert("活動結束時間必需大於開始時間")
       return
     }
+
     if(nowfloor!="7f"){
       addStep2()
     }else{
@@ -170,6 +172,7 @@ $( document ).ready(function() {
       alert("撒場開始時間必需大於結束時間")
       return
     }
+
     if(nowfloor!="7f"){
       addStep3()
     }else{
@@ -197,12 +200,34 @@ function init(){
     var date = new Date(dateText);
     daynum2 = date.getUTCDay()
     console.log("daynum2:"+daynum2);
-  } })
+  },
+onSelect: function(d,i){
+          if(d !== i.lastVal){
+              $(this).change();
+          }
+     } })
   $( "#datepicker3" ).datepicker({ minDate: 0, dateFormat: "yy-mm-dd", onSelect: function(dateText, inst) {
     var date = new Date(dateText);
     daynum3 = date.getUTCDay()
     console.log("daynum3:"+daynum3);
   } })
+  $('#datepicker1').change(function(){
+    console.log("====dddddd====");
+       var id = $('input[type=radio][name=floor]:checked').val()
+       setAP(id)
+  });
+  $('#datepicker2').change(function(){
+    var date = new Date($(this).val());
+    daynum2 = date.getUTCDay()
+    console.log("====dddddd22222====");
+    var id = $('input[type=radio][name=floor]:checked').val()
+       setAP(id)
+  });
+  $('#datepicker3').change(function(){
+    console.log("====dddddd33333====");
+       var id = $('input[type=radio][name=floor]:checked').val()
+      setAP(id)
+  });
 
 }
 function addStep1(){
@@ -211,6 +236,10 @@ function addStep1(){
   ed1 = Number($("#ed1").val())
   console.log("nowarea:"+nowarea);
   var diff = 7
+  var day = $( "#datepicker1").val()
+  if(daynum1==6 || daynum1==0){
+    day = day+"(假日)"
+  }
   //如果進場時間早於7點的話
   if(st1<diff && ed1<=diff){
     //如果開始和結束都在7點以前
@@ -218,11 +247,17 @@ function addStep1(){
     step_num++;
     tmp1 = ed1-st1
     var total1 = pp*tmp1
+
+    if(daynum1==6 || daynum1==0){
+      pp = pp*1.2
+      total1 = total1*1.2
+      day = day+"(假日)"
+    }
     console.log("tmp1:"+tmp1);
     console.log("total1:"+total1);
     step_num++;
     str_table +="<tr data-tt='"+step_num+"' data-area='"+nowarea+"' class='ttt'>"
-    str_table +="<td>"+$( "#datepicker1").val()+"</td>"
+    str_table +="<td>"+day+"</td>"
     str_table +="<td>0"+st1+":00-0"+ed1+":00</td>"
     str_table +="<td>00:00-07:00</td>"
     str_table +="<td>"+addCommas(pp)+"</td>"
@@ -241,7 +276,7 @@ function addStep1(){
     console.log("total1:"+total1);
     step_num++;
     str_table +="<tr data-tt='"+step_num+"' data-area='"+nowarea+"' class='ttt'>"
-    str_table +="<td>"+$( "#datepicker1").val()+"</td>"
+    str_table +="<td>"+day+"</td>"
     str_table +="<td>"+(('0' + st1).slice(-2))+":00-07:00</td>"
     str_table +="<td>00:00-07:00</td>"
     str_table +="<td>"+addCommas(pp)+"</td>"
@@ -257,7 +292,7 @@ function addStep1(){
     console.log("tmp2:"+tmp2);
     console.log("total2:"+total2);
     str_table +="<tr data-tt='"+step_num+"' data-area='"+nowarea+"' class='ttt'>"
-    str_table +="<td>"+$( "#datepicker1").val()+"</td>"
+    str_table +="<td>"+day+"</td>"
     str_table +="<td>07:00-"+(('0' + ed1).slice(-2))+":00</td>"
     str_table +="<td>07:00-24:00</td>"
     str_table +="<td>"+addCommas(pp)+"</td>"
@@ -274,7 +309,7 @@ function addStep1(){
     console.log("tmp2:"+tmp2);
     console.log("total2:"+total2);
     str_table +="<tr data-tt='"+step_num+"' data-area='"+nowarea+"' class='ttt'>"
-    str_table +="<td>"+$( "#datepicker1").val()+"</td>"
+    str_table +="<td>"+day+"</td>"
     str_table +="<td>"+(('0' + st1).slice(-2))+":00-"+(('0' + ed1).slice(-2))+":00</td>"
     str_table +="<td>07:00-24:00</td>"
     str_table +="<td>"+addCommas(pp)+"</td>"
@@ -288,19 +323,24 @@ function addStep1(){
   initDelete()
 }
 function addStep2(){
+  console.log("addStep2");
   var date = $( "#datepicker2").val()
   var str_table = ""
   var holiday = ""
   st1 = Number($("#st2").val())
   ed1 = Number($("#ed2").val())
   var diff = 18
+  console.log("date:"+date);
+  console.log("daynum2:"+daynum2);
+
   if(daynum2==6 || daynum2==0){
     ap1 *=1.2
     ap2 *=1.2
     date += "(假日)"
   }
-  //如果進場時間早於7點的話
+  //如果進場時間早於18點的話
   if(st1<diff && ed1<=diff){
+    console.log("pppp1");
     //如果開始和結束都在7點以前
     pp = ap1
     step_num++;
@@ -319,6 +359,7 @@ function addStep2(){
     str_table +="<td><i class=\"mdi mdi-delete godelete\" ></i></td>"
     str_table +="</tr>"
   }else if(st1<diff && ed1>diff){
+    console.log("pppp2");
     //如果進場小於18點，而結束大於18點
     //拆成兩組
     pp = ap1
@@ -354,6 +395,7 @@ function addStep2(){
     str_table +="<td><i class=\"mdi mdi-delete godelete\"></i></td>"
     str_table +="</tr>"
   }else{
+    console.log("pppp3");
     //如果開始和結束時間都大於7點
     pp = ap2
     step_num++;
@@ -591,6 +633,20 @@ function initTime3(lang){
   }
   return str
 }
+function setAP(id){
+  console.log("=====setAP:"+id);
+  var ary = ary_event[id]
+  var count = 0
+    for(var i in ary){
+      if(count==0){
+        ap1 =ary_event[id][i][0]
+        ap2 =ary_event[id][i][1]
+        ap3 =ary_event[id][i][2]
+        ap4 =ary_event[id][i][3]
+      }
+  }
+  console.log("initArea:"+ap1,ap2,ap3,ap4);
+}
 function initArea(id,lang){
   nowfloor = id
   var ary = ary_event[id]
@@ -604,6 +660,7 @@ function initArea(id,lang){
         ap2 =ary_event[id][i][1]
         ap3 =ary_event[id][i][2]
         ap4 =ary_event[id][i][3]
+        console.log("initArea:"+ap1,ap2,ap3,ap4);
     }else{
         str_inp+='<span class="event_inp"><input name="ffarea" type="radio" value="'+i+'" />'+i+'</span>'
     }
