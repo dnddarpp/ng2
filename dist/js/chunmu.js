@@ -214,19 +214,22 @@ onSelect: function(d,i){
   $('#datepicker1').change(function(){
     console.log("====dddddd====");
        var id = $('input[type=radio][name=floor]:checked').val()
-       setAP(id)
+       var aid = $('input[type=radio][name=ffarea]:checked').val()
+       setAP(id, aid)
   });
   $('#datepicker2').change(function(){
     var date = new Date($(this).val());
     daynum2 = date.getUTCDay()
     console.log("====dddddd22222====");
     var id = $('input[type=radio][name=floor]:checked').val()
-       setAP(id)
+    var aid = $('input[type=radio][name=ffarea]:checked').val()
+    setAP(id, aid)
   });
   $('#datepicker3').change(function(){
     console.log("====dddddd33333====");
        var id = $('input[type=radio][name=floor]:checked').val()
-      setAP(id)
+      var aid = $('input[type=radio][name=ffarea]:checked').val()
+      setAP(id, aid)
   });
 
 }
@@ -243,6 +246,7 @@ function addStep1(){
     day = day+"(假日)"
   }
   var id = $('input[type=radio][name=floor]:checked').val()
+  var id2 = $('input[type=radio][name=ffarea]:checked').val()
   setAP(id)
   //如果進場時間早於7點的話
   if(st1<diff && ed1<=diff){
@@ -643,19 +647,26 @@ function initTime3(lang){
   }
   return str
 }
-function setAP(id){
+function setAP(id, aid){
   console.log("=====setAP:"+id);
   var ary = ary_event[id]
   var count = 0
-    for(var i in ary){
-      if(count==0){
-        ap1 =ary_event[id][i][0]
-        ap2 =ary_event[id][i][1]
-        ap3 =ary_event[id][i][2]
-        ap4 =ary_event[id][i][3]
-      }
-  }
-  console.log("initArea:"+ap1,ap2,ap3,ap4);
+    switch(id){
+      case "1f":
+      case "4f":
+      ap1 =ary_event[nowfloor][aid][0]
+      ap2 =ary_event[nowfloor][aid][1]
+      ap3 =ary_event[nowfloor][aid][2]
+      ap4 =ary_event[nowfloor][aid][3]
+      console.log("ap1:"+ap1);
+      break
+      case "701全室":
+      ap1 =ary_event[nowfloor][aid][0]
+      ap2 =ary_event[nowfloor][aid][1]
+      console.log("!!!!701全室");
+      break
+    }
+  console.log("===setAP===:"+ap1,ap2,ap3,ap4);
 }
 function initArea(id,lang){
   nowfloor = id
