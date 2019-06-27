@@ -654,15 +654,15 @@ function setAP(id, aid){
     switch(id){
       case "1f":
       case "4f":
-      ap1 =ary_event[nowfloor][aid][0]
-      ap2 =ary_event[nowfloor][aid][1]
-      ap3 =ary_event[nowfloor][aid][2]
-      ap4 =ary_event[nowfloor][aid][3]
+      ap1 =ary_event[id][aid][0]
+      ap2 =ary_event[id][aid][1]
+      ap3 =ary_event[id][aid][2]
+      ap4 =ary_event[id][aid][3]
       console.log("ap1:"+ap1);
       break
       case "701全室":
-      ap1 =ary_event[nowfloor][aid][0]
-      ap2 =ary_event[nowfloor][aid][1]
+      ap1 =ary_event[id][aid][0]
+      ap2 =ary_event[id][aid][1]
       console.log("!!!!701全室");
       break
     }
