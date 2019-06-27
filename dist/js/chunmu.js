@@ -237,7 +237,7 @@ function addStep1(){
   console.log("nowarea:"+nowarea);
   var diff = 7
   var day = $( "#datepicker1").val()
-  var date = new Date($(this).val());
+  var date = new Date(day);
   daynum1 = date.getUTCDay()
   if(daynum1==6 || daynum1==0){
     day = day+"(假日)"
