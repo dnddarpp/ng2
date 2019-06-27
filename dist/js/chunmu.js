@@ -247,7 +247,7 @@ function addStep1(){
   }
   var id = $('input[type=radio][name=floor]:checked').val()
   var id2 = $('input[type=radio][name=ffarea]:checked').val()
-  setAP(id)
+  setAP(id,id2)
   //如果進場時間早於7點的話
   if(st1<diff && ed1<=diff){
     //如果開始和結束都在7點以前
@@ -259,7 +259,6 @@ function addStep1(){
     if(daynum1==6 || daynum1==0){
       pp = pp*1.2
       total1 = total1*1.2
-      day = day+"(假日)"
     }
     console.log("tmp1:"+tmp1);
     console.log("total1:"+total1);
@@ -277,6 +276,10 @@ function addStep1(){
     //如果進場小於7點，而結束大於7點
     //拆成兩組
     pp = ap3
+    if(daynum1==6 || daynum1==0){
+      pp = pp*1.2
+      total1 = total1*1.2
+    }
     step_num++;
     tmp1 = diff-st1
     var total1 = pp*tmp1
@@ -341,7 +344,8 @@ function addStep2(){
   console.log("date:"+date);
   console.log("daynum2:"+daynum2);
   var id = $('input[type=radio][name=floor]:checked').val()
-  setAP(id)
+  var id2 = $('input[type=radio][name=ffarea]:checked').val()
+  setAP(id,id2)
   if(daynum2==6 || daynum2==0){
     ap1 *=1.2
     ap2 *=1.2
@@ -433,7 +437,8 @@ function addStep3(){
   ed1 = Number($("#ed3").val())
   console.log("nowarea:"+nowarea);
   var id = $('input[type=radio][name=floor]:checked').val()
-  setAP(id)
+  var id2 = $('input[type=radio][name=ffarea]:checked').val()
+  setAP(id,id2)
   var diff = 7
   //如果進場時間早於7點的話
   if(st1<diff && ed1<=diff){
@@ -517,7 +522,8 @@ function addStep7(_obj,_picker, st, ed, daynum){
   st1 = Number(st.val())
   ed1 = Number(ed.val())
   var id = $('input[type=radio][name=floor]:checked').val()
-  setAP(id)
+  var id2 = $('input[type=radio][name=ffarea]:checked').val()
+  setAP(id,id2)
   var diff = 18
   if(daynum==6 || daynum==0){
     //如果是假日，那全日都是高價
