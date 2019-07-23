@@ -4159,6 +4159,9 @@ video[poster] {
 .opensearchbar input {
   width: 100%;
 }
+.opensearchbar input[placeholder] {
+  padding-right: 20px !important;
+}
 
 @media only screen and (max-width: 1096px) {
   .tran_about li {

@@ -330,4 +330,7 @@
     input{
         width: 100%;
     }
+    input[placeholder]{
+        padding-right: 20px!important;
+    }
 }
