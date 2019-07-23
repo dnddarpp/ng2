@@ -4160,7 +4160,7 @@ video[poster] {
   width: 100%;
 }
 .opensearchbar input[placeholder] {
-  padding-right: 20px !important;
+  padding: 10px !important;
 }
 
 @media only screen and (max-width: 1096px) {
