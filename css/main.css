@@ -4156,6 +4156,9 @@ video[poster] {
   border-top: 2px solid #aad0ff;
   background-color: #ffffff;
 }
+.opensearchbar input {
+  width: 100%;
+}
 
 @media only screen and (max-width: 1096px) {
   .tran_about li {
