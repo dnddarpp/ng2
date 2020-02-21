@@ -150,6 +150,9 @@ html {
 .logo img {
   width: 100%;
 }
+.logo.y50 {
+  width: 155px;
+}
 
 .rightBox {
   float: right;
