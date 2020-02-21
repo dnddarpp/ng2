@@ -2466,6 +2466,10 @@ video[poster] {
   width: 100%;
 }
 
+a.bbt {
+  display: inline-block;
+}
+
 @media only screen and (max-width: 1239px) {
   .m-page-news_bn {
     background-image: url("../images/news/bgnews_wn.jpg");
