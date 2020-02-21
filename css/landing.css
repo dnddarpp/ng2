@@ -3169,6 +3169,13 @@ html {
   line-height: 1em;
 }
 
+.logo50 {
+  width: 200px;
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+
 @media only screen and (max-width: 1239px) {
   .langing_title {
     height: 12vh;
@@ -3245,6 +3252,12 @@ html {
   }
 }
 @media only screen and (max-width: 768px) {
+  .logo50 {
+    width: 120px;
+    top: 15px;
+    right: 15px;
+  }
+
   .exblock h2 span {
     display: block;
   }
