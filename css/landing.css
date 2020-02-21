@@ -3175,6 +3175,9 @@ html {
   top: 25px;
   right: 25px;
 }
+.logo50 img {
+  width: 100%;
+}
 
 @media only screen and (max-width: 1239px) {
   .langing_title {
