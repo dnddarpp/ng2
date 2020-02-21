@@ -314,6 +314,9 @@
     }
     .logo{
         width: 250px;
+        &.y50{
+          width: 90px;
+        }
     }
     .search_Bg_menu{
         width:50px;

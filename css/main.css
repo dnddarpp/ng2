@@ -151,7 +151,8 @@ html {
   width: 100%;
 }
 .logo.y50 {
-  width: 155px;
+  width: 130px;
+  padding-top: 10px;
 }
 
 .rightBox {
@@ -1503,6 +1504,9 @@ video[poster] {
 
   .logo {
     width: 250px;
+  }
+  .logo.y50 {
+    width: 90px;
   }
 
   .search_Bg_menu {
