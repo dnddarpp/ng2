@@ -466,6 +466,9 @@
         // width: 220px;
         max-width:220px;
         min-width:185px;
+        &.y50{
+          min-width:40px;
+        }
     }
     .rent_continer{
         padding: 0 36px;
