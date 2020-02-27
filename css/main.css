@@ -2480,7 +2480,6 @@ a.bbt {
   width: 100%;
 }
 
-a.bbt {
 @media only screen and (max-width: 1239px) {
   .m-page-news_bn {
     background-image: url("../images/news/bgnews_wn.jpg");
