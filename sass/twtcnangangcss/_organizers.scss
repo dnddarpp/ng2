@@ -378,6 +378,7 @@
     font-size: 1.5em;
     font-weight: bold;
     margin-bottom: 20px;
+
 }
 .expo_content{
     font-size: 1.2em;
@@ -700,4 +701,10 @@
     img{
         width: 100%;
     }
+}
+
+a{
+  &.bbt{
+    display: inline-block;
+  }
 }
