@@ -3906,11 +3906,11 @@ a.bbt {
   position: absolute;
   top: 50%;
   left: 0;
-  margin-top: -10px;
+  margin-top: -140px;
   z-index: 100;
 }
 .ie-next i {
-  font-size: 5em;
+  font-size: 15em;
   color: #ffffff;
 }
 
