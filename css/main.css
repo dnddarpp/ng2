@@ -41,6 +41,9 @@
  * Mobile Layout ( 0~700 )
  */
 /**
+ * Mobile Layout ( 0~380 )
+ */
+/**
  * Box-sizing
  */
 /**
@@ -1707,6 +1710,18 @@ a.bbt {
   .view_bg {
     height: 418px;
     background-position: 0 280px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .search_Bg_menu {
+    margin-left: 5px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+  .logo.y50 {
+    width: 60px;
   }
 }
 .card-Parallax {
@@ -4972,6 +4987,9 @@ span.event_inp {
  */
 /**
  * Mobile Layout ( 0~700 )
+ */
+/**
+ * Mobile Layout ( 0~380 )
  */
 /**
  * Box-sizing

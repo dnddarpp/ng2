@@ -486,3 +486,15 @@
 
 
 }
+
+@include respond-mini-mobile{
+  .search_Bg_menu{
+    margin-left: 5px;
+  }
+  .logo{
+      width: 200px;
+      &.y50{
+        width: 60px;
+      }
+  }
+}

@@ -61,6 +61,14 @@
     @content;
   }
 }
+/**
+ * Mobile Layout ( 0~380 )
+ */
+@mixin respond-mini-mobile {
+ @include respond( 0, 380 ) {
+   @content;
+ }
+}
 
 
 /**
