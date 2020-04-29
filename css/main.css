@@ -1129,6 +1129,8 @@ html {
 video[poster] {
   object-fit: cover;
   width: 100%;
+  position: absolute;
+  top: -8.3vw;
 }
 
 a.bbt {
@@ -2478,6 +2480,10 @@ a.bbt {
 
 .widget-scene-canvas img {
   width: 100%;
+}
+
+a.bbt {
+  display: inline-block;
 }
 
 @media only screen and (max-width: 1239px) {
@@ -3894,11 +3900,11 @@ a.bbt {
   position: absolute;
   top: 50%;
   right: 0;
-  margin-top: -10px;
+  margin-top: -140px;
   z-index: 100;
 }
 .ie-prev i {
-  font-size: 5em;
+  font-size: 15em;
   color: #ffffff;
 }
 

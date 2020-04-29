@@ -977,6 +977,8 @@ html {
 video[poster]{
   object-fit: cover;
   width: 100%;
+  position: absolute;
+  top: -8.3vw;
 }
 
 a.bbt {
