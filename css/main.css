@@ -4207,6 +4207,10 @@ a.bbt {
   .on_btn {
     bottom: 52px;
   }
+
+  .stop_btn {
+    bottom: 120px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .tran_about li {

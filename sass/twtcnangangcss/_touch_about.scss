@@ -16,6 +16,9 @@
     .on_btn{
         bottom: 52px;
     }
+    .stop_btn{
+        bottom: 120px;
+    }
 }
 @include respond-mobile {
     .tran_about{
