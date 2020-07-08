@@ -2501,6 +2501,17 @@ a.bbt {
   display: inline-block;
 }
 
+.faceid {
+  text-align: center;
+}
+.faceid img {
+  width: 40%;
+}
+.faceid li {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
 @media only screen and (max-width: 1239px) {
   .m-page-news_bn {
     background-image: url("../images/news/bgnews_wn.jpg");
