@@ -984,3 +984,19 @@ video[poster]{
 a.bbt {
   display: inline-block;
 }
+.uken{
+    margin-left: 30px;
+    li{
+        margin-bottom: 10px;
+        line-height: 2;
+
+    }
+    li::before {
+        content: "※";
+        margin-right: 10px;
+        font-size: 1em;
+        margin-left:-30px;
+
+    }
+
+}
