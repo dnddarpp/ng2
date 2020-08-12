@@ -3059,7 +3059,7 @@ a.bbt {
 
 .com {
   width: 45%;
-  float: left;
+  margin: 0 auto;
 }
 
 .com_title {
