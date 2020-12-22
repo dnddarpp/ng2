@@ -1,0 +1,38 @@
+.for_3dview {
+  background-image: url("../images/16_2.JPG");
+  width: 100%;
+  margin: 0 auto;
+  background-size: 100%;
+  position: relative;
+  padding-bottom: 43%;
+  margin-bottom: 10%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.for_3dview img {
+  width: 100%;
+}
+
+.mm360_viewd {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #024190;
+  top: 50%;
+  border-radius: 50px;
+  left: 50%;
+  margin-left: -35px;
+  margin-top: -35px;
+}
+
+.mm360_font {
+  background-color: #024190;
+  font-weight: 600;
+  font-size: 2.5em;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0 30px;
+  color: #ffffff;
+}
