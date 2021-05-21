@@ -157,16 +157,6 @@ html {
   width: 130px;
   padding-top: 10px;
 }
-.logo.icon5 {
-  width: auto;
-  padding-top: 10px;
-  margin-left: 15px;
-}
-.logo.icon5 img {
-  width: auto;
-  height: auto;
-  margin-right: 3px;
-}
 
 .rightBox {
   float: right;
@@ -562,6 +552,12 @@ html {
 .row_cop {
   overflow: hidden;
   padding: 40px 0;
+}
+
+.icon5 img {
+  width: auto;
+  height: auto;
+  margin-right: 3px;
 }
 
 .copy {
