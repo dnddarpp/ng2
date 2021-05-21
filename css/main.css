@@ -160,10 +160,12 @@ html {
 .logo.icon5 {
   width: auto;
   padding-top: 10px;
+  margin-left: 15px;
 }
 .logo.icon5 img {
   width: auto;
   height: auto;
+  margin-right: 3px;
 }
 
 .rightBox {
