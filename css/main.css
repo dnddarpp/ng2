@@ -157,6 +157,14 @@ html {
   width: 130px;
   padding-top: 10px;
 }
+.logo.icon5 {
+  width: auto;
+  padding-top: 10px;
+}
+.logo.icon5 img {
+  width: auto;
+  height: auto;
+}
 
 .rightBox {
   float: right;
